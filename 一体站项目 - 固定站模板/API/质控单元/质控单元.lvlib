@@ -38,7 +38,6 @@
 		<Item Name="氨氮加标回收 (子VI).vi" Type="VI" URL="../Subvi/氨氮加标回收 (子VI).vi"/>
 		<Item Name="总磷加标回收 (子VI).vi" Type="VI" URL="../Subvi/总磷加标回收 (子VI).vi"/>
 		<Item Name="总氮加标回收 (子VI).vi" Type="VI" URL="../Subvi/总氮加标回收 (子VI).vi"/>
-		<Item Name="总氮总磷加标回收 (子VI).vi" Type="VI" URL="../Subvi/总氮总磷加标回收 (子VI).vi"/>
 		<Item Name="CODMn加标回收(子VI).vi" Type="VI" URL="../Subvi/CODMn加标回收(子VI).vi"/>
 		<Item Name="CODCr加标回收(子VI).vi" Type="VI" URL="../Subvi/CODCr加标回收(子VI).vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>

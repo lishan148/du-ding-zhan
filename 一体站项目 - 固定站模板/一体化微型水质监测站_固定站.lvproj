@@ -80,7 +80,6 @@
 				<Item Name="首页.ctl" Type="VI" URL="../UI/控件/首页.ctl"/>
 				<Item Name="数据查询.ctl" Type="VI" URL="../UI/控件/数据查询.ctl"/>
 				<Item Name="右箭头.ctl" Type="VI" URL="../UI/控件/右箭头.ctl"/>
-				<Item Name="周期选择.ctl" Type="VI" URL="../UI/控件/周期选择.ctl"/>
 				<Item Name="子菜单.ctl" Type="VI" URL="../UI/控件/子菜单.ctl"/>
 				<Item Name="组合框.ctl" Type="VI" URL="../UI/控件/组合框.ctl"/>
 				<Item Name="左箭头.ctl" Type="VI" URL="../UI/控件/左箭头.ctl"/>
@@ -543,8 +542,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../API/CODMn/Control/24H周期设置/CODMn24H周期设置.xctl"/>
-			<Item Name="总磷总氮流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/总磷总氮流程质控自动启动.vi"/>
-			<Item Name="总氮总磷质控流程.vi" Type="VI" URL="../API/质控单元/测量流程/总氮总磷质控流程.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
