@@ -15,9 +15,13 @@
 	<Item Name="命令解析互换" Type="Folder">
 		<Item Name="超标留样状态参数解析.vi" Type="VI" URL="../命令解析互换/超标留样状态参数解析.vi"/>
 		<Item Name="状态参数解析.vi" Type="VI" URL="../命令解析互换/状态参数解析.vi"/>
+		<Item Name="版本号(子VI).vi" Type="VI" URL="../命令解析互换/版本号(子VI).vi"/>
+		<Item Name="读取状态解析.vi" Type="VI" URL="../命令解析互换/读取状态解析.vi"/>
+		<Item Name="仪器时间 (子VI).vi" Type="VI" URL="../命令解析互换/仪器时间 (子VI).vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="超标留样全局.vi" Type="VI" URL="../全局变量/超标留样全局.vi"/>
+		<Item Name="串口参数断电保存全局变量.vi" Type="VI" URL="../全局变量/串口参数断电保存全局变量.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="超标留样通讯.vi" Type="VI" URL="../通讯/超标留样通讯.vi"/>
@@ -27,5 +31,9 @@
 	</Item>
 	<Item Name="超标留样运行状态" Type="Folder">
 		<Item Name="超标留样运行状态.xctl" Type="XControl" URL="../控件/超标留样运行状态/超标留样运行状态.xctl"/>
+	</Item>
+	<Item Name="Subvi" Type="Folder">
+		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
+		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 	</Item>
 </Library>

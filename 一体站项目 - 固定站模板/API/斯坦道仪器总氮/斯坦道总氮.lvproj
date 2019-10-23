@@ -11,11 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="测量数据.xctl" Type="XControl" URL="../../共用控件/测量数据/测量数据.xctl"/>
-		<Item Name="调试控件.xctl" Type="XControl" URL="../../共用控件/调试控件/调试控件.xctl"/>
 		<Item Name="曲线模型.xctl" Type="XControl" URL="../../共用控件/曲线模型/曲线模型.xctl"/>
-		<Item Name="运行状态.xctl" Type="XControl" URL="../../共用控件/运行状态/运行状态.xctl"/>
 		<Item Name="周期设置.xctl" Type="XControl" URL="../../共用控件/周期设置/周期设置.xctl"/>
+		<Item Name="运行状态V3.xctl" Type="XControl" URL="../../共用控件/运行状态V3/运行状态V3.xctl"/>
+		<Item Name="测量数据V3.xctl" Type="XControl" URL="../../共用控件/测量数据V3/测量数据V3.xctl"/>
+		<Item Name="调试控件V3.xctl" Type="XControl" URL="../../共用控件/调试控件V3/调试控件V3.xctl"/>
 		<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../斯坦道总氮.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

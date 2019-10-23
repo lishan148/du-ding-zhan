@@ -24,7 +24,7 @@
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
-		<Item Name="总磷插入数据.vi" Type="VI" URL="../Subvi/总磷插入数据.vi"/>
+		<Item Name="总氮插入数据.vi" Type="VI" URL="../Subvi/总氮插入数据.vi"/>
 	</Item>
 	<Item Name="总氮" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -43,12 +43,9 @@
 				<Item Name="总磷总氮公式读取.vi" Type="VI" URL="../总氮/COM/总磷总氮公式读取.vi"/>
 				<Item Name="总磷总氮量程写入.vi" Type="VI" URL="../总氮/COM/总磷总氮量程写入.vi"/>
 				<Item Name="总磷总氮量程读取.vi" Type="VI" URL="../总氮/COM/总磷总氮量程读取.vi"/>
-				<Item Name="总磷总氮备用系数写入.vi" Type="VI" URL="../总氮/COM/总磷总氮备用系数写入.vi"/>
-				<Item Name="总磷总氮备用系数读取.vi" Type="VI" URL="../总氮/COM/总磷总氮备用系数读取.vi"/>
 				<Item Name="总磷总氮控制命令.vi" Type="VI" URL="../总氮/COM/总磷总氮控制命令.vi"/>
 				<Item Name="总磷总氮版本号读取.vi" Type="VI" URL="../总氮/COM/总磷总氮版本号读取.vi"/>
 				<Item Name="公式复合写入.vi" Type="VI" URL="../总氮/COM/公式复合写入.vi"/>
-				<Item Name="量程参数复合参数写入.vi" Type="VI" URL="../总氮/COM/量程参数复合参数写入.vi"/>
 			</Item>
 			<Item Name="测量数据区.vi" Type="VI" URL="../总氮/测量数据区.vi"/>
 			<Item Name="关键参数区.vi" Type="VI" URL="../总氮/关键参数区.vi"/>

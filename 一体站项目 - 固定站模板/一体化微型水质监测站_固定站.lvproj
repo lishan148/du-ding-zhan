@@ -170,11 +170,11 @@
 		<Item Name="CODCr库.lvlib" Type="Library" URL="../API/CODCr/CODCr库.lvlib"/>
 		<Item Name="斯坦道CODMn.lvlib" Type="Library" URL="../API/CODMn/斯坦道CODMn.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
-		<Item Name="国弘多参数.lvlib" Type="Library" URL="../API/国弘多参数/lib/国弘多参数.lvlib"/>
 		<Item Name="斯坦道总磷.lvlib" Type="Library" URL="../API/斯坦道仪器总磷/斯坦道总磷.lvlib"/>
 		<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 		<Item Name="斯坦道氨氮.lvlib" Type="Library" URL="../API/斯坦道仪器氨氮/斯坦道氨氮.lvlib"/>
 		<Item Name="德润超标留样.lvlib" Type="Library" URL="../API/德润超标留样/德润超标留样.lvlib"/>
+		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/国弘多参数/斯坦道多参数.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -365,9 +365,6 @@
 				<Item Name="Read WDT Array Dlog File+.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/Read WDT Array Dlog File+.vi"/>
 				<Item Name="Read Waveform from File.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/Read Waveform from File.vi"/>
 				<Item Name="Read Waveforms from File.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTFileIO.llb/Read Waveforms from File.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Device Data Model.lvclass"/>
@@ -404,6 +401,7 @@
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -522,17 +520,8 @@
 			</Item>
 			<Item Name="下拉列表.xctl" Type="XControl" URL="../UI/控件/下拉列表/下拉列表.xctl"/>
 			<Item Name="CODCr24H周期设置.xctl" Type="XControl" URL="../API/CodCr/Control/24H周期设置/CODCr24H周期设置.xctl"/>
-			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/国弘多参数/lib/控件/24H周期设置/多参数24H周期设置.xctl"/>
-			<Item Name="氨氮调试控件.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/调试控件/氨氮调试控件.xctl"/>
-			<Item Name="氨氮曲线模型.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/曲线模型/氨氮曲线模型.xctl"/>
-			<Item Name="氨氮周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/周期设置/氨氮周期设置.xctl"/>
-			<Item Name="调试控件.xctl" Type="XControl" URL="../API/共用控件/调试控件/调试控件.xctl"/>
-			<Item Name="运行状态.xctl" Type="XControl" URL="../API/共用控件/运行状态/运行状态.xctl"/>
-			<Item Name="测量数据.xctl" Type="XControl" URL="../API/共用控件/测量数据/测量数据.xctl"/>
 			<Item Name="曲线模型.xctl" Type="XControl" URL="../API/共用控件/曲线模型/曲线模型.xctl"/>
 			<Item Name="周期设置.xctl" Type="XControl" URL="../API/共用控件/周期设置/周期设置.xctl"/>
-			<Item Name="氨氮运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/运行状态/氨氮运行状态.xctl"/>
-			<Item Name="氨氮测量数据.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/测量数据/氨氮测量数据.xctl"/>
 			<Item Name="CDK_Utility_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GenerateGUID.vi"/>
 			<Item Name="mxLvGenerateGuid.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGenerateGuid.vi"/>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
@@ -542,6 +531,10 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../API/CODMn/Control/24H周期设置/CODMn24H周期设置.xctl"/>
+			<Item Name="调试控件V3.xctl" Type="XControl" URL="../API/共用控件/调试控件V3/调试控件V3.xctl"/>
+			<Item Name="运行状态V3.xctl" Type="XControl" URL="../API/共用控件/运行状态V3/运行状态V3.xctl"/>
+			<Item Name="测量数据V3.xctl" Type="XControl" URL="../API/共用控件/测量数据V3/测量数据V3.xctl"/>
+			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/国弘多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">

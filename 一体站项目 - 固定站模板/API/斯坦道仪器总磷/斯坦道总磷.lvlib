@@ -43,12 +43,9 @@
 				<Item Name="总磷总氮公式读取.vi" Type="VI" URL="../总磷/COM/总磷总氮公式读取.vi"/>
 				<Item Name="总磷总氮量程写入.vi" Type="VI" URL="../总磷/COM/总磷总氮量程写入.vi"/>
 				<Item Name="总磷总氮量程读取.vi" Type="VI" URL="../总磷/COM/总磷总氮量程读取.vi"/>
-				<Item Name="总磷总氮备用系数写入.vi" Type="VI" URL="../总磷/COM/总磷总氮备用系数写入.vi"/>
-				<Item Name="总磷总氮备用系数读取.vi" Type="VI" URL="../总磷/COM/总磷总氮备用系数读取.vi"/>
 				<Item Name="总磷总氮控制命令.vi" Type="VI" URL="../总磷/COM/总磷总氮控制命令.vi"/>
 				<Item Name="总磷总氮版本号读取.vi" Type="VI" URL="../总磷/COM/总磷总氮版本号读取.vi"/>
 				<Item Name="公式复合写入.vi" Type="VI" URL="../总磷/COM/公式复合写入.vi"/>
-				<Item Name="量程参数复合参数写入.vi" Type="VI" URL="../总磷/COM/量程参数复合参数写入.vi"/>
 			</Item>
 			<Item Name="测量数据区.vi" Type="VI" URL="../总磷/测量数据区.vi"/>
 			<Item Name="关键参数区.vi" Type="VI" URL="../总磷/关键参数区.vi"/>

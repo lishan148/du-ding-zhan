@@ -16,11 +16,13 @@
 		<Item Name="DateToHex.vi" Type="VI" URL="../data to hex/DateToHex.vi"/>
 		<Item Name="FloatToHex.vi" Type="VI" URL="../data to hex/FloatToHex.vi"/>
 		<Item Name="WordToHex.vi" Type="VI" URL="../data to hex/WordToHex.vi"/>
+		<Item Name="浮点转DCBA整形ZK.vi" Type="VI" URL="../data to hex/浮点转DCBA整形ZK.vi"/>
 		<Item Name="浮点CDAB转换质控.vi" Type="VI" URL="../data to hex/浮点CDAB转换质控.vi"/>
 		<Item Name="浮点转CDAB整形ZK.vi" Type="VI" URL="../data to hex/浮点转CDAB整形ZK.vi"/>
 	</Item>
 	<Item Name="hex to data" Type="Folder">
 		<Item Name="HexToCDABFloat.vi" Type="VI" URL="../hex to data/HexToCDABFloat.vi"/>
+		<Item Name="HexToDCBAFloat.vi" Type="VI" URL="../hex to data/HexToDCBAFloat.vi"/>
 		<Item Name="HexToDate.vi" Type="VI" URL="../hex to data/HexToDate.vi"/>
 		<Item Name="HexToDword.vi" Type="VI" URL="../hex to data/HexToDword.vi"/>
 		<Item Name="HexToFloat.vi" Type="VI" URL="../hex to data/HexToFloat.vi"/>
@@ -50,8 +52,8 @@
 		<Item Name="CODMn流程质控自动启动.vi" Type="VI" URL="../测量流程/CODMn流程质控自动启动.vi"/>
 		<Item Name="CODMn启动命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn启动命令 (子VI).vi"/>
 		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn停止命令 (子VI).vi"/>
-		<Item Name="COD平行样流程 (子VI).vi" Type="VI" URL="../测量流程/COD平行样流程 (子VI).vi"/>
-		<Item Name="COD质控流程 (子VI).vi" Type="VI" URL="../测量流程/COD质控流程 (子VI).vi"/>
+		<Item Name="CODMn平行样流程 (子VI).vi" Type="VI" URL="../测量流程/CODMn平行样流程 (子VI).vi"/>
+		<Item Name="CODMn质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODMn质控流程 (子VI).vi"/>
 		<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮流程质控自动启动.vi"/>
 		<Item Name="氨氮启动命令.vi" Type="VI" URL="../测量流程/氨氮启动命令.vi"/>
 		<Item Name="氨氮质控流程.vi" Type="VI" URL="../测量流程/氨氮质控流程.vi"/>
@@ -108,5 +110,6 @@
 		<Item Name="质控参数读取.vi" Type="VI" URL="../中间子VI/质控参数读取.vi"/>
 		<Item Name="手动调试界面.vi" Type="VI" URL="../中间子VI/手动调试界面.vi"/>
 		<Item Name="柱塞泵调试界面.vi" Type="VI" URL="../中间子VI/柱塞泵调试界面.vi"/>
+		<Item Name="固定站质控流程参数读取对话框.vi" Type="VI" URL="../中间子VI/固定站质控流程参数读取对话框.vi"/>
 	</Item>
 </Library>

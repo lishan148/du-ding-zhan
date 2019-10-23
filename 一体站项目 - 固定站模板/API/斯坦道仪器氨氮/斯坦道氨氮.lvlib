@@ -59,14 +59,11 @@
 	<Item Name="通讯" Type="Folder">
 		<Item Name="参数读取写入" Type="Folder">
 			<Item Name="公式复合写入.vi" Type="VI" URL="../氨氮/COM/公式复合写入.vi"/>
-			<Item Name="量程参数复合参数写入.vi" Type="VI" URL="../氨氮/COM/量程参数复合参数写入.vi"/>
 			<Item Name="氨氮MB_api.vi" Type="VI" URL="../氨氮/COM/氨氮MB_api.vi"/>
-			<Item Name="氨氮公式写入.vi" Type="VI" URL="../氨氮/COM/氨氮公式写入.vi"/>
-			<Item Name="氨氮公式读取.vi" Type="VI" URL="../氨氮/COM/氨氮公式读取.vi"/>
-			<Item Name="氨氮量程写入.vi" Type="VI" URL="../氨氮/COM/氨氮量程写入.vi"/>
-			<Item Name="氨氮量程读取.vi" Type="VI" URL="../氨氮/COM/氨氮量程读取.vi"/>
-			<Item Name="氨氮备用系数写入.vi" Type="VI" URL="../氨氮/COM/氨氮备用系数写入.vi"/>
-			<Item Name="氨氮备用系数读取.vi" Type="VI" URL="../氨氮/COM/氨氮备用系数读取.vi"/>
+			<Item Name="总磷氨氮公式读取_N.vi" Type="VI" URL="../氨氮/COM/总磷氨氮公式读取_N.vi"/>
+			<Item Name="总磷氨氮公式写入_N.vi" Type="VI" URL="../氨氮/COM/总磷氨氮公式写入_N.vi"/>
+			<Item Name="总磷氨氮量程读取N.vi" Type="VI" URL="../氨氮/COM/总磷氨氮量程读取N.vi"/>
+			<Item Name="总磷氨氮量程写入N.vi" Type="VI" URL="../氨氮/COM/总磷氨氮量程写入N.vi"/>
 			<Item Name="氨氮控制命令.vi" Type="VI" URL="../氨氮/COM/氨氮控制命令.vi"/>
 			<Item Name="氨氮版本号读取.vi" Type="VI" URL="../氨氮/COM/氨氮版本号读取.vi"/>
 		</Item>
