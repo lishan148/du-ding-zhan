@@ -60,7 +60,7 @@
 			<Item Name="总磷报警信息.vi" Type="VI" URL="../总磷/总磷报警信息.vi"/>
 		</Item>
 		<Item Name="流程" Type="Folder">
-			<Item Name="总磷测量流程.vi" Type="VI" URL="../总磷/测量流程/总磷测量流程.vi"/>
+			<Item Name="固定站总磷测量流程.vi" Type="VI" URL="../总磷/测量流程/固定站总磷测量流程.vi"/>
 		</Item>
 		<Item Name="subvi" Type="Folder">
 			<Item Name="总磷启动命令.vi" Type="VI" URL="../总磷/总磷启动命令.vi"/>

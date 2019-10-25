@@ -49,7 +49,7 @@
 		<Item Name="VAR氨氮全局变量.vi" Type="VI" URL="../氨氮/VAR氨氮全局变量.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
-		<Item Name="氨氮测量流程.vi" Type="VI" URL="../测量流程/氨氮测量流程.vi"/>
+		<Item Name="固定站氨氮测量流程.vi" Type="VI" URL="../测量流程/固定站氨氮测量流程.vi"/>
 	</Item>
 	<Item Name="数据" Type="Folder">
 		<Item Name="氨氮测量数据储存.vi" Type="VI" URL="../氨氮/氨氮测量数据储存.vi"/>

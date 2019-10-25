@@ -43,6 +43,10 @@
 		<Item Name="CODMn加标回收(子VI).vi" Type="VI" URL="../Subvi/CODMn加标回收(子VI).vi"/>
 		<Item Name="CODCr加标回收(子VI).vi" Type="VI" URL="../Subvi/CODCr加标回收(子VI).vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
+		<Item Name="柱塞泵动作命令 (子VI).vi" Type="VI" URL="../Subvi/柱塞泵动作命令 (子VI).vi"/>
+		<Item Name="柱塞泵操作的步数 (子VI).vi" Type="VI" URL="../Subvi/柱塞泵操作的步数 (子VI).vi"/>
+		<Item Name="蠕动泵1动作命令 (子VI).vi" Type="VI" URL="../Subvi/蠕动泵1动作命令 (子VI).vi"/>
+		<Item Name="蠕动泵2动作命令 (子VI).vi" Type="VI" URL="../Subvi/蠕动泵2动作命令 (子VI).vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
 		<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../测量流程/CODCr流程质控自动启动.vi"/>
@@ -111,5 +115,9 @@
 		<Item Name="手动调试界面.vi" Type="VI" URL="../中间子VI/手动调试界面.vi"/>
 		<Item Name="柱塞泵调试界面.vi" Type="VI" URL="../中间子VI/柱塞泵调试界面.vi"/>
 		<Item Name="固定站质控流程参数读取对话框.vi" Type="VI" URL="../中间子VI/固定站质控流程参数读取对话框.vi"/>
+		<Item Name="加标仪器启动命令 (子VI).vi" Type="VI" URL="../中间子VI/加标仪器启动命令 (子VI).vi"/>
+		<Item Name="手动控制命令区.vi" Type="VI" URL="../中间子VI/手动控制命令区.vi"/>
+		<Item Name="柱塞泵组合启动命令.vi" Type="VI" URL="../中间子VI/柱塞泵组合启动命令.vi"/>
+		<Item Name="蠕动泵组合启动命令.vi" Type="VI" URL="../中间子VI/蠕动泵组合启动命令.vi"/>
 	</Item>
 </Library>

@@ -60,7 +60,7 @@
 			<Item Name="总氮报警信息.vi" Type="VI" URL="../总氮/总氮报警信息.vi"/>
 		</Item>
 		<Item Name="流程" Type="Folder">
-			<Item Name="总氮测量流程.vi" Type="VI" URL="../总氮/测量流程/总氮测量流程.vi"/>
+			<Item Name="固定站总氮测量流程.vi" Type="VI" URL="../总氮/测量流程/固定站总氮测量流程.vi"/>
 		</Item>
 		<Item Name="subvi" Type="Folder">
 			<Item Name="总氮启动命令.vi" Type="VI" URL="../总氮/总氮启动命令.vi"/>
