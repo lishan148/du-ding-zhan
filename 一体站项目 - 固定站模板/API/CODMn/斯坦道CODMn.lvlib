@@ -24,6 +24,7 @@
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
 	</Item>
 	<Item Name="HexToData" Type="Folder">
+		<Item Name="FATEK_HexToString.vi" Type="VI" URL="../HexToData/FATEK_HexToString.vi"/>
 		<Item Name="HexToDate.vi" Type="VI" URL="../HexToData/HexToDate.vi"/>
 		<Item Name="浮点CDAB转换COD.vi" Type="VI" URL="../HexToData/浮点CDAB转换COD.vi"/>
 		<Item Name="浮点转CDAB整形cod.vi" Type="VI" URL="../HexToData/浮点转CDAB整形cod.vi"/>

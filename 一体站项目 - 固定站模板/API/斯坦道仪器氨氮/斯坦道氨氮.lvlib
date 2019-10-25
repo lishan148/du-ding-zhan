@@ -4,21 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="UI" Type="Folder">
-		<Item Name="运维调试_氨氮.vi" Type="VI" URL="../氨氮/UI/运维调试_氨氮.vi"/>
-		<Item Name="周期设置_氨氮.vi" Type="VI" URL="../氨氮/UI/周期设置_氨氮.vi"/>
-	</Item>
-	<Item Name="SQL" Type="Folder">
-		<Item Name="List tables.vi" Type="VI" URL="../数据库/List tables.vi"/>
-		<Item Name="SQL查询.vi" Type="VI" URL="../数据库/SQL查询.vi"/>
-		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
-		<Item Name="查询数据.vi" Type="VI" URL="../数据库/查询数据.vi"/>
-		<Item Name="获取最新一笔数据.vi" Type="VI" URL="../数据库/获取最新一笔数据.vi"/>
-		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../数据库/水质测量数据table定义.vi"/>
-		<Item Name="水质状态告警table定义.vi" Type="VI" URL="../数据库/水质状态告警table定义.vi"/>
-		<Item Name="总磷氨氮插入数据.vi" Type="VI" URL="../数据库/总磷氨氮插入数据.vi"/>
-	</Item>
 	<Item Name="Subvi" Type="Folder">
 		<Item Name="DataToHex" Type="Folder">
 			<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
@@ -33,45 +18,53 @@
 			<Item Name="HexToWord.vi" Type="VI" URL="../HexToData/HexToWord.vi"/>
 			<Item Name="监测块.vi" Type="VI" URL="../HexToData/监测块.vi"/>
 		</Item>
+		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
+		<Item Name="氨氮插入数据.vi" Type="VI" URL="../Subvi/氨氮插入数据.vi"/>
+		<Item Name="氨氮启动参数对话框.vi" Type="VI" URL="../main/UI/氨氮启动参数对话框.vi"/>
+		<Item Name="氨氮启动命令.vi" Type="VI" URL="../main/氨氮启动命令.vi"/>
+		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
+		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
+		<Item Name="定时启动对话框.vi" Type="VI" URL="../main/UI/定时启动对话框.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
-		<Item Name="氨氮启动命令.vi" Type="VI" URL="../氨氮/氨氮启动命令.vi"/>
-		<Item Name="氨氮启动参数对话框.vi" Type="VI" URL="../氨氮/UI/氨氮启动参数对话框.vi"/>
-		<Item Name="控制命令参数.vi" Type="VI" URL="../氨氮/控制命令参数.vi"/>
+		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
-		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
-		<Item Name="定时启动对话框.vi" Type="VI" URL="../氨氮/UI/定时启动对话框.vi"/>
-		<Item Name="周期设置.vi" Type="VI" URL="../氨氮/周期设置.vi"/>
-		<Item Name="质控参数设置.vi" Type="VI" URL="../氨氮/质控参数设置.vi"/>
+		<Item Name="质控参数设置.vi" Type="VI" URL="../main/质控参数设置.vi"/>
+		<Item Name="周期设置.vi" Type="VI" URL="../main/周期设置.vi"/>
+	</Item>
+	<Item Name="UI" Type="Folder">
+		<Item Name="运维调试_氨氮.vi" Type="VI" URL="../main/UI/运维调试_氨氮.vi"/>
+		<Item Name="周期设置_氨氮.vi" Type="VI" URL="../main/UI/周期设置_氨氮.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
-		<Item Name="氨氮断电保存全局变量.vi" Type="VI" URL="../氨氮/氨氮断电保存全局变量.vi"/>
-		<Item Name="VAR氨氮全局变量.vi" Type="VI" URL="../氨氮/VAR氨氮全局变量.vi"/>
+		<Item Name="VAR氨氮全局变量.vi" Type="VI" URL="../main/VAR氨氮全局变量.vi"/>
+		<Item Name="氨氮断电保存全局变量.vi" Type="VI" URL="../main/氨氮断电保存全局变量.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
+		<Item Name="氨氮测量流程.vi" Type="VI" URL="../main/测量流程/氨氮测量流程.vi"/>
 		<Item Name="固定站氨氮测量流程.vi" Type="VI" URL="../测量流程/固定站氨氮测量流程.vi"/>
 	</Item>
 	<Item Name="数据" Type="Folder">
-		<Item Name="氨氮测量数据储存.vi" Type="VI" URL="../氨氮/氨氮测量数据储存.vi"/>
-		<Item Name="氨氮操作日志.vi" Type="VI" URL="../氨氮/氨氮操作日志.vi"/>
-		<Item Name="氨氮报警信息.vi" Type="VI" URL="../氨氮/氨氮报警信息.vi"/>
+		<Item Name="氨氮报警信息.vi" Type="VI" URL="../main/氨氮报警信息.vi"/>
+		<Item Name="氨氮操作日志.vi" Type="VI" URL="../main/氨氮操作日志.vi"/>
+		<Item Name="氨氮测量数据储存.vi" Type="VI" URL="../main/氨氮测量数据储存.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="参数读取写入" Type="Folder">
-			<Item Name="公式复合写入.vi" Type="VI" URL="../氨氮/COM/公式复合写入.vi"/>
-			<Item Name="氨氮MB_api.vi" Type="VI" URL="../氨氮/COM/氨氮MB_api.vi"/>
-			<Item Name="总磷氨氮公式读取_N.vi" Type="VI" URL="../氨氮/COM/总磷氨氮公式读取_N.vi"/>
-			<Item Name="总磷氨氮公式写入_N.vi" Type="VI" URL="../氨氮/COM/总磷氨氮公式写入_N.vi"/>
-			<Item Name="总磷氨氮量程读取N.vi" Type="VI" URL="../氨氮/COM/总磷氨氮量程读取N.vi"/>
-			<Item Name="总磷氨氮量程写入N.vi" Type="VI" URL="../氨氮/COM/总磷氨氮量程写入N.vi"/>
-			<Item Name="氨氮控制命令.vi" Type="VI" URL="../氨氮/COM/氨氮控制命令.vi"/>
-			<Item Name="氨氮版本号读取.vi" Type="VI" URL="../氨氮/COM/氨氮版本号读取.vi"/>
+			<Item Name="MB_api.vi" Type="VI" URL="../main/COM/MB_api.vi"/>
+			<Item Name="版本号读取.vi" Type="VI" URL="../main/COM/版本号读取.vi"/>
+			<Item Name="公式读取.vi" Type="VI" URL="../main/COM/公式读取.vi"/>
+			<Item Name="公式复合写入.vi" Type="VI" URL="../main/COM/公式复合写入.vi"/>
+			<Item Name="公式写入.vi" Type="VI" URL="../main/COM/公式写入.vi"/>
+			<Item Name="控制命令.vi" Type="VI" URL="../main/COM/控制命令.vi"/>
+			<Item Name="量程读取.vi" Type="VI" URL="../main/COM/量程读取.vi"/>
+			<Item Name="量程写入.vi" Type="VI" URL="../main/COM/量程写入.vi"/>
 		</Item>
-		<Item Name="测量数据区.vi" Type="VI" URL="../氨氮/测量数据区.vi"/>
-		<Item Name="关键参数区.vi" Type="VI" URL="../氨氮/关键参数区.vi"/>
-		<Item Name="控制命令区.vi" Type="VI" URL="../氨氮/控制命令区.vi"/>
-		<Item Name="状态告警区.vi" Type="VI" URL="../氨氮/状态告警区.vi"/>
-		<Item Name="氨氮通讯.vi" Type="VI" URL="../氨氮/氨氮通讯.vi"/>
-		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
+		<Item Name="氨氮通讯.vi" Type="VI" URL="../main/氨氮通讯.vi"/>
+		<Item Name="测量数据区.vi" Type="VI" URL="../main/测量数据区.vi"/>
+		<Item Name="关键参数区.vi" Type="VI" URL="../main/关键参数区.vi"/>
+		<Item Name="控制命令区.vi" Type="VI" URL="../main/控制命令区.vi"/>
+		<Item Name="状态告警区.vi" Type="VI" URL="../main/状态告警区.vi"/>
+		<Item Name="总磷数据时间处理.vi" Type="VI" URL="../main/总磷数据时间处理.vi"/>
 	</Item>
 </Library>
