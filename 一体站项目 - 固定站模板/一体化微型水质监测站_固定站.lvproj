@@ -174,7 +174,7 @@
 		<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 		<Item Name="斯坦道氨氮.lvlib" Type="Library" URL="../API/斯坦道仪器氨氮/斯坦道氨氮.lvlib"/>
 		<Item Name="德润超标留样.lvlib" Type="Library" URL="../API/德润超标留样/德润超标留样.lvlib"/>
-		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/国弘多参数/斯坦道多参数.lvlib"/>
+		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -234,7 +234,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
@@ -534,7 +533,7 @@
 			<Item Name="调试控件V3.xctl" Type="XControl" URL="../API/共用控件/调试控件V3/调试控件V3.xctl"/>
 			<Item Name="运行状态V3.xctl" Type="XControl" URL="../API/共用控件/运行状态V3/运行状态V3.xctl"/>
 			<Item Name="测量数据V3.xctl" Type="XControl" URL="../API/共用控件/测量数据V3/测量数据V3.xctl"/>
-			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/国弘多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
+			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -549,21 +548,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_固定站/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_固定站/一体化微型水质监测站/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3503710E-3B57-4AE6-A50C-686FE407352B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4FB185F4-A0ED-4745-A1D1-3B63636B0071}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
