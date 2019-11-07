@@ -20,6 +20,7 @@
 		</Item>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
+		<Item Name="流程文件XML解析.vi" Type="VI" URL="../Subvi/流程文件XML解析.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
@@ -31,6 +32,7 @@
 		<Item Name="UI" Type="Folder">
 			<Item Name="运维调试_总氮.vi" Type="VI" URL="../总氮/UI/运维调试_总氮.vi"/>
 			<Item Name="周期设置_总氮.vi" Type="VI" URL="../总氮/UI/周期设置_总氮.vi"/>
+			<Item Name="流程写入.vi" Type="VI" URL="../总氮/UI/流程写入.vi"/>
 		</Item>
 		<Item Name="变量" Type="Folder">
 			<Item Name="总氮断电保存全局变量.vi" Type="VI" URL="../总氮/总氮断电保存全局变量.vi"/>
@@ -46,6 +48,7 @@
 				<Item Name="总磷总氮控制命令.vi" Type="VI" URL="../总氮/COM/总磷总氮控制命令.vi"/>
 				<Item Name="总磷总氮版本号读取.vi" Type="VI" URL="../总氮/COM/总磷总氮版本号读取.vi"/>
 				<Item Name="公式复合写入.vi" Type="VI" URL="../总氮/COM/公式复合写入.vi"/>
+				<Item Name="单个流程写入.vi" Type="VI" URL="../总氮/COM/单个流程写入.vi"/>
 			</Item>
 			<Item Name="测量数据区.vi" Type="VI" URL="../总氮/测量数据区.vi"/>
 			<Item Name="关键参数区.vi" Type="VI" URL="../总氮/关键参数区.vi"/>
