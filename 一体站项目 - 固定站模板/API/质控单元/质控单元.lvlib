@@ -116,6 +116,7 @@
 		<Item Name="柱塞泵调试界面.vi" Type="VI" URL="../中间子VI/柱塞泵调试界面.vi"/>
 		<Item Name="固定站质控流程参数读取对话框.vi" Type="VI" URL="../中间子VI/固定站质控流程参数读取对话框.vi"/>
 		<Item Name="加标仪器启动命令 (子VI).vi" Type="VI" URL="../中间子VI/加标仪器启动命令 (子VI).vi"/>
+		<Item Name="加标体积写入命令 (子VI).vi" Type="VI" URL="../中间子VI/加标体积写入命令 (子VI).vi"/>
 		<Item Name="手动控制命令区.vi" Type="VI" URL="../中间子VI/手动控制命令区.vi"/>
 		<Item Name="柱塞泵组合启动命令.vi" Type="VI" URL="../中间子VI/柱塞泵组合启动命令.vi"/>
 		<Item Name="蠕动泵组合启动命令.vi" Type="VI" URL="../中间子VI/蠕动泵组合启动命令.vi"/>
