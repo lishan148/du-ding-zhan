@@ -28,8 +28,10 @@
 	</Item>
 	<Item Name="子VI" Type="Folder">
 		<Item Name="超标留样启动.vi" Type="VI" URL="../子VI/超标留样启动.vi"/>
+		<Item Name="超标留样不超标排空.vi" Type="VI" URL="../子VI/超标留样不超标排空.vi"/>
 		<Item Name="选择留样瓶对话框.vi" Type="VI" URL="../子VI/选择留样瓶对话框.vi"/>
 		<Item Name="选择排空留样瓶对话框.vi" Type="VI" URL="../子VI/选择排空留样瓶对话框.vi"/>
+		<Item Name="超标留样自动校时.vi" Type="VI" URL="../子VI/超标留样自动校时.vi"/>
 	</Item>
 	<Item Name="超标留样运行状态" Type="Folder">
 		<Item Name="超标留样运行状态.xctl" Type="XControl" URL="../控件/超标留样运行状态/超标留样运行状态.xctl"/>
@@ -37,5 +39,11 @@
 	<Item Name="Subvi" Type="Folder">
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
+	</Item>
+	<Item Name="数据库" Type="Folder">
+		<Item Name="日志、报警信息存储 (子VI).vi" Type="VI" URL="../数据库/日志、报警信息存储 (子VI).vi"/>
+		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
+		<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>
+		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
 	</Item>
 </Library>
