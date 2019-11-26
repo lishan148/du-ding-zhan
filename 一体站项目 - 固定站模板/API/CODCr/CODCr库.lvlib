@@ -22,6 +22,7 @@
 		<Item Name="CODCr定时启动对话框.vi" Type="VI" URL="../CODCr/CODCr定时启动对话框.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../CODCr/周期设置.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../CODCr/串口配置.vi"/>
+		<Item Name="仪器参数设置.vi" Type="VI" URL="../CODCr/仪器参数设置.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>

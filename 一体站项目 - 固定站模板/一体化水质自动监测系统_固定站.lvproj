@@ -107,6 +107,14 @@
 			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
 			<Item Name="启动整机测试 (子VI).vi" Type="VI" URL="../Modbus Slave/启动整机测试 (子VI).vi"/>
 			<Item Name="MODBUS  SLAVE.vi" Type="VI" URL="../Modbus Slave/MODBUS  SLAVE.vi"/>
+			<Item Name="CODCr启动 (子VI).vi" Type="VI" URL="../Modbus Slave/CODCr启动 (子VI).vi"/>
+			<Item Name="CODMn启动 (子VI).vi" Type="VI" URL="../Modbus Slave/CODMn启动 (子VI).vi"/>
+			<Item Name="氨氮启动 (子VI).vi" Type="VI" URL="../Modbus Slave/氨氮启动 (子VI).vi"/>
+			<Item Name="总磷启动(子VI).vi" Type="VI" URL="../Modbus Slave/总磷启动(子VI).vi"/>
+			<Item Name="总氮启动(子VI).vi" Type="VI" URL="../Modbus Slave/总氮启动(子VI).vi"/>
+			<Item Name="仪器参数存表.vi" Type="VI" URL="../Modbus Slave/仪器参数存表.vi"/>
+			<Item Name="仪器参数转data in.vi" Type="VI" URL="../Modbus Slave/仪器参数转data in.vi"/>
+			<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../Modbus Slave/在线监测仪器仪表参数.vi"/>
 		</Item>
 		<Item Name="系统日志" Type="Folder">
 			<Item Name="系统日志.vi" Type="VI" URL="../系统/系统日志.vi"/>

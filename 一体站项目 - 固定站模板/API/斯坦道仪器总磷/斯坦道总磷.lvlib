@@ -73,6 +73,7 @@
 			<Item Name="总磷质控参数设置.vi" Type="VI" URL="../总磷/总磷质控参数设置.vi"/>
 			<Item Name="总磷周期设置.vi" Type="VI" URL="../总磷/总磷周期设置.vi"/>
 			<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
+			<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 		</Item>
 	</Item>
 </Library>

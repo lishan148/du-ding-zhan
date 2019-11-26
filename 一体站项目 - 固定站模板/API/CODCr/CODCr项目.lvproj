@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/24H周期设置.xctl"/>
+		<Item Name="CODCr24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/CODCr24H周期设置.xctl"/>
 		<Item Name="CODCr库.lvlib" Type="Library" URL="../CODCr库.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
