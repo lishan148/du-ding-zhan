@@ -18,10 +18,11 @@
 	<Item Name="控件" Type="Folder">
 		<Item Name="曲线模型外观.ctl" Type="VI" URL="../曲线模型外观.ctl"/>
 	</Item>
-	<Item Name="调用模块名称属性" Type="Property Folder">
+	<Item Name="曲线模型属性" Type="Property Folder">
 		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">属性</Property>
-		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">调用模块名称属性</Property>
-		<Item Name="调用模块属性写入.vi" Type="Property VI" URL="../调用模块属性写入.vi"/>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">曲线模型属性</Property>
+		<Item Name="曲线模型属性写入.vi" Type="Property VI" URL="../曲线模型属性写入.vi"/>
+		<Item Name="曲线模型属性读取.vi" Type="Property VI" URL="../曲线模型属性读取.vi"/>
 	</Item>
 	<Item Name="初始化 1.vi" Type="Ability VI" URL="../初始化 1.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
