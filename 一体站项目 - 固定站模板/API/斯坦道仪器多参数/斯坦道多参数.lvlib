@@ -308,4 +308,9 @@
 		<Item Name="水样测试.vi" Type="VI" URL="../测试流程/水样测试.vi"/>
 		<Item Name="标样核查.vi" Type="VI" URL="../测试流程/标样核查.vi"/>
 	</Item>
+	<Item Name="通信" Type="Folder">
+		<Item Name="与主屏通信master.vi" Type="VI" URL="../通信/与主屏通信master.vi"/>
+		<Item Name="与副屏通信master.vi" Type="VI" URL="../通信/与副屏通信master.vi"/>
+		<Item Name="主副屏通信slave.vi" Type="VI" URL="../通信/主副屏通信slave.vi"/>
+	</Item>
 </Library>
