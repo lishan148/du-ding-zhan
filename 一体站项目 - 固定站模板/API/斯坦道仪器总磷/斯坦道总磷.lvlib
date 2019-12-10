@@ -21,6 +21,7 @@
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
 		<Item Name="流程文件XML解析.vi" Type="VI" URL="../Subvi/流程文件XML解析.vi"/>
+		<Item Name="密码键盘.vi" Type="VI" URL="../Subvi/密码键盘.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
@@ -32,7 +33,6 @@
 		<Item Name="UI" Type="Folder">
 			<Item Name="运维调试_总磷.vi" Type="VI" URL="../总磷/UI/运维调试_总磷.vi"/>
 			<Item Name="周期设置_总磷.vi" Type="VI" URL="../总磷/UI/周期设置_总磷.vi"/>
-			<Item Name="流程写入.vi" Type="VI" URL="../总磷/UI/流程写入.vi"/>
 		</Item>
 		<Item Name="变量" Type="Folder">
 			<Item Name="总磷断电保存全局变量.vi" Type="VI" URL="../总磷/总磷断电保存全局变量.vi"/>
@@ -50,6 +50,18 @@
 				<Item Name="公式复合写入.vi" Type="VI" URL="../总磷/COM/公式复合写入.vi"/>
 				<Item Name="单个流程写入.vi" Type="VI" URL="../总磷/COM/单个流程写入.vi"/>
 			</Item>
+			<Item Name="Modbus Write File Record" Type="Folder">
+				<Item Name="Build_Write File Record.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/Build_Write File Record.vi"/>
+				<Item Name="Write File Record.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/Write File Record.vi"/>
+				<Item Name="流程写入.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/流程写入.vi"/>
+				<Item Name="读取固件状态.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/读取固件状态.vi"/>
+				<Item Name="读取外设配置.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/读取外设配置.vi"/>
+				<Item Name="写入固件.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/写入固件.vi"/>
+				<Item Name="写入外设配置.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/写入外设配置.vi"/>
+				<Item Name="流程固件设置对话框.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/流程固件设置对话框.vi"/>
+				<Item Name="固件升级对话框.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/固件升级对话框.vi"/>
+				<Item Name="外设配置对话框.vi" Type="VI" URL="../总磷/COM/Modbus Write File Record/外设配置对话框.vi"/>
+			</Item>
 			<Item Name="测量数据区.vi" Type="VI" URL="../总磷/测量数据区.vi"/>
 			<Item Name="关键参数区.vi" Type="VI" URL="../总磷/关键参数区.vi"/>
 			<Item Name="控制命令区.vi" Type="VI" URL="../总磷/控制命令区.vi"/>
@@ -59,8 +71,12 @@
 		</Item>
 		<Item Name="数据" Type="Folder">
 			<Item Name="总磷测量数据储存.vi" Type="VI" URL="../总磷/总磷测量数据储存.vi"/>
+			<Item Name="AccessLog写入.vi" Type="VI" URL="../总磷/AccessLog写入.vi"/>
 			<Item Name="总磷操作日志.vi" Type="VI" URL="../总磷/总磷操作日志.vi"/>
 			<Item Name="总磷报警信息.vi" Type="VI" URL="../总磷/总磷报警信息.vi"/>
+		</Item>
+		<Item Name="控件" Type="Folder">
+			<Item Name="锁.ctl" Type="VI" URL="../控件/锁.ctl"/>
 		</Item>
 		<Item Name="流程" Type="Folder">
 			<Item Name="总磷测量流程.vi" Type="VI" URL="../总磷/测量流程/总磷测量流程.vi"/>

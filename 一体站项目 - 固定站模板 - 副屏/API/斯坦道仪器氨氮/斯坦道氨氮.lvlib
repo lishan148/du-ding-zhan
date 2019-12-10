@@ -18,6 +18,7 @@
 			<Item Name="HexToWord.vi" Type="VI" URL="../HexToData/HexToWord.vi"/>
 			<Item Name="监测块.vi" Type="VI" URL="../HexToData/监测块.vi"/>
 		</Item>
+		<Item Name="AccessLog写入.vi" Type="VI" URL="../main/AccessLog写入.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="氨氮插入数据.vi" Type="VI" URL="../Subvi/氨氮插入数据.vi"/>
 		<Item Name="氨氮启动参数对话框.vi" Type="VI" URL="../main/UI/氨氮启动参数对话框.vi"/>
@@ -26,10 +27,12 @@
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
 		<Item Name="定时启动对话框.vi" Type="VI" URL="../main/UI/定时启动对话框.vi"/>
 		<Item Name="流程文件XML解析.vi" Type="VI" URL="../Subvi/流程文件XML解析.vi"/>
+		<Item Name="密码键盘.vi" Type="VI" URL="../Subvi/密码键盘.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
+		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 		<Item Name="质控参数设置.vi" Type="VI" URL="../main/质控参数设置.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../main/周期设置.vi"/>
 	</Item>
@@ -37,11 +40,13 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="运维调试_氨氮.vi" Type="VI" URL="../main/UI/运维调试_氨氮.vi"/>
 		<Item Name="周期设置_氨氮.vi" Type="VI" URL="../main/UI/周期设置_氨氮.vi"/>
-		<Item Name="流程写入.vi" Type="VI" URL="../main/UI/流程写入.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
 		<Item Name="VAR氨氮全局变量.vi" Type="VI" URL="../main/VAR氨氮全局变量.vi"/>
 		<Item Name="氨氮断电保存全局变量.vi" Type="VI" URL="../main/氨氮断电保存全局变量.vi"/>
+	</Item>
+	<Item Name="控件" Type="Folder">
+		<Item Name="锁.ctl" Type="VI" URL="../控件/锁.ctl"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
 		<Item Name="氨氮测量流程.vi" Type="VI" URL="../main/测量流程/氨氮测量流程.vi"/>
@@ -53,6 +58,18 @@
 		<Item Name="氨氮测量数据储存.vi" Type="VI" URL="../main/氨氮测量数据储存.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
+		<Item Name="Modbus Write File Record" Type="Folder">
+			<Item Name="Build_Write File Record.vi" Type="VI" URL="../main/COM/Modbus Write File Record/Build_Write File Record.vi"/>
+			<Item Name="Write File Record.vi" Type="VI" URL="../main/COM/Modbus Write File Record/Write File Record.vi"/>
+			<Item Name="读取固件状态.vi" Type="VI" URL="../main/COM/Modbus Write File Record/读取固件状态.vi"/>
+			<Item Name="读取外设配置.vi" Type="VI" URL="../main/COM/Modbus Write File Record/读取外设配置.vi"/>
+			<Item Name="固件升级对话框.vi" Type="VI" URL="../main/COM/Modbus Write File Record/固件升级对话框.vi"/>
+			<Item Name="流程固件设置对话框.vi" Type="VI" URL="../main/COM/Modbus Write File Record/流程固件设置对话框.vi"/>
+			<Item Name="流程写入.vi" Type="VI" URL="../main/COM/Modbus Write File Record/流程写入.vi"/>
+			<Item Name="外设配置对话框.vi" Type="VI" URL="../main/COM/Modbus Write File Record/外设配置对话框.vi"/>
+			<Item Name="写入固件.vi" Type="VI" URL="../main/COM/Modbus Write File Record/写入固件.vi"/>
+			<Item Name="写入外设配置.vi" Type="VI" URL="../main/COM/Modbus Write File Record/写入外设配置.vi"/>
+		</Item>
 		<Item Name="参数读取写入" Type="Folder">
 			<Item Name="MB_api.vi" Type="VI" URL="../main/COM/MB_api.vi"/>
 			<Item Name="版本号读取.vi" Type="VI" URL="../main/COM/版本号读取.vi"/>
