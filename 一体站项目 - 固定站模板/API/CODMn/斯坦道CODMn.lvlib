@@ -21,6 +21,7 @@
 		<Item Name="高锰酸钾-ORP滴定曲线(子VI).vi" Type="VI" URL="../CODMn/高锰酸钾-ORP滴定曲线(子VI).vi"/>
 		<Item Name="CODMn通讯.vi" Type="VI" URL="../CODMn/CODMn通讯.vi"/>
 		<Item Name="周期设置_CODMn.vi" Type="VI" URL="../CODMn/周期设置_CODMn.vi"/>
+		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODMn/AccessLog写入.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
@@ -45,6 +46,7 @@
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
+		<Item Name="固定站CODMn测量流程.vi" Type="VI" URL="../测量流程/固定站CODMn测量流程.vi"/>
 		<Item Name="一体站CODMn启动.vi" Type="VI" URL="../测量流程/一体站CODMn启动.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
