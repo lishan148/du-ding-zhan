@@ -46,6 +46,7 @@
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
+		<Item Name="固定站CODMn测量流程.vi" Type="VI" URL="../测量流程/固定站CODMn测量流程.vi"/>
 		<Item Name="一体站CODMn启动.vi" Type="VI" URL="../测量流程/一体站CODMn启动.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
