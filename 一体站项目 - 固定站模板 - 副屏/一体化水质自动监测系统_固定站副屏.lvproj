@@ -173,9 +173,9 @@
 		<Item Name="斯坦道总磷.lvlib" Type="Library" URL="../API/斯坦道仪器总磷/斯坦道总磷.lvlib"/>
 		<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 		<Item Name="斯坦道氨氮.lvlib" Type="Library" URL="../API/斯坦道仪器氨氮/斯坦道氨氮.lvlib"/>
-		<Item Name="德润超标留样.lvlib" Type="Library" URL="../API/德润超标留样/德润超标留样.lvlib"/>
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
 		<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../API/TCP文件传输系统/TCP文件传输系统.lvlib"/>
+		<Item Name="德润DR803L超标留样.lvlib" Type="Library" URL="../API/德润超标留样/德润DR803L超标留样.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -544,8 +544,12 @@
 			<Item Name="运行状态V3.xctl" Type="XControl" URL="../API/共用控件/运行状态V3/运行状态V3.xctl"/>
 			<Item Name="测量数据V3.xctl" Type="XControl" URL="../API/共用控件/测量数据V3/测量数据V3.xctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
-			<Item Name="LED电源命令.vi" Type="VI" URL="../PLC/电源管理/LED电源命令.vi"/>
 			<Item Name="质控24H周期设置.xctl" Type="XControl" URL="../API/质控单元/Control/24H周期设置/质控24H周期设置.xctl"/>
+			<Item Name="日志存储 (子VI).vi" Type="VI" URL="../Modbus Slave/数据库/日志存储 (子VI).vi"/>
+			<Item Name="插入数据.vi" Type="VI" URL="../Modbus Slave/数据库/插入数据.vi"/>
+			<Item Name="仪器参数存表.vi" Type="VI" URL="../Modbus Slave/仪器参数存表.vi"/>
+			<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../Modbus Slave/在线监测仪器仪表参数.vi"/>
+			<Item Name="仪器参数转data in.vi" Type="VI" URL="../Modbus Slave/仪器参数转data in.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化水质自动监测系统" Type="EXE">
@@ -563,7 +567,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_副屏</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.build" Type="Int">59</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_副屏/一体化水质自动监测系统.exe</Property>
