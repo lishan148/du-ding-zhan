@@ -107,6 +107,7 @@
 	<Item Name="中间子VI" Type="Folder">
 		<Item Name="平行样启动流程对话框.vi" Type="VI" URL="../中间子VI/平行样启动流程对话框.vi"/>
 		<Item Name="平行样启动参数选择对话框.vi" Type="VI" URL="../中间子VI/平行样启动参数选择对话框.vi"/>
+		<Item Name="质控启动整机或单模块流程对话框.vi" Type="VI" URL="../中间子VI/质控启动整机或单模块流程对话框.vi"/>
 		<Item Name="质控启动流程对话框.vi" Type="VI" URL="../中间子VI/质控启动流程对话框.vi"/>
 		<Item Name="质控启动参数选择对话框.vi" Type="VI" URL="../中间子VI/质控启动参数选择对话框.vi"/>
 		<Item Name="加标模块单控对话框.vi" Type="VI" URL="../中间子VI/加标模块单控对话框.vi"/>
