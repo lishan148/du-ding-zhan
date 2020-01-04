@@ -1,0 +1,23 @@
+﻿# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+#*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+
+# builds
+*/builds*
+
+
+#忽略任何文件夹下面的百度云相关
+**/*baidu*
