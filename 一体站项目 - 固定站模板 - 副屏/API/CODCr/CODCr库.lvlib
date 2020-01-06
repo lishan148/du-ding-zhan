@@ -7,8 +7,8 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="CODCr" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODCr/AccessLog写入.vi"/>
 		<Item Name="运维调试_CODCr.vi" Type="VI" URL="../CODCr/运维调试_CODCr.vi"/>
+		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODCr/AccessLog写入.vi"/>
 		<Item Name="CODcr测量数据区.vi" Type="VI" URL="../CODCr/CODcr测量数据区.vi"/>
 		<Item Name="CODCr插入数据.vi" Type="VI" URL="../CODCr/CODCr插入数据.vi"/>
 		<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../CODCr/CODCr启动命令 (子VI).vi"/>
@@ -24,6 +24,8 @@
 		<Item Name="周期设置.vi" Type="VI" URL="../CODCr/周期设置.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../CODCr/串口配置.vi"/>
 		<Item Name="仪器参数设置.vi" Type="VI" URL="../CODCr/仪器参数设置.vi"/>
+		<Item Name="周期设置_CODCr.vi" Type="VI" URL="../CODCr/周期设置_CODCr.vi"/>
+		<Item Name="定时启动 (子VI).vi" Type="VI" URL="../CODCr/定时启动 (子VI).vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
