@@ -36,6 +36,7 @@
 	</Item>
 	<Item Name="Subvi" Type="Folder">
 		<Item Name="CODMnMB_api.vi" Type="VI" URL="../Subvi/CODMnMB_api.vi"/>
+		<Item Name="CODMn字符串显示移位(子VI).vi" Type="VI" URL="../Subvi/CODMn字符串显示移位(子VI).vi"/>
 		<Item Name="Regression Equation String1.vi" Type="VI" URL="../Subvi/Regression Equation String1.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
 		<Item Name="日期键盘.vi" Type="VI" URL="../Subvi/日期键盘.vi"/>
@@ -43,6 +44,7 @@
 		<Item Name="数字密码键盘.vi" Type="VI" URL="../Subvi/数字密码键盘.vi"/>
 		<Item Name="四舍五入取整.vi" Type="VI" URL="../Subvi/四舍五入取整.vi"/>
 		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
+		<Item Name="字符串移位显示.vi" Type="VI" URL="../Subvi/字符串移位显示.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">

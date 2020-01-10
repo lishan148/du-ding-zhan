@@ -23,6 +23,7 @@
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
 		<Item Name="流程文件XML解析.vi" Type="VI" URL="../Subvi/流程文件XML解析.vi"/>
 		<Item Name="密码键盘.vi" Type="VI" URL="../Subvi/密码键盘.vi"/>
+		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>

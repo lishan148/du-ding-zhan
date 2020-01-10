@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Subvi" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DataToHex" Type="Folder">
 			<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
 			<Item Name="FloatToHex.vi" Type="VI" URL="../DataToHex/FloatToHex.vi"/>
@@ -34,6 +35,7 @@
 		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
 		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 		<Item Name="质控参数设置.vi" Type="VI" URL="../main/质控参数设置.vi"/>
+		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../main/周期设置.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
