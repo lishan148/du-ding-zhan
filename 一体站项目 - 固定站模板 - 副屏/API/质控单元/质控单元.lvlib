@@ -123,5 +123,6 @@
 		<Item Name="蠕动泵组合启动命令.vi" Type="VI" URL="../中间子VI/蠕动泵组合启动命令.vi"/>
 		<Item Name="未命名 1 (子VI).vi" Type="VI" URL="../中间子VI/未命名 1 (子VI).vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../中间子VI/周期设置.vi"/>
+		<Item Name="周期启动 (子VI).vi" Type="VI" URL="../中间子VI/周期启动 (子VI).vi"/>
 	</Item>
 </Library>

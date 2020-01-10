@@ -12,8 +12,8 @@
 		<Item Name="氨氮电源命令.vi" Type="VI" URL="../电源管理/氨氮电源命令.vi"/>
 		<Item Name="电源管理UI.vi" Type="VI" URL="../电源管理/电源管理UI.vi"/>
 		<Item Name="总氮电源命令.vi" Type="VI" URL="../电源管理/总氮电源命令.vi"/>
-		<Item Name="总磷电源命令.vi" Type="VI" URL="../电源管理/总磷电源命令.vi"/>
 		<Item Name="LED电源命令.vi" Type="VI" URL="../电源管理/LED电源命令.vi"/>
+		<Item Name="总磷电源命令.vi" Type="VI" URL="../电源管理/总磷电源命令.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="采配水通讯指令.vi" Type="VI" URL="../采配水通讯指令.vi"/>
