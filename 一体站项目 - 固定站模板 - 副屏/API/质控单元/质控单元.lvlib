@@ -47,6 +47,7 @@
 		<Item Name="柱塞泵操作的步数 (子VI).vi" Type="VI" URL="../Subvi/柱塞泵操作的步数 (子VI).vi"/>
 		<Item Name="蠕动泵1动作命令 (子VI).vi" Type="VI" URL="../Subvi/蠕动泵1动作命令 (子VI).vi"/>
 		<Item Name="蠕动泵2动作命令 (子VI).vi" Type="VI" URL="../Subvi/蠕动泵2动作命令 (子VI).vi"/>
+		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
 		<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../测量流程/CODCr流程质控自动启动.vi"/>
