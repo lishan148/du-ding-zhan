@@ -190,7 +190,7 @@
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
 		<Item Name="德润DR803L超标留样.lvlib" Type="Library" URL="../API/德润超标留样/德润DR803L超标留样.lvlib"/>
 		<Item Name="德润DR803F超标留样.lvlib" Type="Library" URL="../API/固定站德润DR803F/德润DR803F超标留样.lvlib"/>
-		<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../API/TCP文件传输系统/TCP文件传输系统.lvlib"/>
+		<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -426,13 +426,15 @@
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="NotifyIcon.lvlib" Type="Library" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/NotifyIcon.lvlib"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -563,6 +565,15 @@
 			<Item Name="测量数据V3.xctl" Type="XControl" URL="../API/共用控件/测量数据V3/测量数据V3.xctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
 			<Item Name="质控24H周期设置.xctl" Type="XControl" URL="../API/质控单元/Control/24H周期设置/质控24H周期设置.xctl"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化水质自动监测系统" Type="EXE">
@@ -580,18 +591,19 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">108</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站/一体化水质自动监测系统.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B2DB3230-C202-49AC-9652-CE693A7FE72A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{536E0105-FD96-4F97-8A16-A16B249C559F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -787,6 +799,85 @@
 				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/一体化水质自动监测系统</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="update" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BD6A7085-BC80-4C2A-8C9A-ECA775A4DED7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6E0DC796-F444-42D8-AE08-F1E878E02557}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FB06E42B-0474-4376-94C3-33BBFFCE38CF}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">update</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/update</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6575E69B-9B91-4C93-8268-D7CF117A48D4}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">update.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/update/update.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/update/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{7491C140-8A34-4969-B817-96D7F85E4780}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{92B89AB2-69B7-4B73-816E-AB39FBA07542}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{E0B9DFC9-0954-4B51-BDE2-EAEC049968F7}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{0E7115DD-6F60-4AC4-BD7E-EAA09708CECA}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{FA8AA0FE-AE21-4F58-A2D0-E8637D13361E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{179B603C-5401-468B-A6ED-4EC06E0253BF}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{14834837-BA35-4764-9D68-D1FF2E99B8F1}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{DAF5EF18-9774-4872-A207-A2D6C95791F1}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{6593C853-5D2A-4DBF-AC36-6E75667311EC}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{372EF435-9FC9-4AC3-80D1-E66359D3800F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{CF7C2BBE-9CDB-4E33-A5E5-92F60D9F611E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{564AC2DA-2379-429A-BDEB-211D4C2DF31F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{DD84CEAD-78F1-4656-B730-C6F48D91C67B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{5E09BC94-A835-441E-89E1-B7D760735715}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{CF055159-09B7-4EBD-B992-46753925B761}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{5B88E0B9-F0EA-4FEC-82DB-DA18D4133AC4}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{3A1CBE5C-E476-480C-B396-B63B3D5BB975}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{26613F6F-8680-4B4C-A050-3D662749EBC9}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{465B1445-EEEE-4DAB-A4A4-60965E3DADE5}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{1C5858B0-537B-4C3D-B98A-848AFB8634A9}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{63122A81-BEB1-41F8-A1D3-B427BA1EC2B0}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{E81AF0D7-4CC7-49B3-A751-DB74EBF2C220}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{F0E28AE0-057D-433A-9DB5-5E04AEB703EC}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{D6FE65B6-2084-438F-ABBF-4799B6DEEF58}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{E3C6F721-EA34-4E2B-8A23-5802EBB9358F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{B8661DBA-8F61-4184-9F2C-EEB26C48C514}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{F9D76E4B-9A11-44CE-98A6-6F7CC583CAAF}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{41EEDFFD-BB75-4909-A274-088DF03B3C97}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{53D94B52-2B1E-4303-A487-83D2F7DF7CE8}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{76ACA9F6-453B-4F72-91C6-CBF0A790ED6A}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{2B367BD4-D0E7-473B-8E69-A05BCC37402B}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">Update</Property>
+				<Property Name="Exe_actXServerName" Type="Str">Update</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str">{08BB3A7F-100F-4E3D-8984-855DF3B438D1}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/自动更新.lvlib/自动升级程序/image/tubiao.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{536E0105-FD96-4F97-8A16-A16B249C559F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/自动更新.lvlib/自动升级程序/update/更新程序.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">update</Property>
+				<Property Name="TgtF_internalName" Type="Str">update</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2020 </Property>
+				<Property Name="TgtF_productName" Type="Str">update</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B336ABBD-FA35-4F6F-ADB3-06083ADAFC33}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">update.exe</Property>
 			</Item>
 		</Item>
 	</Item>
