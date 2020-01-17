@@ -416,6 +416,8 @@
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
+				<Item Name="NotifyIcon.lvlib" Type="Library" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/NotifyIcon.lvlib"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -551,6 +553,16 @@
 			<Item Name="仪器参数存表.vi" Type="VI" URL="../Modbus Slave/仪器参数存表.vi"/>
 			<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../Modbus Slave/在线监测仪器仪表参数.vi"/>
 			<Item Name="仪器参数转data in.vi" Type="VI" URL="../Modbus Slave/仪器参数转data in.vi"/>
+			<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化水质自动监测系统" Type="EXE">
@@ -568,8 +580,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_副屏</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">70</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_副屏/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -579,7 +592,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_副屏/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FD91523A-67EF-4835-8C29-1378DA61AC5E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A41DD559-2034-4179-BD9E-4E505D9574B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
