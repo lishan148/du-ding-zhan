@@ -56,7 +56,5 @@
 		<Item Name="image" Type="Folder">
 			<Item Name="tubiao.ico" Type="Document" URL="../image/tubiao.ico"/>
 		</Item>
-		<Item Name="自动更新.aliases" Type="Document" URL="../自动更新.aliases"/>
-		<Item Name="自动更新.lvlps" Type="Document" URL="../自动更新.lvlps"/>
 	</Item>
 </Library>
