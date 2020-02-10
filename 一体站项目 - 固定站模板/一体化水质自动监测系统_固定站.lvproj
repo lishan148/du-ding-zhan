@@ -151,6 +151,7 @@
 			<Item Name="系统设置页.vi" Type="VI" URL="../系统/系统设置页.vi"/>
 			<Item Name="添加启动项.vi" Type="VI" URL="../系统/添加启动项.vi"/>
 			<Item Name="删除启动项.vi" Type="VI" URL="../系统/删除启动项.vi"/>
+			<Item Name="超标浓度报警配置.vi" Type="VI" URL="../系统/超标浓度报警配置.vi"/>
 			<Item Name="模块启用配置框.vi" Type="VI" URL="../系统/模块启用配置框.vi"/>
 			<Item Name="首页显示设置.vi" Type="VI" URL="../系统/首页显示设置.vi"/>
 			<Item Name="查询启动项.vi" Type="VI" URL="../系统/查询启动项.vi"/>
@@ -435,7 +436,6 @@
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			</Item>
