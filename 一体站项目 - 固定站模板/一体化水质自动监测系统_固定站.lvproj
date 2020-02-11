@@ -604,7 +604,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{79FA0C15-3B48-49AD-932A-A8C4086EF5BA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7F04BCA6-77A1-46FA-99BD-B6DE9FB2BF93}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
