@@ -1,7 +1,0 @@
-DO	2
-PH	3
-COD	4
-ORP	5
-TURB 8
-CHL 11
-BGA	12
