@@ -94,6 +94,7 @@
 					<Item Name="数据查询_仪器日志.vi" Type="VI" URL="../UI/VIS/数据查询_仪器日志.vi"/>
 					<Item Name="数据查询_报警信息.vi" Type="VI" URL="../UI/VIS/数据查询_报警信息.vi"/>
 					<Item Name="数据查询_仪器数据.vi" Type="VI" URL="../UI/VIS/数据查询_仪器数据.vi"/>
+					<Item Name="数据查询_校准查询.vi" Type="VI" URL="../UI/VIS/数据查询_校准查询.vi"/>
 					<Item Name="数据查询筛选.vi" Type="VI" URL="../UI/VIS/数据查询筛选.vi"/>
 				</Item>
 				<Item Name="首页.vi" Type="VI" URL="../UI/VIS/首页.vi"/>
@@ -593,10 +594,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -606,7 +607,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{913505F9-F828-474F-A793-DC9E2516E6F0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{68E540EE-84B7-42AF-BD8B-3ED00F62C578}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
