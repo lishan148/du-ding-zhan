@@ -565,8 +565,6 @@
 			</Item>
 			<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../API/CODMn/Control/24H周期设置/CODMn24H周期设置.xctl"/>
 			<Item Name="调试控件V3.xctl" Type="XControl" URL="../API/共用控件/调试控件V3/调试控件V3.xctl"/>
-			<Item Name="运行状态V3.xctl" Type="XControl" URL="../API/共用控件/运行状态V3/运行状态V3.xctl"/>
-			<Item Name="测量数据V3.xctl" Type="XControl" URL="../API/共用控件/测量数据V3/测量数据V3.xctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
 			<Item Name="质控24H周期设置.xctl" Type="XControl" URL="../API/质控单元/Control/24H周期设置/质控24H周期设置.xctl"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
@@ -595,10 +593,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">6</Property>
+				<Property Name="Bld_version.patch" Type="Int">7</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -608,7 +606,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{603D7871-0491-4BB2-BA21-788864ED160C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C2E92CA2-A325-4177-A457-7A84D563B2F1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
