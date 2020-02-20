@@ -190,8 +190,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F69F2217-7659-4E95-9664-40729CFA256D}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">应用程序.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/应用程序.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -199,74 +198,60 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3113FA9D-6689-4997-9A38-58146B612868}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1CD25F33-6F85-4E0D-B245-5FD8F110B6E3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/COD主界面（列队使用）.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/读取寄存器新.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/线性公式CODMn用.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/启动测量模式选择对话框.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/周期设置.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/线性公式CODMn用.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/DataToHex</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
+				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/周期设置.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/HexToData</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[13].type" Type="Str">Container</Property>
 				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/Control</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/Subvi</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/DataToHex</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/测量流程</Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[16].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/HexToData</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/全局变量</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">Container</Property>
 				<Property Name="Source[17].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[17].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/Subvi</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/数据库</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[18].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/测量流程</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].type" Type="Str">Container</Property>
-				<Property Name="Source[19].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[19].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/全局变量</Property>
-				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[19].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/CODMn启动命令 (子VI).vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[20].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[20].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/数据库</Property>
-				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[20].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/CODMn手动控制框.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
@@ -292,10 +277,10 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/滴定曲线.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/斯坦道CODMn.lvlib/CODMn/启动测量模式选择对话框.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">21</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">我的应用程序</Property>
 				<Property Name="TgtF_internalName" Type="Str">我的应用程序</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
