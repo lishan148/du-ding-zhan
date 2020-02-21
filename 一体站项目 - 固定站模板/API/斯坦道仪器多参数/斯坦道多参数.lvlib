@@ -11,7 +11,7 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
-	<Property Name="NI.Lib.Version" Type="Str">1.1.1.0</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.1.2.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
@@ -49,7 +49,7 @@
 		</Item>
 		<Item Name="纳清" Type="Folder">
 			<Item Name="4_五参数在线监测仪用户手册20180830（二合一）.pdf" Type="Document" URL="../Documents/纳清/4_五参数在线监测仪用户手册20180830（二合一）.pdf"/>
-			<Item Name="在线式叶绿素蓝绿藻分析仪用户手册20180124.pdf" Type="Document" URL="../Documents/纳清/在线式叶绿素蓝绿藻分析仪用户手册20180124.pdf"/>
+			<Item Name="在线式叶绿素蓝绿藻分析仪用户手册-20200220.pdf" Type="Document" URL="../Documents/纳清/在线式叶绿素蓝绿藻分析仪用户手册-20200220.pdf"/>
 		</Item>
 		<Item Name="禹山" Type="Folder">
 			<Item Name="COD_1.5Modbus说明文档(中文版).docx" Type="Document" URL="../Documents/禹山/COD_1.5Modbus说明文档(中文版).docx"/>
@@ -91,6 +91,8 @@
 				<Item Name="纳清叶绿素a_校准命令写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准命令写入.vi"/>
 				<Item Name="纳清叶绿素a_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_温度校准参数写入.vi"/>
 				<Item Name="纳清叶绿素a_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_温度校准命令写入.vi"/>
+				<Item Name="纳清叶绿素a_量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_量程写入.vi"/>
+				<Item Name="纳清叶绿素a_校准量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准量程写入.vi"/>
 			</Item>
 		</Item>
 		<Item Name="pH" Type="Folder">
@@ -270,6 +272,8 @@
 				<Item Name="纳清蓝绿藻_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_温度校准参数写入.vi"/>
 				<Item Name="纳清蓝绿藻_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_温度校准命令写入.vi"/>
 				<Item Name="纳清蓝绿藻_校准命令写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_校准命令写入.vi"/>
+				<Item Name="纳清蓝绿藻_量程写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_量程写入.vi"/>
+				<Item Name="纳清蓝绿藻_校准量程写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_校准量程写入.vi"/>
 			</Item>
 		</Item>
 		<Item Name="ORP" Type="Folder">
