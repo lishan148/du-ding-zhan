@@ -180,6 +180,9 @@
 			<Item Name="短信服务.lvproj" Type="Document" URL="../API/短信服务/短信服务.lvproj"/>
 			<Item Name="设置UI.vi" Type="VI" URL="../API/短信服务/设置UI.vi"/>
 		</Item>
+		<Item Name="流程文件" Type="Folder" URL="../流程文件">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
 		<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
 		<Item Name="其他.lvlib" Type="Library" URL="../API/其他/其他/其他.lvlib"/>
@@ -592,7 +595,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">11</Property>
@@ -604,7 +607,11 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].destName" Type="Str">流程文件</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/流程文件</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
 				<Property Name="Source[0].itemID" Type="Str">{622E0ADB-12C5-4980-9E0F-ED90A9BD727A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -669,6 +676,13 @@
 				<Property Name="Source[20].itemID" Type="Ref">/我的电脑/UI/VIS/运维调试.vi</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[21].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[21].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/流程文件</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/副屏.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -704,7 +718,7 @@
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">21</Property>
+				<Property Name="SourceCount" Type="Int">22</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化水质自动监测系统</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
