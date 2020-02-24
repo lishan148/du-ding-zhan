@@ -343,6 +343,7 @@
 		<Item Name="程序默认配置.vi" Type="VI" URL="../Subvi/程序默认配置.vi"/>
 		<Item Name="Add State to Queue.vi" Type="VI" URL="../Subvi/Add State to Queue.vi"/>
 		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../Subvi/TimeLmtDialog.vi"/>
+		<Item Name="滤波参数.vi" Type="VI" URL="../Subvi/滤波参数.vi"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
 		<Item Name="数据插入.vi" Type="VI" URL="../SQL/数据插入.vi"/>
