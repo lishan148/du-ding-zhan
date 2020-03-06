@@ -30,8 +30,6 @@
 			<Item Name="main" Type="Folder">
 				<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../TCP文件传输系统/TCP文件传输系统.lvlib"/>
 			</Item>
-			<Item Name="TCP文件传输系统.aliases" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.aliases"/>
-			<Item Name="TCP文件传输系统.lvlps" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.lvlps"/>
 			<Item Name="TCP文件传输系统.lvproj" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.lvproj"/>
 		</Item>
 		<Item Name="image" Type="Folder">
