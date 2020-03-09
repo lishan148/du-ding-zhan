@@ -14,8 +14,8 @@
 			<Item Name="配置文件read.vi" Type="VI" URL="../subvi/配置文件read.vi"/>
 			<Item Name="配置文件write.vi" Type="VI" URL="../subvi/配置文件write.vi"/>
 			<Item Name="更新log记录.vi" Type="VI" URL="../subvi/更新log记录.vi"/>
-			<Item Name="更新update.vi" Type="VI" URL="../subvi/更新update.vi"/>
 			<Item Name="自动升级程序.vi" Type="VI" URL="../subvi/自动升级程序.vi"/>
+			<Item Name="更新update.vi" Type="VI" URL="../subvi/更新update.vi"/>
 		</Item>
 		<Item Name="update" Type="Folder">
 			<Item Name="更新程序.vi" Type="VI" URL="../update/更新程序.vi"/>
@@ -30,6 +30,8 @@
 			<Item Name="main" Type="Folder">
 				<Item Name="TCP文件传输系统.lvlib" Type="Library" URL="../TCP文件传输系统/TCP文件传输系统.lvlib"/>
 			</Item>
+			<Item Name="TCP文件传输系统.aliases" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.aliases"/>
+			<Item Name="TCP文件传输系统.lvlps" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.lvlps"/>
 			<Item Name="TCP文件传输系统.lvproj" Type="Document" URL="../TCP文件传输系统/TCP文件传输系统.lvproj"/>
 		</Item>
 		<Item Name="image" Type="Folder">

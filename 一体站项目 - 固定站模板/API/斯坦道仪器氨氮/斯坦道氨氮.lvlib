@@ -90,4 +90,5 @@
 		<Item Name="状态告警区.vi" Type="VI" URL="../main/状态告警区.vi"/>
 		<Item Name="总磷数据时间处理.vi" Type="VI" URL="../main/总磷数据时间处理.vi"/>
 	</Item>
+	<Item Name="校准中 (子VI).vi" Type="VI" URL="../Subvi/校准中 (子VI).vi"/>
 </Library>

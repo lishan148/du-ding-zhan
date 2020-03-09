@@ -36,4 +36,15 @@
 	<Item Name="状态 1.ctl" Type="Ability VI" URL="../状态 1.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">State</Property>
 	</Item>
+	<Item Name="吸光值" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">第一点吸光值</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">吸光值</Property>
+		<Item Name="吸光值读取.vi" Type="Property VI" URL="../属性/吸光值读取.vi"/>
+		<Item Name="吸光值写入.vi" Type="Property VI" URL="../属性/吸光值写入.vi"/>
+	</Item>
+	<Item Name="浓度属性" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">浓度属性</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">浓度属性</Property>
+		<Item Name="浓度属性读取.vi" Type="Property VI" URL="../浓度属性/浓度属性读取.vi"/>
+	</Item>
 </XControl>
