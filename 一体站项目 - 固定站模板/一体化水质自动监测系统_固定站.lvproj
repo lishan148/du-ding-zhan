@@ -102,6 +102,12 @@
 				<Item Name="插入数据.vi" Type="VI" URL="../Modbus Slave/数据库/插入数据.vi"/>
 				<Item Name="日志存储 (子VI).vi" Type="VI" URL="../Modbus Slave/数据库/日志存储 (子VI).vi"/>
 			</Item>
+			<Item Name="全局变量" Type="Folder">
+				<Item Name="modbus slave全局.vi" Type="VI" URL="../Modbus Slave/全局变量/modbus slave全局.vi"/>
+			</Item>
+			<Item Name="modbus slave new.vi" Type="VI" URL="../Modbus Slave/modbus slave new.vi"/>
+			<Item Name="反控启动.vi" Type="VI" URL="../Modbus Slave/反控启动.vi"/>
+			<Item Name="加标回收启动 (子VI).vi" Type="VI" URL="../Modbus Slave/加标回收启动 (子VI).vi"/>
 			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
 			<Item Name="启动整机测试 (子VI).vi" Type="VI" URL="../Modbus Slave/启动整机测试 (子VI).vi"/>
 			<Item Name="MODBUS  SLAVE.vi" Type="VI" URL="../Modbus Slave/MODBUS  SLAVE.vi"/>
@@ -682,10 +688,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">30</Property>
+				<Property Name="Bld_version.patch" Type="Int">31</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -699,7 +705,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{884B54E7-0536-4506-A1E2-561A53D11878}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DF5A4216-C212-4F89-9BEB-3EA2ED24707B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
