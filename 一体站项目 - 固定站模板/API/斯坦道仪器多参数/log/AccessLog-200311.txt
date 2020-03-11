@@ -1,0 +1,45 @@
+【2020/3/11 8:53:49.606】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 字段定义语法错误。
+【2020/3/11 9:08:59.960】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: ALTER TABLE 语句中的语法错误。
+【2020/3/11 9:09:33.696】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: ALTER TABLE 语句中的语法错误。
+【2020/3/11 9:10:54.473】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: ALTER TABLE 语句中的语法错误。
+【2020/3/11 9:16:23.439】:错误-2147467259发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80004005
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 '水温' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。
+【2020/3/11 9:16:36.212】:错误-2146824867发生于 NI_Database_API.lvlib:Cmd Set Parameter Value (C).vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x800A0D5D
+NI_Database_API.lvlib:Cmd Set Parameter Value (C).vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in ADODB.Parameter: 应用程序在当前操作中使用了错误类型的值。Help Path is C:\Windows\HELP\ADO270.CHM and context 1240652
+【2020/3/11 9:19:06.112】:错误-2146824867发生于 NI_Database_API.lvlib:Cmd Set Parameter Value (C).vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x800A0D5D
+NI_Database_API.lvlib:Cmd Set Parameter Value (C).vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in ADODB.Parameter: 应用程序在当前操作中使用了错误类型的值。Help Path is C:\Windows\HELP\ADO270.CHM and context 1240652
+【2020/3/11 9:19:58.480】:错误-2147467259发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80004005
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 '水温' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。
+【2020/3/11 9:20:11.131】:错误-2146824867发生于 NI_Database_API.lvlib:Cmd Set Parameter Value (C).vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x800A0D5D
+NI_Database_API.lvlib:Cmd Set Parameter Value (C).vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in ADODB.Parameter: 应用程序在当前操作中使用了错误类型的值。Help Path is C:\Windows\HELP\ADO270.CHM and context 1240652
