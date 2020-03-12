@@ -78,6 +78,7 @@
 				<Item Name="导出.ctl" Type="VI" URL="../UI/控件/导出.ctl"/>
 				<Item Name="大项目框.xctl" Type="XControl" URL="../UI/控件/大项目框/大项目框.xctl"/>
 				<Item Name="下拉列表.xctl" Type="XControl" URL="../UI/控件/下拉列表/下拉列表.xctl"/>
+				<Item Name="Line Chart.xctl" Type="XControl" URL="../UI/控件/Line Chart/Line Chart.xctl"/>
 			</Item>
 			<Item Name="VIS" Type="Folder">
 				<Item Name="数据查询" Type="Folder">
@@ -671,7 +672,6 @@
 			<Item Name="数据列表选择框.xctl" Type="XControl" URL="../UI/控件/数据列表选择框/数据列表选择框.xctl"/>
 			<Item Name="数据查询大列表框.ctl" Type="VI" URL="../UI/控件/数据查询大列表框.ctl"/>
 			<Item Name="change table color.vi" Type="VI" URL="../Subvi/change table color.vi"/>
-			<Item Name="Line Chart.xctl" Type="XControl" URL="../UI/控件/Line Chart/Line Chart.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化水质自动监测系统" Type="EXE">
@@ -704,9 +704,13 @@
 				<Property Name="Destination[2].destName" Type="Str">流程文件</Property>
 				<Property Name="Destination[2].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/流程文件</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Destination[3].destName" Type="Str">JS</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/JS</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FD09FAEC-9DFE-40D3-A444-338D495CB2FB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9A3CFBF5-081B-4794-8620-D85F956C1ECA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -777,6 +781,16 @@
 				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/流程文件</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">Container</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/我的电脑/UI/控件/Line Chart.xctl</Property>
+				<Property Name="Source[22].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].type" Type="Str">Library</Property>
+				<Property Name="Source[23].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[23].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/我的电脑/UI/控件/Line Chart.xctl/js</Property>
+				<Property Name="Source[23].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/副屏.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -812,7 +826,7 @@
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">22</Property>
+				<Property Name="SourceCount" Type="Int">24</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化水质自动监测系统</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
