@@ -86,7 +86,7 @@
 					<Item Name="数据查询_仪器日志.vi" Type="VI" URL="../UI/VIS/数据查询_仪器日志.vi"/>
 					<Item Name="数据查询_报警信息.vi" Type="VI" URL="../UI/VIS/数据查询_报警信息.vi"/>
 					<Item Name="数据查询_仪器数据.vi" Type="VI" URL="../UI/VIS/数据查询_仪器数据.vi"/>
-					<Item Name="数据查询_校准查询.vi" Type="VI" URL="../UI/VIS/数据查询_校准查询.vi"/>
+					<Item Name="数据查询_校准记录.vi" Type="VI" URL="../UI/VIS/数据查询_校准记录.vi"/>
 					<Item Name="数据查询筛选.vi" Type="VI" URL="../UI/VIS/数据查询筛选.vi"/>
 				</Item>
 				<Item Name="首页.vi" Type="VI" URL="../UI/VIS/首页.vi"/>
@@ -455,7 +455,6 @@
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
