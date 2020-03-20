@@ -20,6 +20,16 @@
 				<Item Name="插入数据库.vi" Type="VI" URL="../Subvi/SQL/插入数据库.vi"/>
 				<Item Name="读取数据库.vi" Type="VI" URL="../Subvi/SQL/读取数据库.vi"/>
 			</Item>
+			<Item Name="数据查询筛选" Type="Folder">
+				<Item Name="数据查询筛选弹框.vi" Type="VI" URL="../Subvi/数据查询筛选/数据查询筛选弹框.vi"/>
+				<Item Name="查询clonm对应的所有内容.vi" Type="VI" URL="../Subvi/数据查询筛选/查询clonm对应的所有内容.vi"/>
+				<Item Name="格式日期时间字符串.vi" Type="VI" URL="../Subvi/数据查询筛选/格式日期时间字符串.vi"/>
+				<Item Name="控件自定义时间.ctl" Type="VI" URL="../Subvi/数据查询筛选/控件自定义时间.ctl"/>
+				<Item Name="日期字符串格式至时间格式转换(子VI).vi" Type="VI" URL="../Subvi/数据查询筛选/日期字符串格式至时间格式转换(子VI).vi"/>
+				<Item Name="时间标识输入.ctl" Type="VI" URL="../Subvi/数据查询筛选/时间标识输入.ctl"/>
+				<Item Name="数据筛选生成condition(子VI).vi" Type="VI" URL="../Subvi/数据查询筛选/数据筛选生成condition(子VI).vi"/>
+				<Item Name="picktime.vi" Type="VI" URL="../Subvi/数据查询筛选/dialog/picktime.vi"/>
+			</Item>
 			<Item Name="Format table.vi" Type="VI" URL="../Subvi/Format table.vi"/>
 			<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 			<Item Name="Set panel size and  place center.vi" Type="VI" URL="../Subvi/Set panel size and  place center.vi"/>
@@ -38,12 +48,6 @@
 			<Item Name="总磷总氮XML解析.vi" Type="VI" URL="../Subvi/总磷总氮XML解析.vi"/>
 			<Item Name="Force Quit LabVIEW.vi" Type="VI" URL="../Subvi/Force Quit LabVIEW.vi"/>
 			<Item Name="Removable devices detection v8.5.vi" Type="VI" URL="../Subvi/Removable devices detection v8.5.vi"/>
-			<Item Name="数据查询筛选弹框.vi" Type="VI" URL="../Subvi/数据查询筛选弹框.vi"/>
-			<Item Name="查询clonm对应的所有内容.vi" Type="VI" URL="../Subvi/查询clonm对应的所有内容.vi"/>
-			<Item Name="格式日期时间字符串.vi" Type="VI" URL="../Subvi/格式日期时间字符串.vi"/>
-			<Item Name="日期字符串格式至时间格式转换(子VI).vi" Type="VI" URL="../Subvi/日期字符串格式至时间格式转换(子VI).vi"/>
-			<Item Name="时间标识输入.ctl" Type="VI" URL="../Subvi/时间标识输入.ctl"/>
-			<Item Name="数据筛选生成condition(子VI).vi" Type="VI" URL="../Subvi/数据筛选生成condition(子VI).vi"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="控件" Type="Folder">
@@ -699,6 +703,8 @@
 			<Item Name="数据列表选择框.xctl" Type="XControl" URL="../UI/控件/数据列表选择框/数据列表选择框.xctl"/>
 			<Item Name="数据查询大列表框.ctl" Type="VI" URL="../UI/控件/数据查询大列表框.ctl"/>
 			<Item Name="change table color.vi" Type="VI" URL="../Subvi/change table color.vi"/>
+			<Item Name="XControl timepicker.xctl" Type="XControl" URL="../Subvi/数据查询筛选/控件/XControl timepicker.xctl"/>
+			<Item Name="XControl timepicker2.xctl" Type="XControl" URL="../Subvi/数据查询筛选/控件/XControl timepicker2 文件夹/XControl timepicker2.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化水质自动监测系统" Type="EXE">
@@ -716,10 +722,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">79</Property>
+				<Property Name="Bld_version.build" Type="Int">80</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">47</Property>
+				<Property Name="Bld_version.patch" Type="Int">48</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -737,7 +743,7 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{372FDE80-AB56-49D7-867E-748001D2273E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3900E9C1-3099-447D-A5EA-682EFEDBDBF9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
