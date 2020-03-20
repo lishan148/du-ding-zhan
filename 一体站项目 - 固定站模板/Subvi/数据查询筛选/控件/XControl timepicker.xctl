@@ -8,11 +8,11 @@
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="初始化.vi" Type="Ability VI" URL="../初始化.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
 	<Item Name="数据 .ctl" Type="Ability VI" URL="../数据 .ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
-	</Item>
-	<Item Name="数据.vi" Type="Ability VI" URL="../数据.vi">
-		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 	</Item>
 	<Item Name="外观 .vi" Type="Ability VI" URL="../外观 .vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
