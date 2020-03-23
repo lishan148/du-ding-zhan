@@ -22,3 +22,4 @@
 #忽略任何文件夹下面的百度云相关
 **/*baidu*
 *.aliases
+*.aliases
