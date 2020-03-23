@@ -82,8 +82,10 @@
 		<Item Name="固定站氨氮测量流程.vi" Type="VI" URL="../测量流程/固定站氨氮测量流程.vi"/>
 	</Item>
 	<Item Name="数据" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="氨氮报警信息.vi" Type="VI" URL="../main/氨氮报警信息.vi"/>
 		<Item Name="氨氮操作日志.vi" Type="VI" URL="../main/氨氮操作日志.vi"/>
+		<Item Name="氨氮校准记录.vi" Type="VI" URL="../main/氨氮校准记录.vi"/>
 		<Item Name="氨氮测量数据储存.vi" Type="VI" URL="../main/氨氮测量数据储存.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
@@ -117,6 +119,8 @@
 		<Item Name="状态告警区.vi" Type="VI" URL="../main/状态告警区.vi"/>
 		<Item Name="总磷数据时间处理.vi" Type="VI" URL="../main/总磷数据时间处理.vi"/>
 	</Item>
+	<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
+	<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
 	<Item Name="id参数转换.vi" Type="VI" URL="../Subvi/id参数转换.vi"/>
 	<Item Name="告警码字段定义.vi" Type="VI" URL="../Subvi/告警码字段定义.vi"/>
 	<Item Name="故障码字段定义.vi" Type="VI" URL="../Subvi/故障码字段定义.vi"/>
