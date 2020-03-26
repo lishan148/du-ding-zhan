@@ -12,12 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="数据查询筛选弹框.vi" Type="VI" URL="../数据查询筛选弹框.vi"/>
-		<Item Name="ping全局.vi" Type="VI" URL="../ping全局.vi"/>
 		<Item Name="查询clonm对应的所有内容.vi" Type="VI" URL="../查询clonm对应的所有内容.vi"/>
 		<Item Name="格式日期时间字符串.vi" Type="VI" URL="../格式日期时间字符串.vi"/>
 		<Item Name="日期字符串格式至时间格式转换(子VI).vi" Type="VI" URL="../日期字符串格式至时间格式转换(子VI).vi"/>
 		<Item Name="数据筛选生成condition(子VI).vi" Type="VI" URL="../数据筛选生成condition(子VI).vi"/>
-		<Item Name="数字键盘.vi" Type="VI" URL="../数字键盘.vi"/>
 		<Item Name="picktime.vi" Type="VI" URL="../dialog/picktime.vi"/>
 		<Item Name="控件自定义时间.ctl" Type="VI" URL="../控件自定义时间.ctl"/>
 		<Item Name="时间标识输入.ctl" Type="VI" URL="../时间标识输入.ctl"/>
@@ -56,9 +54,12 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 			</Item>
 			<Item Name="XControl timepicker.xctl" Type="XControl" URL="../控件/XControl timepicker.xctl"/>
-			<Item Name="XControl timepicker2.xctl" Type="XControl" URL="../控件/XControl timepicker2 文件夹/XControl timepicker2.xctl"/>
+			<Item Name="下拉列表.xctl" Type="XControl" URL="../../../UI/控件/下拉列表/下拉列表.xctl"/>
+			<Item Name="ping全局.vi" Type="VI" URL="../../../系统/ping全局.vi"/>
+			<Item Name="数字键盘.vi" Type="VI" URL="../../数字键盘.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
