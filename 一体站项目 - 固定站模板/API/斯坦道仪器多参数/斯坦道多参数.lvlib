@@ -11,7 +11,7 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
-	<Property Name="NI.Lib.Version" Type="Str">1.1.20.0</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.1.21.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
@@ -68,35 +68,21 @@
 		<Item Name="校准步骤.ctl" Type="VI" URL="../control/校准步骤.ctl"/>
 	</Item>
 	<Item Name="属性" Type="Folder">
-		<Item Name="叶绿素a" Type="Folder">
-			<Item Name="禹山" Type="Folder">
-				<Item Name="叶绿素a_获取温度和叶绿素值.vi" Type="VI" URL="../属性/禹山/叶绿素/叶绿素a_获取温度和叶绿素值.vi"/>
-				<Item Name="叶绿素a_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/叶绿素/叶绿素a_获取用户校准参数.vi"/>
-				<Item Name="叶绿素a_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/叶绿素/叶绿素a_设置用户校准参数.vi"/>
+		<Item Name="国弘" Type="Folder">
+			<Item Name="ORP" Type="Folder">
+				<Item Name="000CH_ORP_ORP偏移修正值写入.vi" Type="VI" URL="../属性/国弘/ORP/000CH_ORP_ORP偏移修正值写入.vi"/>
+				<Item Name="000EH_ORP_温度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/ORP/000EH_ORP_温度偏移修正值写入.vi"/>
+				<Item Name="0010H_ORP_手动温度补偿值写入.vi" Type="VI" URL="../属性/国弘/ORP/0010H_ORP_手动温度补偿值写入.vi"/>
+				<Item Name="0026H_ORP_命令寄存器写入.vi" Type="VI" URL="../属性/国弘/ORP/0026H_ORP_命令寄存器写入.vi"/>
+				<Item Name="0027H_ORP_数位滤波设定写入.vi" Type="VI" URL="../属性/国弘/ORP/0027H_ORP_数位滤波设定写入.vi"/>
+				<Item Name="0028H_ORP_温度模式写入.vi" Type="VI" URL="../属性/国弘/ORP/0028H_ORP_温度模式写入.vi"/>
+				<Item Name="002BH_ORP_串口地址写入.vi" Type="VI" URL="../属性/国弘/ORP/002BH_ORP_串口地址写入.vi"/>
+				<Item Name="002CH_ORP_串口波特率写入.vi" Type="VI" URL="../属性/国弘/ORP/002CH_ORP_串口波特率写入.vi"/>
+				<Item Name="002DH_ORP_串口校验位写入.vi" Type="VI" URL="../属性/国弘/ORP/002DH_ORP_串口校验位写入.vi"/>
+				<Item Name="002EH_ORP_串口停止位写入.vi" Type="VI" URL="../属性/国弘/ORP/002EH_ORP_串口停止位写入.vi"/>
+				<Item Name="ORP_所有参数读取.vi" Type="VI" URL="../属性/国弘/ORP/ORP_所有参数读取.vi"/>
 			</Item>
-			<Item Name="纳清" Type="Folder">
-				<Item Name="纳清叶绿素a_所有参数读取.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_所有参数读取.vi"/>
-				<Item Name="纳清叶绿素a_平均次数写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_平均次数写入.vi"/>
-				<Item Name="纳清叶绿素a_清扫模式写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_清扫模式写入.vi"/>
-				<Item Name="纳清叶绿素a_清扫次数写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_清扫次数写入.vi"/>
-				<Item Name="纳清叶绿素a_清扫间隔写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_清扫间隔写入.vi"/>
-				<Item Name="纳清叶绿素a_通讯地址写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_通讯地址写入.vi"/>
-				<Item Name="纳清叶绿素a_波特率写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_波特率写入.vi"/>
-				<Item Name="纳清叶绿素a_第一点原始光强值写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第一点原始光强值写入.vi"/>
-				<Item Name="纳清叶绿素a_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第一点校准数据写入.vi"/>
-				<Item Name="纳清叶绿素a_第二点原始光强值写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第二点原始光强值写入.vi"/>
-				<Item Name="纳清叶绿素a_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第二点校准数据写入.vi"/>
-				<Item Name="纳清叶绿素a_第三点原始光强值写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第三点原始光强值写入.vi"/>
-				<Item Name="纳清叶绿素a_第三点校准数据写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第三点校准数据写入.vi"/>
-				<Item Name="纳清叶绿素a_校准命令写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准命令写入.vi"/>
-				<Item Name="纳清叶绿素a_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_温度校准参数写入.vi"/>
-				<Item Name="纳清叶绿素a_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_温度校准命令写入.vi"/>
-				<Item Name="纳清叶绿素a_量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_量程写入.vi"/>
-				<Item Name="纳清叶绿素a_校准量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准量程写入.vi"/>
-			</Item>
-		</Item>
-		<Item Name="pH" Type="Folder">
-			<Item Name="国弘" Type="Folder">
+			<Item Name="pH" Type="Folder">
 				<Item Name="pH_所有参数读取.vi" Type="VI" URL="../属性/国弘/pH/pH_所有参数读取.vi"/>
 				<Item Name="000CH_pH_pH偏移修正值写入.vi" Type="VI" URL="../属性/国弘/pH/000CH_pH_pH偏移修正值写入.vi"/>
 				<Item Name="000EH_pH_温度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/pH/000EH_pH_温度偏移修正值写入.vi"/>
@@ -114,32 +100,7 @@
 				<Item Name="0033H_pH_第二点标准值写入.vi" Type="VI" URL="../属性/国弘/pH/0033H_pH_第二点标准值写入.vi"/>
 				<Item Name="0035H_pH_第三点校正指令写入.vi" Type="VI" URL="../属性/国弘/pH/0035H_pH_第三点校正指令写入.vi"/>
 			</Item>
-			<Item Name="禹山" Type="Folder">
-				<Item Name="禹山pH_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_获取温度和测量值.vi"/>
-				<Item Name="禹山pH_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_获取用户校准参数.vi"/>
-				<Item Name="禹山pH_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_设置用户校准参数.vi"/>
-			</Item>
-			<Item Name="纳清" Type="Folder">
-				<Item Name="纳清pH_所有参数读取.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_所有参数读取.vi"/>
-				<Item Name="纳清pH_通讯地址写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_通讯地址写入.vi"/>
-				<Item Name="纳清pH_波特率写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_波特率写入.vi"/>
-				<Item Name="纳清pH_第一点原始数据写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_第一点原始数据写入.vi"/>
-				<Item Name="纳清pH_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_第一点校准数据写入.vi"/>
-				<Item Name="纳清pH_第二点原始数据写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_第二点原始数据写入.vi"/>
-				<Item Name="纳清pH_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_第二点校准数据写入.vi"/>
-				<Item Name="纳清pH_校准命令写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_校准命令写入.vi"/>
-				<Item Name="纳清pH_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_温度校准参数写入.vi"/>
-				<Item Name="纳清pH_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_温度校准命令写入.vi"/>
-			</Item>
-		</Item>
-		<Item Name="DO" Type="Folder">
-			<Item Name="禹山" Type="Folder">
-				<Item Name="禹山溶解氧_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/DO/禹山溶解氧_获取温度和测量值.vi"/>
-				<Item Name="YOSEMITECH_DO浓度算法.vi" Type="VI" URL="../属性/禹山/DO/YOSEMITECH_DO浓度算法.vi"/>
-				<Item Name="禹山溶解氧_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/DO/禹山溶解氧_获取用户校准参数.vi"/>
-				<Item Name="禹山溶解氧_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/DO/禹山溶解氧_设置用户校准参数.vi"/>
-			</Item>
-			<Item Name="国弘" Type="Folder">
+			<Item Name="DO" Type="Folder">
 				<Item Name="DO_所有参数读取.vi" Type="VI" URL="../属性/国弘/DO/DO_所有参数读取.vi"/>
 				<Item Name="0008H_DO_盐度补偿值写入.vi" Type="VI" URL="../属性/国弘/DO/0008H_DO_盐度补偿值写入.vi"/>
 				<Item Name="000AH_DO_大气压补偿值写入.vi" Type="VI" URL="../属性/国弘/DO/000AH_DO_大气压补偿值写入.vi"/>
@@ -158,26 +119,7 @@
 				<Item Name="0032H_DO_第二点校正指令写入.vi" Type="VI" URL="../属性/国弘/DO/0032H_DO_第二点校正指令写入.vi"/>
 				<Item Name="0033H_DO_第二点标准值写入.vi" Type="VI" URL="../属性/国弘/DO/0033H_DO_第二点标准值写入.vi"/>
 			</Item>
-			<Item Name="纳清" Type="Folder">
-				<Item Name="纳清DO_所有参数读取.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_所有参数读取.vi"/>
-				<Item Name="纳清DO_大气压力写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_大气压力写入.vi"/>
-				<Item Name="纳清DO_盐度写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_盐度写入.vi"/>
-				<Item Name="纳清DO_通讯地址写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_通讯地址写入.vi"/>
-				<Item Name="纳清DO_波特率写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_波特率写入.vi"/>
-				<Item Name="纳清DO_第一点原始数据写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_第一点原始数据写入.vi"/>
-				<Item Name="纳清DO_第二点原始数据写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_第二点原始数据写入.vi"/>
-				<Item Name="纳清DO_校准命令写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_校准命令写入.vi"/>
-				<Item Name="纳清DO_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_温度校准参数写入.vi"/>
-				<Item Name="纳清DO_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_温度校准命令写入.vi"/>
-			</Item>
-		</Item>
-		<Item Name="浊度" Type="Folder">
-			<Item Name="禹山" Type="Folder">
-				<Item Name="禹山浊度_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/浊度/禹山浊度_获取温度和测量值.vi"/>
-				<Item Name="禹山浊度_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/浊度/禹山浊度_获取用户校准参数.vi"/>
-				<Item Name="禹山浊度_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/浊度/禹山浊度_设置用户校准参数.vi"/>
-			</Item>
-			<Item Name="国弘" Type="Folder">
+			<Item Name="浊度" Type="Folder">
 				<Item Name="浊度_所有参数读取.vi" Type="VI" URL="../属性/国弘/浊度/浊度_所有参数读取.vi"/>
 				<Item Name="000CH_浊度_浊度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/浊度/000CH_浊度_浊度偏移修正值写入.vi"/>
 				<Item Name="000EH_浊度_温度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/浊度/000EH_浊度_温度偏移修正值写入.vi"/>
@@ -196,34 +138,7 @@
 				<Item Name="0035H_浊度_第三点校正指令写入.vi" Type="VI" URL="../属性/国弘/浊度/0035H_浊度_第三点校正指令写入.vi"/>
 				<Item Name="0036H_浊度_第三点标准值写入.vi" Type="VI" URL="../属性/国弘/浊度/0036H_浊度_第三点标准值写入.vi"/>
 			</Item>
-			<Item Name="纳清" Type="Folder">
-				<Item Name="纳清浊度_所有参数读取.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_所有参数读取.vi"/>
-				<Item Name="纳清浊度_量程写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_量程写入.vi"/>
-				<Item Name="纳清浊度_平均次数写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_平均次数写入.vi"/>
-				<Item Name="纳清浊度_清扫模式写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_清扫模式写入.vi"/>
-				<Item Name="纳清浊度_清扫次数写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_清扫次数写入.vi"/>
-				<Item Name="纳清浊度_清扫间隔写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_清扫间隔写入.vi"/>
-				<Item Name="纳清浊度_通讯地址写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_通讯地址写入.vi"/>
-				<Item Name="纳清浊度_波特率写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_波特率写入.vi"/>
-				<Item Name="纳清浊度_校准量程写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_校准量程写入.vi"/>
-				<Item Name="纳清浊度_第一点原始光强值写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第一点原始光强值写入.vi"/>
-				<Item Name="纳清浊度_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第一点校准数据写入.vi"/>
-				<Item Name="纳清浊度_第二点原始光强值写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第二点原始光强值写入.vi"/>
-				<Item Name="纳清浊度_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第二点校准数据写入.vi"/>
-				<Item Name="纳清浊度_第三点校准数据写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第三点校准数据写入.vi"/>
-				<Item Name="纳清浊度_第三点原始光强值写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第三点原始光强值写入.vi"/>
-				<Item Name="纳清浊度_校准命令写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_校准命令写入.vi"/>
-				<Item Name="纳清浊度_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_温度校准参数写入.vi"/>
-				<Item Name="纳清浊度_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_温度校准命令写入.vi"/>
-			</Item>
-		</Item>
-		<Item Name="电导率" Type="Folder">
-			<Item Name="禹山" Type="Folder">
-				<Item Name="禹山电导率_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/电导率/禹山电导率_获取温度和测量值.vi"/>
-				<Item Name="禹山电导率_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/电导率/禹山电导率_获取用户校准参数.vi"/>
-				<Item Name="禹山电导率_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/电导率/禹山电导率_设置用户校准参数.vi"/>
-			</Item>
-			<Item Name="国弘" Type="Folder">
+			<Item Name="电导率" Type="Folder">
 				<Item Name="电导率_所有参数读取.vi" Type="VI" URL="../属性/国弘/电导率/电导率_所有参数读取.vi"/>
 				<Item Name="000AH_电导率_温度补偿系数写入.vi" Type="VI" URL="../属性/国弘/电导率/000AH_电导率_温度补偿系数写入.vi"/>
 				<Item Name="000CH_电导率_电导率偏移修正值写入.vi" Type="VI" URL="../属性/国弘/电导率/000CH_电导率_电导率偏移修正值写入.vi"/>
@@ -242,20 +157,37 @@
 				<Item Name="0032H_电导率_第二点校正指令写入.vi" Type="VI" URL="../属性/国弘/电导率/0032H_电导率_第二点校正指令写入.vi"/>
 				<Item Name="0033H_电导率_第二点标准值写入.vi" Type="VI" URL="../属性/国弘/电导率/0033H_电导率_第二点标准值写入.vi"/>
 			</Item>
-			<Item Name="纳清" Type="Folder">
-				<Item Name="纳清电导率_所有参数读取.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_所有参数读取.vi"/>
-				<Item Name="纳清电导率_温度补偿系数.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_温度补偿系数.vi"/>
-				<Item Name="纳清电导率_通讯地址写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_通讯地址写入.vi"/>
-				<Item Name="纳清电导率_波特率写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_波特率写入.vi"/>
-				<Item Name="纳清电导率_第一点原始数据写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_第一点原始数据写入.vi"/>
-				<Item Name="纳清电导率_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_第一点校准数据写入.vi"/>
-				<Item Name="纳清电导率_校准命令写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_校准命令写入.vi"/>
-				<Item Name="纳清电导率_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_温度校准参数写入.vi"/>
-				<Item Name="纳清电导率_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_温度校准命令写入.vi"/>
+		</Item>
+		<Item Name="禹山" Type="Folder">
+			<Item Name="pH" Type="Folder">
+				<Item Name="禹山pH_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_获取温度和测量值.vi"/>
+				<Item Name="禹山pH_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_获取用户校准参数.vi"/>
+				<Item Name="禹山pH_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_设置用户校准参数.vi"/>
+			</Item>
+			<Item Name="DO" Type="Folder">
+				<Item Name="禹山溶解氧_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/DO/禹山溶解氧_获取温度和测量值.vi"/>
+				<Item Name="YOSEMITECH_DO浓度算法.vi" Type="VI" URL="../属性/禹山/DO/YOSEMITECH_DO浓度算法.vi"/>
+				<Item Name="禹山溶解氧_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/DO/禹山溶解氧_获取用户校准参数.vi"/>
+				<Item Name="禹山溶解氧_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/DO/禹山溶解氧_设置用户校准参数.vi"/>
+			</Item>
+			<Item Name="叶绿素a" Type="Folder">
+				<Item Name="叶绿素a_获取温度和叶绿素值.vi" Type="VI" URL="../属性/禹山/叶绿素/叶绿素a_获取温度和叶绿素值.vi"/>
+				<Item Name="叶绿素a_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/叶绿素/叶绿素a_获取用户校准参数.vi"/>
+				<Item Name="叶绿素a_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/叶绿素/叶绿素a_设置用户校准参数.vi"/>
+			</Item>
+			<Item Name="浊度" Type="Folder">
+				<Item Name="禹山浊度_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/浊度/禹山浊度_获取温度和测量值.vi"/>
+				<Item Name="禹山浊度_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/浊度/禹山浊度_获取用户校准参数.vi"/>
+				<Item Name="禹山浊度_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/浊度/禹山浊度_设置用户校准参数.vi"/>
+			</Item>
+			<Item Name="电导率" Type="Folder">
+				<Item Name="禹山电导率_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/电导率/禹山电导率_获取温度和测量值.vi"/>
+				<Item Name="禹山电导率_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/电导率/禹山电导率_获取用户校准参数.vi"/>
+				<Item Name="禹山电导率_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/电导率/禹山电导率_设置用户校准参数.vi"/>
 			</Item>
 		</Item>
-		<Item Name="蓝绿藻" Type="Folder">
-			<Item Name="纳清" Type="Folder">
+		<Item Name="纳清" Type="Folder">
+			<Item Name="蓝绿藻" Type="Folder">
 				<Item Name="纳清蓝绿藻_所有参数读取.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_所有参数读取.vi"/>
 				<Item Name="纳清蓝绿藻_波特率写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_波特率写入.vi"/>
 				<Item Name="纳清蓝绿藻_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_第二点校准数据写入.vi"/>
@@ -275,20 +207,80 @@
 				<Item Name="纳清蓝绿藻_量程写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_量程写入.vi"/>
 				<Item Name="纳清蓝绿藻_校准量程写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_校准量程写入.vi"/>
 			</Item>
-		</Item>
-		<Item Name="ORP" Type="Folder">
-			<Item Name="国弘" Type="Folder">
-				<Item Name="000CH_ORP_ORP偏移修正值写入.vi" Type="VI" URL="../属性/国弘/ORP/000CH_ORP_ORP偏移修正值写入.vi"/>
-				<Item Name="000EH_ORP_温度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/ORP/000EH_ORP_温度偏移修正值写入.vi"/>
-				<Item Name="0010H_ORP_手动温度补偿值写入.vi" Type="VI" URL="../属性/国弘/ORP/0010H_ORP_手动温度补偿值写入.vi"/>
-				<Item Name="0026H_ORP_命令寄存器写入.vi" Type="VI" URL="../属性/国弘/ORP/0026H_ORP_命令寄存器写入.vi"/>
-				<Item Name="0027H_ORP_数位滤波设定写入.vi" Type="VI" URL="../属性/国弘/ORP/0027H_ORP_数位滤波设定写入.vi"/>
-				<Item Name="0028H_ORP_温度模式写入.vi" Type="VI" URL="../属性/国弘/ORP/0028H_ORP_温度模式写入.vi"/>
-				<Item Name="002BH_ORP_串口地址写入.vi" Type="VI" URL="../属性/国弘/ORP/002BH_ORP_串口地址写入.vi"/>
-				<Item Name="002CH_ORP_串口波特率写入.vi" Type="VI" URL="../属性/国弘/ORP/002CH_ORP_串口波特率写入.vi"/>
-				<Item Name="002DH_ORP_串口校验位写入.vi" Type="VI" URL="../属性/国弘/ORP/002DH_ORP_串口校验位写入.vi"/>
-				<Item Name="002EH_ORP_串口停止位写入.vi" Type="VI" URL="../属性/国弘/ORP/002EH_ORP_串口停止位写入.vi"/>
-				<Item Name="ORP_所有参数读取.vi" Type="VI" URL="../属性/国弘/ORP/ORP_所有参数读取.vi"/>
+			<Item Name="电导率" Type="Folder">
+				<Item Name="纳清电导率_所有参数读取.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_所有参数读取.vi"/>
+				<Item Name="纳清电导率_温度补偿系数.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_温度补偿系数.vi"/>
+				<Item Name="纳清电导率_通讯地址写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_通讯地址写入.vi"/>
+				<Item Name="纳清电导率_波特率写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_波特率写入.vi"/>
+				<Item Name="纳清电导率_第一点原始数据写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_第一点原始数据写入.vi"/>
+				<Item Name="纳清电导率_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_第一点校准数据写入.vi"/>
+				<Item Name="纳清电导率_校准命令写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_校准命令写入.vi"/>
+				<Item Name="纳清电导率_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_温度校准参数写入.vi"/>
+				<Item Name="纳清电导率_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/电导率/纳清电导率_温度校准命令写入.vi"/>
+			</Item>
+			<Item Name="浊度" Type="Folder">
+				<Item Name="纳清浊度_所有参数读取.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_所有参数读取.vi"/>
+				<Item Name="纳清浊度_量程写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_量程写入.vi"/>
+				<Item Name="纳清浊度_平均次数写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_平均次数写入.vi"/>
+				<Item Name="纳清浊度_清扫模式写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_清扫模式写入.vi"/>
+				<Item Name="纳清浊度_清扫次数写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_清扫次数写入.vi"/>
+				<Item Name="纳清浊度_清扫间隔写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_清扫间隔写入.vi"/>
+				<Item Name="纳清浊度_通讯地址写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_通讯地址写入.vi"/>
+				<Item Name="纳清浊度_波特率写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_波特率写入.vi"/>
+				<Item Name="纳清浊度_校准量程写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_校准量程写入.vi"/>
+				<Item Name="纳清浊度_第一点原始光强值写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第一点原始光强值写入.vi"/>
+				<Item Name="纳清浊度_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第一点校准数据写入.vi"/>
+				<Item Name="纳清浊度_第二点原始光强值写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第二点原始光强值写入.vi"/>
+				<Item Name="纳清浊度_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第二点校准数据写入.vi"/>
+				<Item Name="纳清浊度_第三点校准数据写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第三点校准数据写入.vi"/>
+				<Item Name="纳清浊度_第三点原始光强值写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_第三点原始光强值写入.vi"/>
+				<Item Name="纳清浊度_校准命令写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_校准命令写入.vi"/>
+				<Item Name="纳清浊度_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_温度校准参数写入.vi"/>
+				<Item Name="纳清浊度_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/浊度/纳清浊度_温度校准命令写入.vi"/>
+			</Item>
+			<Item Name="pH" Type="Folder">
+				<Item Name="纳清pH_所有参数读取.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_所有参数读取.vi"/>
+				<Item Name="纳清pH_通讯地址写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_通讯地址写入.vi"/>
+				<Item Name="纳清pH_波特率写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_波特率写入.vi"/>
+				<Item Name="纳清pH_第一点原始数据写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_第一点原始数据写入.vi"/>
+				<Item Name="纳清pH_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_第一点校准数据写入.vi"/>
+				<Item Name="纳清pH_第二点原始数据写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_第二点原始数据写入.vi"/>
+				<Item Name="纳清pH_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_第二点校准数据写入.vi"/>
+				<Item Name="纳清pH_校准命令写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_校准命令写入.vi"/>
+				<Item Name="纳清pH_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_温度校准参数写入.vi"/>
+				<Item Name="纳清pH_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/pH/纳清pH_温度校准命令写入.vi"/>
+			</Item>
+			<Item Name="DO" Type="Folder">
+				<Item Name="纳清DO_所有参数读取.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_所有参数读取.vi"/>
+				<Item Name="纳清DO_大气压力写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_大气压力写入.vi"/>
+				<Item Name="纳清DO_盐度写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_盐度写入.vi"/>
+				<Item Name="纳清DO_通讯地址写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_通讯地址写入.vi"/>
+				<Item Name="纳清DO_波特率写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_波特率写入.vi"/>
+				<Item Name="纳清DO_第一点原始数据写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_第一点原始数据写入.vi"/>
+				<Item Name="纳清DO_第二点原始数据写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_第二点原始数据写入.vi"/>
+				<Item Name="纳清DO_校准命令写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_校准命令写入.vi"/>
+				<Item Name="纳清DO_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_温度校准参数写入.vi"/>
+				<Item Name="纳清DO_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/DO/纳清DO_温度校准命令写入.vi"/>
+			</Item>
+			<Item Name="叶绿素a" Type="Folder">
+				<Item Name="纳清叶绿素a_所有参数读取.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_所有参数读取.vi"/>
+				<Item Name="纳清叶绿素a_平均次数写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_平均次数写入.vi"/>
+				<Item Name="纳清叶绿素a_清扫模式写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_清扫模式写入.vi"/>
+				<Item Name="纳清叶绿素a_清扫次数写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_清扫次数写入.vi"/>
+				<Item Name="纳清叶绿素a_清扫间隔写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_清扫间隔写入.vi"/>
+				<Item Name="纳清叶绿素a_通讯地址写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_通讯地址写入.vi"/>
+				<Item Name="纳清叶绿素a_波特率写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_波特率写入.vi"/>
+				<Item Name="纳清叶绿素a_第一点原始光强值写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第一点原始光强值写入.vi"/>
+				<Item Name="纳清叶绿素a_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第一点校准数据写入.vi"/>
+				<Item Name="纳清叶绿素a_第二点原始光强值写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第二点原始光强值写入.vi"/>
+				<Item Name="纳清叶绿素a_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第二点校准数据写入.vi"/>
+				<Item Name="纳清叶绿素a_第三点原始光强值写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第三点原始光强值写入.vi"/>
+				<Item Name="纳清叶绿素a_第三点校准数据写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_第三点校准数据写入.vi"/>
+				<Item Name="纳清叶绿素a_校准命令写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准命令写入.vi"/>
+				<Item Name="纳清叶绿素a_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_温度校准参数写入.vi"/>
+				<Item Name="纳清叶绿素a_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_温度校准命令写入.vi"/>
+				<Item Name="纳清叶绿素a_量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_量程写入.vi"/>
+				<Item Name="纳清叶绿素a_校准量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准量程写入.vi"/>
 			</Item>
 		</Item>
 	</Item>
