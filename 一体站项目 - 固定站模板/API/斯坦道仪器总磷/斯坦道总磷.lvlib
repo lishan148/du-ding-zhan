@@ -126,6 +126,7 @@
 	<Item Name="告警码字段定义.vi" Type="VI" URL="../Subvi/告警码字段定义.vi"/>
 	<Item Name="故障码字段定义.vi" Type="VI" URL="../Subvi/故障码字段定义.vi"/>
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
+	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
 	<Item Name="过滤筛选流程.vi" Type="VI" URL="../Subvi/过滤筛选流程.vi"/>
 	<Item Name="校准中 (子VI).vi" Type="VI" URL="../Subvi/校准中 (子VI).vi"/>
 </Library>

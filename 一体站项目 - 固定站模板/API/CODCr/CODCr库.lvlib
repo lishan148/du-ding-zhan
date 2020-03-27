@@ -63,4 +63,7 @@
 		<Item Name="CODCrMB_api.vi" Type="VI" URL="../通讯/CODCrMB_api.vi"/>
 		<Item Name="CODCr通讯.vi" Type="VI" URL="../通讯/CODCr通讯.vi"/>
 	</Item>
+	<Item Name="关键参数存表.vi" Type="VI" URL="../CODCr/关键参数存表.vi"/>
+	<Item Name="关键参数交互.vi" Type="VI" URL="../CODCr/关键参数交互.vi"/>
+	<Item Name="公式写入.vi" Type="VI" URL="../CODCr/公式写入.vi"/>
 </Library>

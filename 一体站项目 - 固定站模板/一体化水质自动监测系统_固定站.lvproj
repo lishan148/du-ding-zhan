@@ -118,6 +118,8 @@
 			</Item>
 			<Item Name="modbus slave new.vi" Type="VI" URL="../Modbus Slave/modbus slave new.vi"/>
 			<Item Name="反控启动.vi" Type="VI" URL="../Modbus Slave/反控启动.vi"/>
+			<Item Name="反控参数设置.vi" Type="VI" URL="../Modbus Slave/反控参数设置.vi"/>
+			<Item Name="反控仪器参数.vi" Type="VI" URL="../Modbus Slave/反控仪器参数.vi"/>
 			<Item Name="执行结果反馈与日志存储.vi" Type="VI" URL="../Modbus Slave/执行结果反馈与日志存储.vi"/>
 			<Item Name="加标回收启动 (子VI).vi" Type="VI" URL="../Modbus Slave/加标回收启动 (子VI).vi"/>
 			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
@@ -478,6 +480,7 @@
 				<Item Name="RemoveNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RemoveNamedRendezvousPrefix.vi"/>
 				<Item Name="Destroy A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy A Rendezvous.vi"/>
 				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -740,10 +743,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">95</Property>
+				<Property Name="Bld_version.build" Type="Int">96</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">57</Property>
+				<Property Name="Bld_version.patch" Type="Int">58</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -761,7 +764,7 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D3D38D7C-F9E6-4462-94BD-A27089515620}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C13F782E-663F-4646-A90A-8F05F9746418}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>

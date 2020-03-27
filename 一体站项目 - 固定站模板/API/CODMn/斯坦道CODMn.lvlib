@@ -48,6 +48,7 @@
 		<Item Name="CODMn通讯.vi" Type="VI" URL="../CODMn/CODMn通讯.vi"/>
 		<Item Name="周期设置_CODMn.vi" Type="VI" URL="../CODMn/周期设置_CODMn.vi"/>
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODMn/AccessLog写入.vi"/>
+		<Item Name="公式写入.vi" Type="VI" URL="../CODMn/公式写入.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
@@ -107,5 +108,6 @@
 		<Item Name="将启用的浓度作为新的浓度数组.vi" Type="VI" URL="../子程序/将启用的浓度作为新的浓度数组.vi"/>
 	</Item>
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
+	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
 	<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 </Library>
