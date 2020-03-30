@@ -13,6 +13,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">2.2.19.11</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
 	<Property Name="OdbcBooleanLoggingTableName" Type="Str">NI_VARIABLE_BOOLEAN</Property>
 	<Property Name="OdbcConnectionRadio" Type="UInt">0</Property>
@@ -74,7 +75,6 @@
 		<Item Name="数字密码键盘.vi" Type="VI" URL="../Subvi/数字密码键盘.vi"/>
 		<Item Name="四舍五入取整.vi" Type="VI" URL="../Subvi/四舍五入取整.vi"/>
 		<Item Name="序列号写入.vi" Type="VI" URL="../Subvi/序列号写入.vi"/>
-		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 		<Item Name="字符串移位显示.vi" Type="VI" URL="../Subvi/字符串移位显示.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 	</Item>
@@ -108,6 +108,7 @@
 	<Item Name="子程序" Type="Folder">
 		<Item Name="将启用的浓度作为新的浓度数组.vi" Type="VI" URL="../子程序/将启用的浓度作为新的浓度数组.vi"/>
 	</Item>
+	<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
 	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
 	<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
