@@ -119,7 +119,8 @@
 			<Item Name="modbus slave new.vi" Type="VI" URL="../Modbus Slave/modbus slave new.vi"/>
 			<Item Name="反控启动.vi" Type="VI" URL="../Modbus Slave/反控启动.vi"/>
 			<Item Name="反控参数设置.vi" Type="VI" URL="../Modbus Slave/反控参数设置.vi"/>
-			<Item Name="反控仪器参数.vi" Type="VI" URL="../Modbus Slave/反控仪器参数.vi"/>
+			<Item Name="反控仪器单参数通用.vi" Type="VI" URL="../Modbus Slave/反控仪器单参数通用.vi"/>
+			<Item Name="反控仪器参数公式.vi" Type="VI" URL="../Modbus Slave/反控仪器参数公式.vi"/>
 			<Item Name="执行结果反馈与日志存储.vi" Type="VI" URL="../Modbus Slave/执行结果反馈与日志存储.vi"/>
 			<Item Name="加标回收启动 (子VI).vi" Type="VI" URL="../Modbus Slave/加标回收启动 (子VI).vi"/>
 			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
@@ -743,7 +744,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">104</Property>
+				<Property Name="Bld_version.build" Type="Int">105</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">60</Property>
