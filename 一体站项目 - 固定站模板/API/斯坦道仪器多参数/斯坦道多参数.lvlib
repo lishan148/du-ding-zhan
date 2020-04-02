@@ -340,12 +340,13 @@
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
-		<Item Name="数据插入.vi" Type="VI" URL="../SQL/数据插入.vi"/>
 		<Item Name="校准日志.vi" Type="VI" URL="../SQL/校准日志.vi"/>
 		<Item Name="报警信息.vi" Type="VI" URL="../SQL/报警信息.vi"/>
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../SQL/AccessLog写入.vi"/>
 		<Item Name="操作日志.vi" Type="VI" URL="../SQL/操作日志.vi"/>
 		<Item Name="多参数数据插入.vi" Type="VI" URL="../SQL/多参数数据插入.vi"/>
+		<Item Name="data insert core.vi" Type="VI" URL="../SQL/data insert core.vi"/>
+		<Item Name="data insert.vi" Type="VI" URL="../SQL/data insert.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
 		<Item Name="断电保存变量.vi" Type="VI" URL="../变量/断电保存变量.vi"/>

@@ -12,6 +12,12 @@
 	<Item Name="初始化 2.vi" Type="Ability VI" URL="../初始化 2.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 	</Item>
+	<Item Name="阀口名称" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">阀口名称</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">阀口名称</Property>
+		<Item Name="阀口名称读取.vi" Type="Property VI" URL="../属性/阀口名称读取.vi"/>
+		<Item Name="阀口名称写入.vi" Type="Property VI" URL="../属性/阀口名称写入.vi"/>
+	</Item>
 	<Item Name="数据 2.ctl" Type="Ability VI" URL="../数据 2.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
