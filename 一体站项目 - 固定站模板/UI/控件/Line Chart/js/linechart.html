@@ -38,7 +38,7 @@
             },
             legend: {
                 itemWidth: 64,
-                itemHeight:32,                data: []
+                itemHeight:32,                data: ['CODMn']
             },
             grid: {
                 left: '3%',
@@ -61,12 +61,15 @@
                 data: []
             }],
                         yAxis: [{
-                name: '',
+                name: 'CODMn',
                 type: 'value',
                 min: 'dataMin',
                 max: 'dataMax',
                 offset: 0,
                 position: 'left',
+                axisLabel:{
+                    formatter:'{value} '
+                }
             },],            
 grid: {
                 show: false,
@@ -134,7 +137,18 @@ grid: {
                         end: 100,
                     },
             ],
-            series: []        }
+            series: [{
+                name: 'CODMn',
+                type: 'line',
+                yAxisIndex: 0,
+                smooth: true,
+                itemStyle:{
+                    normal: {
+                        color: 'rgba(51, 153,255,10)',
+                            }
+                },
+                data:[]
+            },]        }
         ALDdata.setOption(option);
     </script>
 </body>

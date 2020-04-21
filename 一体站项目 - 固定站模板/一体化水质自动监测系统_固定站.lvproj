@@ -4,12 +4,16 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.acl" Type="Str">310000000A000000010000002500000003000000090000003132372E302E302E3110000000030000000000010000000000</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">我的电脑/VI服务器</Property>
+		<Property Name="server.tcp.port" Type="Int">3363</Property>
+		<Property Name="server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">我的电脑/VI服务器</Property>
+		<Property Name="server.vi.access" Type="Str"></Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="data" Type="Folder" URL="../data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -163,7 +167,6 @@
 			<Item Name="系统设置页.vi" Type="VI" URL="../系统/系统设置页.vi"/>
 			<Item Name="添加启动项.vi" Type="VI" URL="../系统/添加启动项.vi"/>
 			<Item Name="删除启动项.vi" Type="VI" URL="../系统/删除启动项.vi"/>
-			<Item Name="超标浓度报警配置.vi" Type="VI" URL="../系统/超标浓度报警配置.vi"/>
 			<Item Name="模块启用配置框.vi" Type="VI" URL="../系统/模块启用配置框.vi"/>
 			<Item Name="首页显示设置.vi" Type="VI" URL="../系统/首页显示设置.vi"/>
 			<Item Name="查询启动项.vi" Type="VI" URL="../系统/查询启动项.vi"/>
@@ -488,7 +491,6 @@
 				<Item Name="RemoveNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RemoveNamedRendezvousPrefix.vi"/>
 				<Item Name="Destroy A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy A Rendezvous.vi"/>
 				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -755,7 +757,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">119</Property>
+				<Property Name="Bld_version.build" Type="Int">121</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">69</Property>
@@ -776,7 +778,7 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8C1D3C67-2D1C-40B9-9E0E-BDB1B562637B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EA4CF63A-577D-4CA3-8EF1-1130B4A31783}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -893,6 +895,7 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">24</Property>
+				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化水质自动监测系统</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
