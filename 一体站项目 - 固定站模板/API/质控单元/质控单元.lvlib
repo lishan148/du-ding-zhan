@@ -85,6 +85,7 @@
 		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn停止命令 (子VI).vi"/>
 		<Item Name="CODMn平行样流程 (子VI).vi" Type="VI" URL="../测量流程/CODMn平行样流程 (子VI).vi"/>
 		<Item Name="CODMn质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODMn质控流程 (子VI).vi"/>
+		<Item Name="COD质控流程 (子VI).vi" Type="VI" URL="../测量流程/COD质控流程 (子VI).vi"/>
 		<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮流程质控自动启动.vi"/>
 		<Item Name="氨氮启动命令.vi" Type="VI" URL="../测量流程/氨氮启动命令.vi"/>
 		<Item Name="氨氮质控流程.vi" Type="VI" URL="../测量流程/氨氮质控流程.vi"/>
@@ -113,6 +114,7 @@
 		<Item Name="断电保存全局.vi" Type="VI" URL="../全局变量/断电保存全局.vi"/>
 		<Item Name="质控内部交互全局.vi" Type="VI" URL="../全局变量/质控内部交互全局.vi"/>
 		<Item Name="平行样测试全局变量.vi" Type="VI" URL="../全局变量/平行样测试全局变量.vi"/>
+		<Item Name="系统交互.vi" Type="VI" URL="../全局变量/系统交互.vi"/>
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
@@ -122,6 +124,7 @@
 		<Item Name="质控数据存储(子VI).vi" Type="VI" URL="../数据库/质控数据存储(子VI).vi"/>
 		<Item Name="平行样测试数据写入.vi" Type="VI" URL="../数据库/平行样测试数据写入.vi"/>
 		<Item Name="质控日志存储 (子VI).vi" Type="VI" URL="../数据库/质控日志存储 (子VI).vi"/>
+		<Item Name="data insert core.vi" Type="VI" URL="../数据库/data insert core.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="单个写入.vi" Type="VI" URL="../通讯/单个写入.vi"/>
