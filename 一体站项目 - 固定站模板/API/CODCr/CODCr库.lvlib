@@ -23,6 +23,7 @@
 		<Item Name="CODCr定时启动对话框.vi" Type="VI" URL="../CODCr/CODCr定时启动对话框.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../CODCr/周期设置.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../CODCr/串口配置.vi"/>
+		<Item Name="质控参数设置.vi" Type="VI" URL="../CODCr/质控参数设置.vi"/>
 		<Item Name="仪器参数设置.vi" Type="VI" URL="../CODCr/仪器参数设置.vi"/>
 		<Item Name="周期设置_CODCr.vi" Type="VI" URL="../CODCr/周期设置_CODCr.vi"/>
 		<Item Name="定时启动 (子VI).vi" Type="VI" URL="../CODCr/定时启动 (子VI).vi"/>
