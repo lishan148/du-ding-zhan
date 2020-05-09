@@ -65,6 +65,7 @@
 		<Item Name="质控参数设置.vi" Type="VI" URL="../main/质控参数设置.vi"/>
 		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../main/周期设置.vi"/>
+		<Item Name="data insert core.vi" Type="VI" URL="../Subvi/data insert core.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -123,8 +124,7 @@
 	<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
 	<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
 	<Item Name="id参数转换.vi" Type="VI" URL="../Subvi/id参数转换.vi"/>
-	<Item Name="告警码字段定义.vi" Type="VI" URL="../Subvi/告警码字段定义.vi"/>
-	<Item Name="故障码字段定义.vi" Type="VI" URL="../Subvi/故障码字段定义.vi"/>
+	<Item Name="故障告警分析.vi" Type="VI" URL="../Subvi/故障告警分析.vi"/>
 	<Item Name="过滤筛选流程.vi" Type="VI" URL="../Subvi/过滤筛选流程.vi"/>
 	<Item Name="校准中 (子VI).vi" Type="VI" URL="../Subvi/校准中 (子VI).vi"/>
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>

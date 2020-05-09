@@ -81,4 +81,9 @@
 		<Item Name="测量参数名称读取.vi" Type="Property VI" URL="../subvi/属性/测量参数名称读取.vi"/>
 		<Item Name="测量参数名称写入.vi" Type="Property VI" URL="../subvi/属性/测量参数名称写入.vi"/>
 	</Item>
+	<Item Name="时间源" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">时间源</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">时间源</Property>
+		<Item Name="时间源写入.vi" Type="Property VI" URL="../subvi/属性/时间源写入.vi"/>
+	</Item>
 </XControl>
