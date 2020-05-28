@@ -27,6 +27,7 @@
 		<Item Name="仪器参数设置.vi" Type="VI" URL="../CODCr/仪器参数设置.vi"/>
 		<Item Name="周期设置_CODCr.vi" Type="VI" URL="../CODCr/周期设置_CODCr.vi"/>
 		<Item Name="定时启动 (子VI).vi" Type="VI" URL="../CODCr/定时启动 (子VI).vi"/>
+		<Item Name="配置文件保存.vi" Type="VI" URL="../CODCr/配置文件保存.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>

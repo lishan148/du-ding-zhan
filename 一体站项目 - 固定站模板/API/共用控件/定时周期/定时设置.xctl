@@ -15,6 +15,9 @@
 		<Item Name="启动命令国标转换.vi" Type="VI" URL="../subvi/启动命令国标转换.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 		<Item Name="批量设置.vi" Type="VI" URL="../subvi/批量设置.vi"/>
+		<Item Name="定时设置写入.vi" Type="VI" URL="../subvi/定时设置写入.vi"/>
+		<Item Name="定时设置全局文件.vi" Type="VI" URL="../subvi/定时设置全局文件.vi"/>
+		<Item Name="定时设置读取.vi" Type="VI" URL="../subvi/定时设置读取.vi"/>
 	</Item>
 	<Item Name="control" Type="Folder">
 		<Item Name="定点周期设置.ctl" Type="VI" URL="../control/定点周期设置.ctl"/>
@@ -69,12 +72,6 @@
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">间隔计时</Property>
 		<Item Name="间隔计时读取.vi" Type="Property VI" URL="../subvi/属性/间隔计时读取.vi"/>
 	</Item>
-	<Item Name="是否重写配置文件" Type="Property Folder">
-		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">是否重写配置文件</Property>
-		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">是否重写配置文件</Property>
-		<Item Name="是否重写配置文件读取.vi" Type="Property VI" URL="../subvi/属性/是否重写配置文件读取.vi"/>
-		<Item Name="是否重写配置文件写入.vi" Type="Property VI" URL="../subvi/属性/是否重写配置文件写入.vi"/>
-	</Item>
 	<Item Name="测量参数名称" Type="Property Folder">
 		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">测量参数名称</Property>
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">测量参数名称</Property>
@@ -85,5 +82,10 @@
 		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">时间源</Property>
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">时间源</Property>
 		<Item Name="时间源写入.vi" Type="Property VI" URL="../subvi/属性/时间源写入.vi"/>
+	</Item>
+	<Item Name="引用参数" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">引用参数</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">引用参数</Property>
+		<Item Name="引用参数写入.vi" Type="Property VI" URL="../subvi/属性/引用参数写入.vi"/>
 	</Item>
 </XControl>
