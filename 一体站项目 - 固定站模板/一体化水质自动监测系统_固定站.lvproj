@@ -747,6 +747,11 @@
 			<Item Name="超标留样运行状态.xctl" Type="XControl" URL="../API/超标留样集成/微站德润DR803M/控件/超标留样运行状态/超标留样运行状态.xctl"/>
 			<Item Name="data insert core.vi" Type="VI" URL="../Subvi/SQL/data insert core.vi"/>
 			<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
+			<Item Name="CODMn流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/CODMn流程质控自动启动.vi"/>
+			<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/氨氮流程质控自动启动.vi"/>
+			<Item Name="总磷流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/总磷流程质控自动启动.vi"/>
+			<Item Name="总氮流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/总氮流程质控自动启动.vi"/>
+			<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/CODCr流程质控自动启动.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化水质自动监测系统" Type="EXE">
@@ -764,10 +769,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">138</Property>
+				<Property Name="Bld_version.build" Type="Int">139</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">78</Property>
+				<Property Name="Bld_version.patch" Type="Int">79</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -785,7 +790,7 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7FEA9CAA-FDA6-4F0F-AAE1-EF31584DB488}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E61B3D12-EEB0-4334-AA2C-C3C80A10E4CB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>

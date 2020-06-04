@@ -68,6 +68,8 @@
 		<Item Name="总氮加标回收 (子VI).vi" Type="VI" URL="../Subvi/总氮加标回收 (子VI).vi"/>
 		<Item Name="CODMn加标回收(子VI).vi" Type="VI" URL="../Subvi/CODMn加标回收(子VI).vi"/>
 		<Item Name="CODCr加标回收(子VI).vi" Type="VI" URL="../Subvi/CODCr加标回收(子VI).vi"/>
+		<Item Name="氨氮总磷加标回收 (子VI).vi" Type="VI" URL="../Subvi/氨氮总磷加标回收 (子VI).vi"/>
+		<Item Name="总磷总氮加标回收 (子VI).vi" Type="VI" URL="../Subvi/总磷总氮加标回收 (子VI).vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
 		<Item Name="柱塞泵动作命令 (子VI).vi" Type="VI" URL="../Subvi/柱塞泵动作命令 (子VI).vi"/>
 		<Item Name="柱塞泵操作的步数 (子VI).vi" Type="VI" URL="../Subvi/柱塞泵操作的步数 (子VI).vi"/>
@@ -76,29 +78,60 @@
 		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
-		<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../测量流程/CODCr流程质控自动启动.vi"/>
-		<Item Name="CODCr质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODCr质控流程 (子VI).vi"/>
-		<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../测量流程/CODCr启动命令 (子VI).vi"/>
-		<Item Name="CODCr停止命令 (子VI).vi" Type="VI" URL="../测量流程/CODCr停止命令 (子VI).vi"/>
-		<Item Name="CODMn流程质控自动启动.vi" Type="VI" URL="../测量流程/CODMn流程质控自动启动.vi"/>
-		<Item Name="CODMn启动命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn启动命令 (子VI).vi"/>
-		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn停止命令 (子VI).vi"/>
-		<Item Name="CODMn平行样流程 (子VI).vi" Type="VI" URL="../测量流程/CODMn平行样流程 (子VI).vi"/>
-		<Item Name="CODMn质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODMn质控流程 (子VI).vi"/>
-		<Item Name="COD质控流程 (子VI).vi" Type="VI" URL="../测量流程/COD质控流程 (子VI).vi"/>
-		<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮流程质控自动启动.vi"/>
-		<Item Name="氨氮启动命令.vi" Type="VI" URL="../测量流程/氨氮启动命令.vi"/>
-		<Item Name="氨氮质控流程.vi" Type="VI" URL="../测量流程/氨氮质控流程.vi"/>
+		<Item Name="CODCr流程" Type="Folder">
+			<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../测量流程/CODCr流程/CODCr流程质控自动启动.vi"/>
+			<Item Name="CODCr微站质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODCr流程/CODCr微站质控流程 (子VI).vi"/>
+			<Item Name="CODCr固定站质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODCr流程/CODCr固定站质控流程 (子VI).vi"/>
+			<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../测量流程/CODCr流程/CODCr启动命令 (子VI).vi"/>
+			<Item Name="CODCr停止命令 (子VI).vi" Type="VI" URL="../测量流程/CODCr流程/CODCr停止命令 (子VI).vi"/>
+		</Item>
+		<Item Name="CODMn流程" Type="Folder">
+			<Item Name="CODMn流程质控自动启动.vi" Type="VI" URL="../测量流程/CODMn流程/CODMn流程质控自动启动.vi"/>
+			<Item Name="CODMn微站质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODMn流程/CODMn微站质控流程 (子VI).vi"/>
+			<Item Name="CODMn固定站质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODMn流程/CODMn固定站质控流程 (子VI).vi"/>
+			<Item Name="CODMn启动命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn流程/CODMn启动命令 (子VI).vi"/>
+			<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn流程/CODMn停止命令 (子VI).vi"/>
+		</Item>
+		<Item Name="氨氮流程" Type="Folder">
+			<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮流程/氨氮流程质控自动启动.vi"/>
+			<Item Name="氨氮微站质控流程.vi" Type="VI" URL="../测量流程/氨氮流程/氨氮微站质控流程.vi"/>
+			<Item Name="氨氮固定站质控流程.vi" Type="VI" URL="../测量流程/氨氮流程/氨氮固定站质控流程.vi"/>
+			<Item Name="氨氮启动命令.vi" Type="VI" URL="../测量流程/氨氮流程/氨氮启动命令.vi"/>
+		</Item>
+		<Item Name="总磷流程" Type="Folder">
+			<Item Name="总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/总磷流程/总磷流程质控自动启动.vi"/>
+			<Item Name="总磷微站质控流程.vi" Type="VI" URL="../测量流程/总磷流程/总磷微站质控流程.vi"/>
+			<Item Name="总磷固定站质控流程.vi" Type="VI" URL="../测量流程/总磷流程/总磷固定站质控流程.vi"/>
+			<Item Name="总磷启动命令.vi" Type="VI" URL="../测量流程/总磷流程/总磷启动命令.vi"/>
+		</Item>
+		<Item Name="总氮流程" Type="Folder">
+			<Item Name="总氮流程质控自动启动.vi" Type="VI" URL="../测量流程/总氮流程/总氮流程质控自动启动.vi"/>
+			<Item Name="总氮微站质控流程.vi" Type="VI" URL="../测量流程/总氮流程/总氮微站质控流程.vi"/>
+			<Item Name="总氮固定站质控流程.vi" Type="VI" URL="../测量流程/总氮流程/总氮固定站质控流程.vi"/>
+			<Item Name="总氮启动命令.vi" Type="VI" URL="../测量流程/总氮流程/总氮启动命令.vi"/>
+		</Item>
+		<Item Name="氨氮总磷流程" Type="Folder">
+			<Item Name="氨氮总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮总磷流程/氨氮总磷流程质控自动启动.vi"/>
+			<Item Name="氨氮总磷质控流程.vi" Type="VI" URL="../测量流程/氨氮总磷流程/氨氮总磷质控流程.vi"/>
+		</Item>
+		<Item Name="总磷总氮流程" Type="Folder">
+			<Item Name="总磷总氮流程质控自动启动.vi" Type="VI" URL="../测量流程/总磷总氮流程/总磷总氮流程质控自动启动.vi"/>
+			<Item Name="总磷总氮质控流程.vi" Type="VI" URL="../测量流程/总磷总氮流程/总磷总氮质控流程.vi"/>
+		</Item>
+		<Item Name="固定站流程" Type="Folder">
+			<Item Name="固定站流程平行样自动启动.vi" Type="VI" URL="../测量流程/固定站流程/固定站流程平行样自动启动.vi"/>
+			<Item Name="固定站流程质控自动启动.vi" Type="VI" URL="../测量流程/固定站流程/固定站流程质控自动启动.vi"/>
+		</Item>
+		<Item Name="微站流程" Type="Folder">
+			<Item Name="一体站氨氮总磷流程平行样自动启动.vi" Type="VI" URL="../测量流程/微站流程/一体站氨氮总磷流程平行样自动启动.vi"/>
+			<Item Name="一体站氨氮总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/微站流程/一体站氨氮总磷流程质控自动启动.vi"/>
+			<Item Name="一体站总磷总氮流程平行样自动启动.vi" Type="VI" URL="../测量流程/微站流程/一体站总磷总氮流程平行样自动启动.vi"/>
+			<Item Name="一体站总磷总氮流程质控自动启动.vi" Type="VI" URL="../测量流程/微站流程/一体站总磷总氮流程质控自动启动.vi"/>
+		</Item>
+		<Item Name="单独启动(子VI).vi" Type="VI" URL="../测量流程/单独启动(子VI).vi"/>
 		<Item Name="控制命令参数.vi" Type="VI" URL="../测量流程/控制命令参数.vi"/>
-		<Item Name="一体站流程平行样自动启动.vi" Type="VI" URL="../测量流程/一体站流程平行样自动启动.vi"/>
-		<Item Name="一体站流程质控自动启动.vi" Type="VI" URL="../测量流程/一体站流程质控自动启动.vi"/>
-		<Item Name="总氮控制命令区.vi" Type="VI" URL="../测量流程/总氮控制命令区.vi"/>
-		<Item Name="总氮启动命令.vi" Type="VI" URL="../测量流程/总氮启动命令.vi"/>
-		<Item Name="总氮质控流程.vi" Type="VI" URL="../测量流程/总氮质控流程.vi"/>
-		<Item Name="总氮流程质控自动启动.vi" Type="VI" URL="../测量流程/总氮流程质控自动启动.vi"/>
-		<Item Name="总磷启动命令.vi" Type="VI" URL="../测量流程/总磷启动命令.vi"/>
-		<Item Name="总磷质控流程.vi" Type="VI" URL="../测量流程/总磷质控流程.vi"/>
-		<Item Name="总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/总磷流程质控自动启动.vi"/>
+		<Item Name="流程汇总.vi" Type="VI" URL="../测量流程/流程汇总.vi"/>
+		<Item Name="平行样流程汇总.vi" Type="VI" URL="../测量流程/平行样流程汇总.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="质控测完标志全局 1.vi" Type="VI" URL="../全局变量/质控测完标志全局 1.vi"/>
@@ -151,7 +184,6 @@
 		<Item Name="手动控制命令区.vi" Type="VI" URL="../中间子VI/手动控制命令区.vi"/>
 		<Item Name="柱塞泵组合启动命令.vi" Type="VI" URL="../中间子VI/柱塞泵组合启动命令.vi"/>
 		<Item Name="蠕动泵组合启动命令.vi" Type="VI" URL="../中间子VI/蠕动泵组合启动命令.vi"/>
-		<Item Name="未命名 1 (子VI).vi" Type="VI" URL="../中间子VI/未命名 1 (子VI).vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../中间子VI/周期设置.vi"/>
 		<Item Name="周期启动 (子VI).vi" Type="VI" URL="../中间子VI/周期启动 (子VI).vi"/>
 	</Item>
