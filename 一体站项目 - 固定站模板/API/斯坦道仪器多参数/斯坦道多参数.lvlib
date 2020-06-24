@@ -11,7 +11,7 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
-	<Property Name="NI.Lib.Version" Type="Str">1.1.29.0</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.1.34.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
@@ -156,6 +156,28 @@
 				<Item Name="0030H_电导率_第一点标准值写入.vi" Type="VI" URL="../属性/国弘/电导率/0030H_电导率_第一点标准值写入.vi"/>
 				<Item Name="0032H_电导率_第二点校正指令写入.vi" Type="VI" URL="../属性/国弘/电导率/0032H_电导率_第二点校正指令写入.vi"/>
 				<Item Name="0033H_电导率_第二点标准值写入.vi" Type="VI" URL="../属性/国弘/电导率/0033H_电导率_第二点标准值写入.vi"/>
+			</Item>
+			<Item Name="COD" Type="Folder">
+				<Item Name="000CH_COD_偏移修正值写入.vi" Type="VI" URL="../属性/国弘/COD/000CH_COD_偏移修正值写入.vi"/>
+				<Item Name="000EH_COD_浊度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/COD/000EH_COD_浊度偏移修正值写入.vi"/>
+				<Item Name="0010H_COD_水样校正值写入.vi" Type="VI" URL="../属性/国弘/COD/0010H_COD_水样校正值写入.vi"/>
+				<Item Name="0012H_COD_温度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/COD/0012H_COD_温度偏移修正值写入.vi"/>
+				<Item Name="0024H_COD_测量周期写入.vi" Type="VI" URL="../属性/国弘/COD/0024H_COD_测量周期写入.vi"/>
+				<Item Name="0025H_COD_清洗周期写入.vi" Type="VI" URL="../属性/国弘/COD/0025H_COD_清洗周期写入.vi"/>
+				<Item Name="0026H_COD_命令寄存器写入.vi" Type="VI" URL="../属性/国弘/COD/0026H_COD_命令寄存器写入.vi"/>
+				<Item Name="0027H_COD_数位滤波设定写入.vi" Type="VI" URL="../属性/国弘/COD/0027H_COD_数位滤波设定写入.vi"/>
+				<Item Name="0028H_COD_温度模式写入.vi" Type="VI" URL="../属性/国弘/COD/0028H_COD_温度模式写入.vi"/>
+				<Item Name="002BH_COD_串口地址写入.vi" Type="VI" URL="../属性/国弘/COD/002BH_COD_串口地址写入.vi"/>
+				<Item Name="002CH_COD_串口波特率写入.vi" Type="VI" URL="../属性/国弘/COD/002CH_COD_串口波特率写入.vi"/>
+				<Item Name="002DH_COD_串口校验位写入.vi" Type="VI" URL="../属性/国弘/COD/002DH_COD_串口校验位写入.vi"/>
+				<Item Name="002EH_COD_串口停止位写入.vi" Type="VI" URL="../属性/国弘/COD/002EH_COD_串口停止位写入.vi"/>
+				<Item Name="002FH_COD_第一点校正指令写入.vi" Type="VI" URL="../属性/国弘/COD/002FH_COD_第一点校正指令写入.vi"/>
+				<Item Name="0030H_COD_第一点标准值写入.vi" Type="VI" URL="../属性/国弘/COD/0030H_COD_第一点标准值写入.vi"/>
+				<Item Name="0032H_COD_第二点校正指令写入.vi" Type="VI" URL="../属性/国弘/COD/0032H_COD_第二点校正指令写入.vi"/>
+				<Item Name="0033H_COD_第二点标准值写入.vi" Type="VI" URL="../属性/国弘/COD/0033H_COD_第二点标准值写入.vi"/>
+				<Item Name="0035H_COD_第三点校正指令写入.vi" Type="VI" URL="../属性/国弘/COD/0035H_COD_第三点校正指令写入.vi"/>
+				<Item Name="0036H_COD_第三点标准值写入.vi" Type="VI" URL="../属性/国弘/COD/0036H_COD_第三点标准值写入.vi"/>
+				<Item Name="COD_所有参数读取.vi" Type="VI" URL="../属性/国弘/COD/COD_所有参数读取.vi"/>
 			</Item>
 		</Item>
 		<Item Name="禹山" Type="Folder">
@@ -303,6 +325,7 @@
 				<Item Name="溶解氧电极校准.vi" Type="VI" URL="../UI/子界面/国弘/溶解氧电极校准.vi"/>
 				<Item Name="浊度电极校准.vi" Type="VI" URL="../UI/子界面/国弘/浊度电极校准.vi"/>
 				<Item Name="ORP电极校准.vi" Type="VI" URL="../UI/子界面/国弘/ORP电极校准.vi"/>
+				<Item Name="COD电极校准.vi" Type="VI" URL="../UI/子界面/国弘/COD电极校准.vi"/>
 			</Item>
 			<Item Name="禹山" Type="Folder">
 				<Item Name="禹山溶解氧校准.vi" Type="VI" URL="../UI/子界面/禹山/禹山溶解氧校准.vi"/>
@@ -367,4 +390,5 @@
 	</Item>
 	<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
+	<Item Name="运行时间输出.vi" Type="VI" URL="../Subvi/运行时间输出.vi"/>
 </Library>
