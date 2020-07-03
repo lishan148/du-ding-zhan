@@ -121,6 +121,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="Log写入.vi" Type="VI" URL="../Subvi/Log写入.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="质控24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/质控24H周期设置.xctl"/>
 		</Item>
