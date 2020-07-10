@@ -44,6 +44,7 @@
 		<Item Name="线性公式CODMn用.vi" Type="VI" URL="../CODMn/线性公式CODMn用.vi"/>
 		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../CODMn/窗口弹出对话框(子VI).vi"/>
 		<Item Name="高锰酸钾-ORP滴定曲线(子VI).vi" Type="VI" URL="../CODMn/高锰酸钾-ORP滴定曲线(子VI).vi"/>
+		<Item Name="时间-温度曲线(子VI).vi" Type="VI" URL="../CODMn/时间-温度曲线(子VI).vi"/>
 		<Item Name="CODMn通讯.vi" Type="VI" URL="../CODMn/CODMn通讯.vi"/>
 		<Item Name="周期设置_CODMn.vi" Type="VI" URL="../CODMn/周期设置_CODMn.vi"/>
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODMn/AccessLog写入.vi"/>

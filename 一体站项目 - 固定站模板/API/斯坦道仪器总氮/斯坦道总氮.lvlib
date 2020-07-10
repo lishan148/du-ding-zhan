@@ -48,6 +48,7 @@
 		<Item Name="data insert core.vi" Type="VI" URL="../Subvi/data insert core.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
+		<Item Name="公式发生改变存储 (子VI).vi" Type="VI" URL="../Subvi/公式发生改变存储 (子VI).vi"/>
 		<Item Name="流程文件XML解析.vi" Type="VI" URL="../Subvi/流程文件XML解析.vi"/>
 		<Item Name="密码键盘.vi" Type="VI" URL="../Subvi/密码键盘.vi"/>
 		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>

@@ -119,6 +119,7 @@
 			<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
 			<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 			<Item Name="总磷单步调试对话框.vi" Type="VI" URL="../Subvi/总磷单步调试对话框.vi"/>
+			<Item Name="公式发生改变存储 (子VI).vi" Type="VI" URL="../Subvi/公式发生改变存储 (子VI).vi"/>
 		</Item>
 	</Item>
 	<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>

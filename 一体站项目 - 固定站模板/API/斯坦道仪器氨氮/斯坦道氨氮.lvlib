@@ -129,4 +129,5 @@
 	<Item Name="校准中 (子VI).vi" Type="VI" URL="../Subvi/校准中 (子VI).vi"/>
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
 	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
+	<Item Name="公式发生改变存储 (子VI).vi" Type="VI" URL="../Subvi/公式发生改变存储 (子VI).vi"/>
 </Library>
