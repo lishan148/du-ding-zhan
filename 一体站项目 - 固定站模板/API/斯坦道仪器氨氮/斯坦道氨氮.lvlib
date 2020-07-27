@@ -66,6 +66,7 @@
 		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../main/周期设置.vi"/>
 		<Item Name="data insert core.vi" Type="VI" URL="../Subvi/data insert core.vi"/>
+		<Item Name="生成校准信息.vi" Type="VI" URL="../Subvi/生成校准信息.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

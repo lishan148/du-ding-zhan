@@ -30,6 +30,12 @@
 	<Item Name="数据 1.ctl" Type="Ability VI" URL="../数据 1.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
+	<Item Name="校准时间" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">校准时间</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">校准时间</Property>
+		<Item Name="校准时间读取.vi" Type="Property VI" URL="../校准时间属性/校准时间读取.vi"/>
+		<Item Name="校准时间写入.vi" Type="Property VI" URL="../校准时间属性/校准时间写入.vi"/>
+	</Item>
 	<Item Name="外观 1.vi" Type="Ability VI" URL="../外观 1.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
@@ -46,5 +52,15 @@
 		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">浓度属性</Property>
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">浓度属性</Property>
 		<Item Name="浓度属性读取.vi" Type="Property VI" URL="../浓度属性/浓度属性读取.vi"/>
+	</Item>
+	<Item Name="保存参数" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">保存参数</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">保存参数</Property>
+		<Item Name="保存参数写入 2.vi" Type="Property VI" URL="../属性/保存参数写入 2.vi"/>
+	</Item>
+	<Item Name="启用" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">启用</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">启用</Property>
+		<Item Name="启用读取 2.vi" Type="Property VI" URL="../属性/启用读取 2.vi"/>
 	</Item>
 </XControl>

@@ -13,6 +13,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">2.0.10.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
 	<Property Name="OdbcBooleanLoggingTableName" Type="Str">NI_VARIABLE_BOOLEAN</Property>
 	<Property Name="OdbcConnectionRadio" Type="UInt">0</Property>
@@ -55,6 +56,7 @@
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
 		<Item Name="总磷插入数据.vi" Type="VI" URL="../Subvi/总磷插入数据.vi"/>
+		<Item Name="生成校准信息.vi" Type="VI" URL="../Subvi/生成校准信息.vi"/>
 	</Item>
 	<Item Name="总磷" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

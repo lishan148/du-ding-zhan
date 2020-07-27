@@ -31,6 +31,7 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Subvi" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DataToHex" Type="Folder">
 			<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
 			<Item Name="FloatToHex.vi" Type="VI" URL="../DataToHex/FloatToHex.vi"/>
@@ -58,6 +59,7 @@
 		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
 		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 		<Item Name="总氮插入数据.vi" Type="VI" URL="../Subvi/总氮插入数据.vi"/>
+		<Item Name="生成校准信息.vi" Type="VI" URL="../Subvi/生成校准信息.vi"/>
 	</Item>
 	<Item Name="控件" Type="Folder">
 		<Item Name="锁.ctl" Type="VI" URL="../控件/锁.ctl"/>

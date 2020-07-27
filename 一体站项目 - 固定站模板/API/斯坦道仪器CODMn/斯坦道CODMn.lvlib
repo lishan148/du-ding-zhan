@@ -50,6 +50,7 @@
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODMn/AccessLog写入.vi"/>
 		<Item Name="公式读取.vi" Type="VI" URL="../CODMn/公式读取.vi"/>
 		<Item Name="公式写入.vi" Type="VI" URL="../CODMn/公式写入.vi"/>
+		<Item Name="生成校准信息.vi" Type="VI" URL="../Subvi/生成校准信息.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
