@@ -1,0 +1,220 @@
+【2020/3/10 11:04:24.912】:错误-2147217913发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E07
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: 日期的语法错误 在查询表达式 '#11:04:13.779 2020/3/10#' 中。
+【2020/3/10 11:05:54.185】:错误-2147217913发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E07
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: 日期的语法错误 在查询表达式 '#11:04:13.779 2020/3/10#' 中。
+【2020/3/10 11:08:46.746】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: 找不到输出表 '多参数' 。
+【2020/3/10 11:42:57.568】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: Microsoft Jet 数据库引擎找不到对象''。请确定对象是否存在，并正确地写出它的名称和路径。
+【2020/3/10 11:43:17.748】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: Microsoft Jet 数据库引擎找不到对象''。请确定对象是否存在，并正确地写出它的名称和路径。
+【2020/3/10 11:43:38.957】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: Microsoft Jet 数据库引擎找不到对象''。请确定对象是否存在，并正确地写出它的名称和路径。
+【2020/3/10 14:23:15.525】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: 找不到输出表 '多参数' 。
+【2020/3/10 14:23:32.104】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: 找不到输出表 '多参数' 。
+【2020/3/10 14:24:36.480】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: 找不到输出表 '多参数' 。
+【2020/3/10 14:28:38.893】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: 找不到输出表 '多参数' 。
+【2020/3/10 14:29:17.533】:错误-2147217865发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1
+
+可能原因：
+ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:未命名 1中的Exception occured in Microsoft JET Database Engine: 找不到输出表 '多参数' 。
+【2020/3/10 16:55:54.188】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: CREATE TABLE 语句中的语法错误。
+【2020/3/10 16:57:27.865】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: CREATE TABLE 语句中的语法错误。
+【2020/3/10 16:57:37.852】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: CREATE TABLE 语句中的语法错误。
+【2020/3/10 17:02:44.400】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 'DO' 已存在。
+【2020/3/10 17:03:33.977】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 'DO' 已存在。
+【2020/3/10 17:04:09.401】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 'DO' 已存在。
+【2020/3/10 17:04:40.623】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 '水温' 已存在。
+【2020/3/10 17:05:29.935】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 '水温' 已存在。
+【2020/3/10 17:09:09.747】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 'DO%' 已存在。
+【2020/3/10 17:09:41.975】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->NI_Database_API.lvlib:DB Tools Create Table If Not Exist.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 表 'DO%' 已存在。
+【2020/3/10 17:11:29.988】:错误-2147217900发生于 NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: INSERT INTO 语句的语法错误。
+【2020/3/10 17:11:31.290】:错误-2147217900发生于 NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Insert Data.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: INSERT INTO 语句的语法错误。
+【2020/3/10 17:27:02.301】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:27:58.279】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:28:52.004】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:29:23.350】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:33:32.031】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:33:33.926】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:33:49.102】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:33:52.451】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:34:16.442】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:34:26.689】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:34:44.959】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:35:29.003】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: CREATE TABLE 语句中的语法错误。
+【2020/3/10 17:36:12.249】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Create Table.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: CREATE TABLE 语句中的语法错误。
+【2020/3/10 17:37:09.470】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:37:41.212】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:38:24.206】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 17:38:29.458】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: FROM 子句语法错误。
+【2020/3/10 19:26:57.344】:错误-2147217900发生于 NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 由于表 'DO%001' 正被别的用户或进程使用，数据库引擎无法锁定它。
+【2020/3/10 19:27:12.210】:错误91发生于 NI_Database_API.lvlib:Cmd Set Parameter Value (C).vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x0000005B
+NI_Database_API.lvlib:Cmd Set Parameter Value (C).vi->斯坦道多参数.lvlib:数据插入.vi中的变体至数据转换
+【2020/3/10 19:32:51.610】:错误-2147217913发生于 NI_Database_API.lvlib:Cmd Execute.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 标准表达式中数据类型不匹配。
+【2020/3/10 19:32:54.596】:错误-2147217913发生于 NI_Database_API.lvlib:Cmd Execute.vi->斯坦道多参数.lvlib:数据插入.vi
+
+可能原因：
+ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->斯坦道多参数.lvlib:数据插入.vi中的Exception occured in Microsoft JET Database Engine: 标准表达式中数据类型不匹配。

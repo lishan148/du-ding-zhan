@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?><Tree localize="yes">
+  <Node>
+    <Name localize="yes">创建项目</Name>
+    <Handler>NewProjectDialog</Handler>
+    <Description localize="yes">打开“创建项目”对话框，从模板或范例项目创建一个新项目。&lt;B&gt;创建项目&lt;/B&gt;按钮下方列出了已经选中的模板和范例。</Description>
+    <Hidden language="en">False</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>left_button</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">创建项目</Name>
+    <Handler>NewProjectDialog</Handler>
+    <Description localize="yes">打开“创建项目”对话框，从模板或范例项目创建一个新项目。&lt;B&gt;创建项目&lt;/B&gt;按钮下方列出了已经选中的模板和范例。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">False</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>left_button_fr</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">创建项目</Name>
+    <Handler>NewProjectDialog</Handler>
+    <Description localize="yes">打开“创建项目”对话框，从模板或范例项目创建一个新项目。&lt;B&gt;创建项目&lt;/B&gt;按钮下方列出了已经选中的模板和范例。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">False</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>left_button_de</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">创建项目</Name>
+    <Handler>NewProjectDialog</Handler>
+    <Description localize="yes">打开“创建项目”对话框，从模板或范例项目创建一个新项目。&lt;B&gt;创建项目&lt;/B&gt;按钮下方列出了已经选中的模板和范例。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">False</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>left_button_ja</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">创建项目</Name>
+    <Handler>NewProjectDialog</Handler>
+    <Description localize="yes">打开“创建项目”对话框，从模板或范例项目创建一个新项目。&lt;B&gt;创建项目&lt;/B&gt;按钮下方列出了已经选中的模板和范例。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">False</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>left_button_ko</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">创建项目</Name>
+    <Handler>NewProjectDialog</Handler>
+    <Description localize="yes">打开“创建项目”对话框，从模板或范例项目创建一个新项目。&lt;B&gt;创建项目&lt;/B&gt;按钮下方列出了已经选中的模板和范例。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">False</Hidden>
+    <ControlID>left_button_zh-cn</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">打开</Name>
+    <Handler>Open</Handler>
+    <Description localize="yes">打开一个对话框，找到并选择一个LabVIEW文件。&lt;B&gt;打开现有文件&lt;/B&gt;按钮下方是最近打开的文件列表。</Description>
+    <Hidden language="en">False</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>right_button</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">打开</Name>
+    <Handler>Open</Handler>
+    <Description localize="yes">打开一个对话框，找到并选择一个LabVIEW文件。&lt;B&gt;打开现有文件&lt;/B&gt;按钮下方是最近打开的文件列表。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">False</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>right_button_fr</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">打开</Name>
+    <Handler>Open</Handler>
+    <Description localize="yes">打开一个对话框，找到并选择一个LabVIEW文件。&lt;B&gt;打开现有文件&lt;/B&gt;按钮下方是最近打开的文件列表。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">False</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>right_button_de</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">打开</Name>
+    <Handler>Open</Handler>
+    <Description localize="yes">打开一个对话框，找到并选择一个LabVIEW文件。&lt;B&gt;打开现有文件&lt;/B&gt;按钮下方是最近打开的文件列表。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">False</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>right_button_ja</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">打开</Name>
+    <Handler>Open</Handler>
+    <Description localize="yes">打开一个对话框，找到并选择一个LabVIEW文件。&lt;B&gt;打开现有文件&lt;/B&gt;按钮下方是最近打开的文件列表。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">False</Hidden>
+    <Hidden language="zh-cn">True</Hidden>
+    <ControlID>right_button_ko</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">打开</Name>
+    <Handler>Open</Handler>
+    <Description localize="yes">打开一个对话框，找到并选择一个LabVIEW文件。&lt;B&gt;打开现有文件&lt;/B&gt;按钮下方是最近打开的文件列表。</Description>
+    <Hidden language="en">True</Hidden>
+    <Hidden language="fr">True</Hidden>
+    <Hidden language="de">True</Hidden>
+    <Hidden language="ja">True</Hidden>
+    <Hidden language="ko">True</Hidden>
+    <Hidden language="zh-cn">False</Hidden>
+    <ControlID>right_button_zh-cn</ControlID>
+  </Node>
+  <Node>
+    <Name language="en" localize="yes">查找驱动程序和附加软件</Name>
+    <Name language="de" localize="yes">查找驱动程序和附加软件</Name>
+    <Name language="fr" localize="yes">查找驱动程序和附加软件 </Name>
+    <Name language="ja" localize="yes">查找驱动程序和附加软件</Name>
+    <Name language="ko" localize="yes">查找驱动程序和附加软件</Name>
+    <Name language="zh-cn" localize="yes">查找驱动程序和附加软件</Name>
+    <Description localize="yes">连接至设备，扩充LabVIEW功能。</Description>
+    <Title language="en" localize="yes">查找驱动程序和附加软件</Title>
+    <Title language="de" localize="yes">查找驱动程序和附加软件</Title>
+    <Title language="fr" localize="yes">查找驱动程序和附加软件</Title>
+    <Title language="ja" localize="yes">查找驱动程序和附加软件</Title>
+    <Title language="ko" localize="yes">查找驱动程序和附加软件</Title>
+    <Title language="zh-cn" localize="yes">查找驱动程序和附加软件</Title>
+    <Handler>ResourcePane</Handler>
+    <ControlID>LinksPane1_Title</ControlID>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">15</Font_Size>
+    <Font_Size language="de">0</Font_Size>
+    <Font_Size language="fr">0</Font_Size>
+    <Font_Size language="ja">0</Font_Size>
+    <Font_Size language="ko">0</Font_Size>
+    <Font_Size language="zh-cn">0</Font_Size>
+    <Font_Bold>True</Font_Bold>
+    <SecondaryPane>
+      <SubNode>
+        <Name localize="yes">查找驱动程序和附加软件</Name>
+        <Description localize="yes">查找驱动程序和附加软件</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">查找驱动程序和附加软件</InfoText>
+        <ControlID>Title</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">查找NI设备驱动程序图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/FindNIDrivers.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">查找NI设备驱动程序</Name>
+        <Description localize="yes">搜索并下载NI硬件设备驱动程序。</Description>
+        <Handler>Web</Handler>
+        <URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;amp;src=lv-2016&amp;amp;openagent&amp;amp;code=expsdt</URL>
+        <ControlID>LinksPane_Title</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">查找NI设备驱动程序子标题</Name>
+        <Description localize="yes">搜索并下载NI硬件设备驱动程序。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">搜索并下载NI硬件设备驱动程序。</InfoText>
+        <ControlID>LinksPane_Subtitle</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">连接仪器图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/FindInstrDrivers.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon2</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">连接仪器</Name>
+        <Description localize="yes">NI仪器驱动查找器用于在不离开LabVIEW编程环境的条件下查找和安装LabVIEW即插即用的仪器驱动。</Description>
+        <Handler>IDFinder</Handler>
+        <VIPath>help/_FindInstrumentDrivers.llb/Find Instrument Drivers.vi</VIPath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Title2</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">连接仪器子标题</Name>
+        <Description localize="yes">NI仪器驱动查找器用于在不离开LabVIEW编程环境的条件下查找和安装LabVIEW即插即用的仪器驱动。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">NI仪器驱动查找器可用于为已连接的仪器安装驱动程序。</InfoText>
+        <ControlID>LinksPane_Subtitle2</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">查找LabVIEW附加软件图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/FindAddons.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon3</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">查找LabVIEW附加软件</Name>
+        <Description localize="yes">搜索并安装LabVIEW附加软件，扩充LabVIEW功能。</Description>
+				<Handler>FindAddons</Handler>
+        <ControlID>LinksPane_Title3</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">查找LabVIEW附加软件子标题</Name>
+        <Description localize="yes">搜索并安装LabVIEW附加软件，扩充LabVIEW功能。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">搜索并安装LabVIEW附加软件，扩充LabVIEW功能。</InfoText>
+        <ControlID>LinksPane_Subtitle3</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽图标</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Icon4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Title4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽子标题</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Subtitle4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">复选框</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>show on launch</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭查找驱动程序和附加软件窗格</Description>
+        <ControlID>close button</ControlID>
+        <Hidden language="en">False</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭查找驱动程序和附加软件窗格</Description>
+        <ControlID>close button fr</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">False</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭查找驱动程序和附加软件窗格</Description>
+        <ControlID>close button de</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">False</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭查找驱动程序和附加软件窗格</Description>
+        <ControlID>close button ja</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">False</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭查找驱动程序和附加软件窗格</Description>
+        <ControlID>close button ko</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">False</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭查找驱动程序和附加软件窗格</Description>
+        <ControlID>close button zh-cn</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">False</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭查找驱动程序和附加软件窗格</Description>
+        <ControlID>close box</ControlID>
+      </SubNode>
+    </SecondaryPane>
+  </Node>
+  <Node>
+    <Name localize="yes">查找驱动程序和附加软件子标题</Name>
+    <Description localize="yes">连接至设备，扩充LabVIEW功能。</Description>
+    <Handler>InfoText</Handler>
+    <InfoText localize="yes">连接至设备，扩充LabVIEW功能。</InfoText>
+    <ControlID>LinksPane1_Subtitle</ControlID>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">14</Font_Size>
+    <Font_Size language="de">-2</Font_Size>
+    <Font_Size language="fr">-2</Font_Size>
+    <Font_Size language="ja">-2</Font_Size>
+    <Font_Size language="ko">-1</Font_Size>
+    <Font_Size language="zh-cn">-1</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Node>
+    <Name localize="yes">社区和支持</Name>
+    <Description localize="yes">加入交流论坛或请求技术支持。</Description>
+    <Handler>ResourcePane</Handler>
+    <Title localize="yes">社区和支持</Title>
+    <ControlID>LinksPane2_Title</ControlID>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">15</Font_Size>
+    <Font_Size language="de">0</Font_Size>
+    <Font_Size language="fr">0</Font_Size>
+    <Font_Size language="ja">0</Font_Size>
+    <Font_Size language="ko">0</Font_Size>
+    <Font_Size language="zh-cn">0</Font_Size>
+    <Font_Bold>True</Font_Bold>
+    <SecondaryPane>
+      <SubNode>
+        <Name localize="yes">社区和支持</Name>
+        <Description localize="yes">社区和支持</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">社区和支持</InfoText>
+        <ControlID>Title</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">论坛图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/Discussion.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">NI论坛</Name>
+        <Description localize="yes">通过NI论坛咨询问题、分享答案，与论坛会员一起学习相关知识。</Description>
+        <Handler>Web</Handler>
+        <URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;amp;src=lv-2016&amp;amp;openagent&amp;amp;code=exhdgz</URL>
+        <ControlID>LinksPane_Title</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">论坛子标题</Name>
+        <Description localize="yes">通过NI论坛咨询问题、分享答案，与论坛会员一起学习相关知识。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">通过NI论坛咨询问题、分享答案，与论坛会员一起学习相关知识。</InfoText>
+        <ControlID>LinksPane_Subtitle</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">社区图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/Community.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon2</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">NI开发者社区</Name>
+        <Description localize="yes">与社区中世界各地的工程师和科学家合作。</Description>
+        <Handler>Web</Handler>
+        <URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;amp;src=lv-2016&amp;amp;openagent&amp;amp;code=expcwr</URL>
+        <ControlID>LinksPane_Title2</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">社区子标题</Name>
+        <Description localize="yes">与社区中世界各地的工程师和科学家合作。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">与社区中世界各地的工程师和科学家合作。</InfoText>
+        <ControlID>LinksPane_Subtitle2</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">支持图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/Support.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon3</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">请求支持</Name>
+        <Description localize="yes">申请NI技术支持。</Description>
+        <Handler>Web</Handler>
+        <URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;amp;src=lv-2016&amp;amp;openagent&amp;amp;code=ex8g43</URL>
+        <ControlID>LinksPane_Title3</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">支持子标题</Name>
+        <Description localize="yes">申请NI技术支持。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">申请NI技术支持。</InfoText>
+        <ControlID>LinksPane_Subtitle3</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽图标</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Icon4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Title4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽子标题</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Subtitle4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">复选框</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>show on launch</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭社区和支持窗格</Description>
+        <ControlID>close button</ControlID>
+        <Hidden language="en">False</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭社区和支持窗格</Description>
+        <ControlID>close button fr</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">False</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭社区和支持窗格</Description>
+        <ControlID>close button de</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">False</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭社区和支持窗格</Description>
+        <ControlID>close button ja</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">False</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭社区和支持窗格</Description>
+        <ControlID>close button ko</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">False</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭社区和支持窗格</Description>
+        <ControlID>close button zh-cn</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">False</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Handler>ClickableItem</Handler>
+        <Description localize="yes">关闭社区和支持窗格</Description>
+        <ControlID>close box</ControlID>
+      </SubNode>
+    </SecondaryPane>
+  </Node>
+  <Node>
+    <Name localize="yes">社区和支持子标题</Name>
+    <Description localize="yes">加入交流论坛或请求技术支持。</Description>
+    <Handler>InfoText</Handler>
+    <InfoText localize="yes">加入交流论坛或请求技术支持。</InfoText>
+    <ControlID>LinksPane2_Subtitle</ControlID>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">14</Font_Size>
+    <Font_Size language="de">-2</Font_Size>
+    <Font_Size language="fr">-2</Font_Size>
+    <Font_Size language="ja">-2</Font_Size>
+    <Font_Size language="ko">-1</Font_Size>
+    <Font_Size language="zh-cn">-1</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Node>
+    <Name localize="yes">欢迎使用LabVIEW</Name>
+    <Description localize="yes">学习LabVIEW用法和升级方法。</Description>
+    <Handler>ResourcePane</Handler>
+    <Title localize="yes">欢迎</Title>
+    <ControlID>LinksPane3_Title</ControlID>
+    <RunOnceGlobal>NI.GSW.WelcomeShown</RunOnceGlobal>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">15</Font_Size>
+    <Font_Size language="de">0</Font_Size>
+    <Font_Size language="fr">0</Font_Size>
+    <Font_Size language="ja">0</Font_Size>
+    <Font_Size language="ko">0</Font_Size>
+    <Font_Size language="zh-cn">0</Font_Size>
+    <Font_Bold>True</Font_Bold>
+    <SecondaryPane>
+      <SubNode>
+        <Name localize="yes">欢迎使用LabVIEW</Name>
+        <Description localize="yes">欢迎使用LabVIEW</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">欢迎使用LabVIEW</InfoText>
+        <ControlID>Title</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">LabVIEW成功之道图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/LearnToUse.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">LabVIEW成功之道</Name>
+        <Description localize="yes">LabVIEW和硬件系统开发的参考资源。</Description>
+        <Handler>Web</Handler>
+        <URL localize="yes">http://www.ni.com/cgi-bin/redirect.cgi?dest=infcoprod&amp;amp;src=lv-2016&amp;amp;openagent&amp;amp;code=exihep</URL>
+        <ControlID>LinksPane_Title</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">LabVIEW成功之道子标题</Name>
+        <Description localize="yes">LabVIEW和硬件系统开发的参考资源。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">LabVIEW和硬件系统开发的参考资源。</InfoText>
+        <ControlID>LinksPane_Subtitle</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">学习新增功能图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/NewFeatures.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon2</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">学习新增功能</Name>
+        <Description localize="yes">LabVIEW新增功能的相关信息。</Description>
+        <Handler>Help</Handler>
+        <HelpFile>lvupgrade.chm</HelpFile>
+        <Topic>LabVIEW_Features.html</Topic>
+        <ControlID>LinksPane_Title2</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">学习新增功能子标题</Name>
+        <Description localize="yes">LabVIEW新增功能的相关信息。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">LabVIEW新增功能的相关信息。</InfoText>
+        <ControlID>LinksPane_Subtitle2</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">升级图标</Name>
+        <Handler>Image</Handler>
+        <ImagePath>resource/dialog/GSW/images/Upgrading.png</ImagePath>
+        <Absolute>False</Absolute>
+        <ControlID>LinksPane_Icon3</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">升级至LabVIEW 2016</Name>
+        <Description localize="yes">请按建议的升级步骤，将VI、应用程序、项目，或LLB升级至LabVIEW 2016。</Description>
+        <Handler>Help</Handler>
+        <HelpFile>lvupgrade.chm</HelpFile>
+        <Topic>upgrade_overview.html</Topic>
+        <ControlID>LinksPane_Title3</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>True</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">升级子标题</Name>
+        <Description localize="yes">请按建议的升级步骤，将VI、应用程序、项目，或LLB升级至LabVIEW 2016。</Description>
+        <Handler>InfoText</Handler>
+        <InfoText localize="yes">将已有VI迁移至LabVIEW 2016的最佳实践。</InfoText>
+        <ControlID>LinksPane_Subtitle3</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">14</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">-1</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽图标</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Icon4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Title4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">空槽子标题</Name>
+        <Handler>ClickableItem</Handler>
+        <Hidden>True</Hidden>
+        <ControlID>LinksPane_Subtitle4</ControlID>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">启动时显示</Name>
+        <Description localize="yes">启动LabVIEW时显示欢迎窗口</Description>
+        <Handler>Checkbox</Handler>
+        <OnLaunchConfigToken>ShowWelcomeOnLaunch</OnLaunchConfigToken>
+        <ControlID>show on launch</ControlID>
+        <Font language="en">Microsoft Sans Serif</Font>
+        <Font language="de">Dlg Font</Font>
+        <Font language="fr">Dlg Font</Font>
+        <Font language="ja">Dlg Font</Font>
+        <Font language="ko">Dlg Font</Font>
+        <Font language="zh-cn">Dlg Font</Font>
+        <Font_Size language="en">15</Font_Size>
+        <Font_Size language="de">0</Font_Size>
+        <Font_Size language="fr">0</Font_Size>
+        <Font_Size language="ja">0</Font_Size>
+        <Font_Size language="ko">0</Font_Size>
+        <Font_Size language="zh-cn">0</Font_Size>
+        <Font_Bold>False</Font_Bold>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Description localize="yes">关闭欢迎窗口</Description>
+        <Handler>ClickableItem</Handler>
+        <ControlID>close button</ControlID>
+        <Hidden language="en">False</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Description localize="yes">关闭欢迎窗口</Description>
+        <Handler>ClickableItem</Handler>
+        <ControlID>close button fr</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">False</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Description localize="yes">关闭欢迎窗口</Description>
+        <Handler>ClickableItem</Handler>
+        <ControlID>close button de</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">False</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Description localize="yes">关闭欢迎窗口</Description>
+        <Handler>ClickableItem</Handler>
+        <ControlID>close button ja</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">False</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Description localize="yes">关闭欢迎窗口</Description>
+        <Handler>ClickableItem</Handler>
+        <ControlID>close button ko</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">False</Hidden>
+        <Hidden language="zh-cn">True</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Description localize="yes">关闭欢迎窗口</Description>
+        <Handler>ClickableItem</Handler>
+        <ControlID>close button zh-cn</ControlID>
+        <Hidden language="en">True</Hidden>
+        <Hidden language="fr">True</Hidden>
+        <Hidden language="de">True</Hidden>
+        <Hidden language="ja">True</Hidden>
+        <Hidden language="ko">True</Hidden>
+        <Hidden language="zh-cn">False</Hidden>
+      </SubNode>
+      <SubNode>
+        <Name localize="yes">关闭</Name>
+        <Description localize="yes">关闭欢迎窗口</Description>
+        <Handler>ClickableItem</Handler>
+        <ControlID>close box</ControlID>
+      </SubNode>
+    </SecondaryPane>
+  </Node>
+  <Node>
+    <Name localize="yes">欢迎使用LabVIEW子标题</Name>
+    <Description localize="yes">学习LabVIEW用法和升级方法。</Description>
+    <Handler>InfoText</Handler>
+    <InfoText localize="yes">学习LabVIEW用法和升级方法。</InfoText>
+    <ControlID>LinksPane3_Subtitle</ControlID>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">14</Font_Size>
+    <Font_Size language="de">-2</Font_Size>
+    <Font_Size language="fr">-2</Font_Size>
+    <Font_Size language="ja">-2</Font_Size>
+    <Font_Size language="ko">-1</Font_Size>
+    <Font_Size language="zh-cn">-1</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Node>
+    <Name localize="yes">LabVIEW新闻</Name>
+    <Description localize="yes">显示National Instruments的新闻和最新消息。</Description>
+    <Handler>Feed_link</Handler>
+    <URL language="en">http://www.ni.com/lv2016/gsw_newsfeed_en/</URL>
+    <URL language="de">http://www.ni.com/lv2016/gsw_newsfeed_de/</URL>
+    <URL language="fr">http://www.ni.com/lv2016/gsw_newsfeed_fr/</URL>
+    <URL language="ja">http://www.ni.com/lv2016/gsw_newsfeed_jp/</URL>
+    <URL language="ko">http://www.ni.com/lv2016/gsw_newsfeed_ko/</URL>
+    <URL language="zh-cn">http://www.ni.com/lv2016/gsw_newsfeed_zhs/</URL>
+    <METC language="en">mtb8b8</METC>
+    <METC language="de">mtaqc7</METC>
+    <METC language="fr">mt3k7d</METC>
+    <METC language="ja">mtqwye</METC>
+    <METC language="ko">mt7nar</METC>
+    <METC language="zh-cn">mtarfs</METC>
+    <ControlID>headlines</ControlID>
+    <GUID language="en">{2fbb4440-9643-11dd-ad8b-0800200c9a67}</GUID>
+    <GUID language="de">{2fbb4440-9643-11dd-ad8b-0800200c9a68}</GUID>
+    <GUID language="fr">{2fbb4440-9643-11dd-ad8b-0800200c9a69}</GUID>
+    <GUID language="ja">{2fbb4440-9643-11dd-ad8b-0800200c9a6a}</GUID>
+    <GUID language="ko">{2fbb4440-9643-11dd-ad8b-0800200c9a6b}</GUID>
+    <GUID language="zh-cn">{2fbb4440-9643-11dd-ad8b-0800200c9a6c}</GUID>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">14</Font_Size>
+    <Font_Size language="de">0</Font_Size>
+    <Font_Size language="fr">0</Font_Size>
+    <Font_Size language="ja">0</Font_Size>
+    <Font_Size language="ko">0</Font_Size>
+    <Font_Size language="zh-cn">0</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Node>
+    <Name localize="yes">近期文件</Name>
+    <Handler>RecentFiles</Handler>
+    <Pinned>GSW_Pinned_Files</Pinned>
+    <ControlID>Recent_Files</ControlID>
+    <Filters>all;*.lvproj;*.vi;other</Filters>
+    <FilterToken>GSW_filter</FilterToken>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">14</Font_Size>
+    <Font_Size language="de">0</Font_Size>
+    <Font_Size language="fr">0</Font_Size>
+    <Font_Size language="ja">0</Font_Size>
+    <Font_Size language="ko">0</Font_Size>
+    <Font_Size language="zh-cn">0</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Node>
+    <Name localize="yes">近期文件筛选器</Name>
+    <Handler>RecentFilesFilter</Handler>
+    <ControlID>Ring</ControlID>
+    <Items localize="yes">所有近期文件；近期项目；近期VI；其他近期文件</Items>
+    <FilterToken>GSW_filter</FilterToken>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">14</Font_Size>
+    <Font_Size language="de">0</Font_Size>
+    <Font_Size language="fr">0</Font_Size>
+    <Font_Size language="ja">0</Font_Size>
+    <Font_Size language="ko">0</Font_Size>
+    <Font_Size language="zh-cn">0</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Node>
+    <Name localize="yes">锁定</Name>
+    <Description localize="yes">锁定一个项。</Description>
+    <Handler>ClickableItem</Handler>
+    <Hidden>True</Hidden>
+    <ControlID>pin</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">删除</Name>
+    <Description localize="yes">删除一个项。</Description>
+    <Handler>ClickableItem</Handler>
+    <Hidden>True</Hidden>
+    <ControlID>close box</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">最近项目模板</Name>
+    <Handler>RecentTemplates</Handler>
+    <Pinned>GSW_Pinned_Templates</Pinned>
+    <ControlID>Recent_Templates</ControlID>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">14</Font_Size>
+    <Font_Size language="de">0</Font_Size>
+    <Font_Size language="fr">0</Font_Size>
+    <Font_Size language="ja">0</Font_Size>
+    <Font_Size language="ko">0</Font_Size>
+    <Font_Size language="zh-cn">0</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Node>
+    <Name localize="yes">锁定</Name>
+    <Description localize="yes">锁定一个模板。</Description>
+    <Handler>ClickableItem</Handler>
+    <Hidden>True</Hidden>
+    <ControlID>pin_templates</ControlID>
+  </Node>
+  <Node>
+    <Name localize="yes">搜索</Name>
+    <Description localize="yes">应用程序级的搜索功能可用于搜索帮助系统。(Windows) 搜索框也能返回来源于ni.com的结果。对于LabVIEW本地化版本，返回的结果可能是本地语言的，也可能是英语的。</Description>
+    <Handler>InfoText</Handler>
+    <ControlID>Search in LabVIEW</ControlID>
+    <Hidden>False</Hidden>
+    <Font language="en">Microsoft Sans Serif</Font>
+    <Font language="de">Dlg Font</Font>
+    <Font language="fr">Dlg Font</Font>
+    <Font language="ja">Dlg Font</Font>
+    <Font language="ko">Dlg Font</Font>
+    <Font language="zh-cn">Dlg Font</Font>
+    <Font_Size language="en">14</Font_Size>
+    <Font_Size language="de">0</Font_Size>
+    <Font_Size language="fr">0</Font_Size>
+    <Font_Size language="ja">14</Font_Size>
+    <Font_Size language="ko">14</Font_Size>
+    <Font_Size language="zh-cn">14</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Node>
+    <Name localize="yes">搜索帮助</Name>
+    <Description localize="yes">在LabVIEW帮助中搜索输入的单词或词组。</Description>
+    <Handler>InfoText</Handler>
+    <ControlID>Search LabVIEW Help</ControlID>
+    <Hidden>True</Hidden>
+    <Font>Dlg Font</Font>
+    <Font_Size>0</Font_Size>
+    <Font_Bold>False</Font_Bold>
+  </Node>
+  <Globals>
+    <GettingStarted localize="yes">LabVIEW</GettingStarted>
+    <NISearchHint localize="yes">搜索</NISearchHint>
+    <PDF_failure_message localize="yes">LabVIEW打开%s时出错。请检查并确保已经安装Adobe Reader。</PDF_failure_message>
+    <Close localize="yes">关闭</Close>
+    <Search_Help_CH localize="yes">在LabVIEW帮助中搜索输入的单词或词组。</Search_Help_CH>
+  </Globals>
+</Tree>
