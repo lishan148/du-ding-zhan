@@ -494,7 +494,6 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -756,43 +755,43 @@
 			<Item Name="字符串移位显示.vi" Type="VI" URL="../API/斯坦道仪器CODMn/Subvi/字符串移位显示.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="一体化水质自动监测系统_新电路板" Type="EXE">
+			<Item Name="一体化水质自动监测系统_V4" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{A8D5AD55-61BD-44A5-8A63-8944B086129D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{ED4C6DEC-2854-4EC6-A759-D3ABBEBF62E9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EEE0CC46-FF1C-4205-A7F3-D53415D06936}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">一体化水质自动监测系统_新电路板</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">一体化水质自动监测系统_V4</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_新电路板</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
 				<Property Name="Bld_version.build" Type="Int">166</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">89</Property>
-				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统_新电路板.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_新电路板/一体化水质自动监测系统_新电路板.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_新电路板/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">流程文件</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_新电路板/流程文件</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4/流程文件</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].destName" Type="Str">JS</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_新电路板/JS</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4/JS</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{90A74438-43B4-411A-877C-76C623A4DEB8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D5D3338D-1BBD-41BC-A0C7-CF9D6C2A5C96}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -904,12 +903,12 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">23</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">一体化水质自动监测系统_新电路板</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">一体化水质自动监测系统_V4</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">一体化水质自动监测系统_新电路板</Property>
+				<Property Name="TgtF_productName" Type="Str">一体化水质自动监测系统_V4</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F20B5619-0396-433C-B501-F0A70FA24780}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">一体化水质自动监测系统_新电路板.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">一体化水质自动监测系统.exe</Property>
 			</Item>
 			<Item Name="我的安装程序" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">一体化水质自动监测系统_固定站</Property>
@@ -997,7 +996,7 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{F20B5619-0396-433C-B501-F0A70FA24780}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">一体化水质自动监测系统</Property>
-				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/一体化水质自动监测系统_新电路板</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/一体化水质自动监测系统_V4</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
