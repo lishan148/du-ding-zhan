@@ -223,6 +223,7 @@
 		<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 		<Item Name="wxpusher.lvlib" Type="Library" URL="../API/WxMessage/wxpusher.lvlib"/>
 		<Item Name="斯坦道CODMn新电路板.lvlib" Type="Library" URL="../API/斯坦道仪器CODMn/斯坦道CODMn新电路板.lvlib"/>
+		<Item Name="switch.ctl" Type="VI" URL="../PLC/control/switch.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -770,10 +771,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">166</Property>
-				<Property Name="Bld_version.major" Type="Int">3</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">89</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4/一体化水质自动监测系统.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -791,7 +790,7 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D5D3338D-1BBD-41BC-A0C7-CF9D6C2A5C96}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AA8A769E-1A75-4401-B64A-ED7FDA12C279}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -903,9 +902,10 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">23</Property>
+				<Property Name="TgtF_companyName" Type="Str">XiaMen Standards Co.,Ltd</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化水质自动监测系统_V4</Property>
-				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
+				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2020</Property>
 				<Property Name="TgtF_productName" Type="Str">一体化水质自动监测系统_V4</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F20B5619-0396-433C-B501-F0A70FA24780}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">一体化水质自动监测系统.exe</Property>
