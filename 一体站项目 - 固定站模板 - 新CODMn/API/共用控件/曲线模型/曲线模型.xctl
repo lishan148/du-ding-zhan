@@ -17,7 +17,9 @@
 	</Item>
 	<Item Name="控件" Type="Folder">
 		<Item Name="曲线模型外观.ctl" Type="VI" URL="../曲线模型外观.ctl"/>
+		<Item Name="切换按钮.ctl" Type="VI" URL="../control/切换按钮.ctl"/>
 	</Item>
+	<Item Name="模型复制.vi" Type="Method VI" URL="../方法/模型复制.vi"/>
 	<Item Name="曲线模型属性" Type="Property Folder">
 		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">属性</Property>
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">曲线模型属性</Property>
@@ -29,12 +31,6 @@
 	</Item>
 	<Item Name="数据 1.ctl" Type="Ability VI" URL="../数据 1.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
-	</Item>
-	<Item Name="校准时间" Type="Property Folder">
-		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">校准时间</Property>
-		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">校准时间</Property>
-		<Item Name="校准时间读取.vi" Type="Property VI" URL="../校准时间属性/校准时间读取.vi"/>
-		<Item Name="校准时间写入.vi" Type="Property VI" URL="../校准时间属性/校准时间写入.vi"/>
 	</Item>
 	<Item Name="外观 1.vi" Type="Ability VI" URL="../外观 1.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
@@ -53,14 +49,6 @@
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">浓度属性</Property>
 		<Item Name="浓度属性读取.vi" Type="Property VI" URL="../浓度属性/浓度属性读取.vi"/>
 	</Item>
-	<Item Name="保存参数" Type="Property Folder">
-		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">保存参数</Property>
-		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">保存参数</Property>
-		<Item Name="保存参数写入 2.vi" Type="Property VI" URL="../属性/保存参数写入 2.vi"/>
-	</Item>
-	<Item Name="启用" Type="Property Folder">
-		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">启用</Property>
-		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">启用</Property>
-		<Item Name="启用读取 2.vi" Type="Property VI" URL="../属性/启用读取 2.vi"/>
-	</Item>
+	<Item Name="配置信息读取.vi" Type="VI" URL="../subvi/配置信息读取.vi"/>
+	<Item Name="配置信息写入.vi" Type="VI" URL="../subvi/配置信息写入.vi"/>
 </XControl>
