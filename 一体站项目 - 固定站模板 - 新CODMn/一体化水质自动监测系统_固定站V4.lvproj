@@ -213,7 +213,6 @@
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
 		<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
 		<Item Name="其他.lvlib" Type="Library" URL="../API/其他/其他/其他.lvlib"/>
-		<Item Name="质控单元.lvlib" Type="Library" URL="../API/质控单元/质控单元.lvlib"/>
 		<Item Name="CODCr库.lvlib" Type="Library" URL="../API/CODCr/CODCr库.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
 		<Item Name="斯坦道总磷.lvlib" Type="Library" URL="../API/斯坦道仪器总磷/斯坦道总磷.lvlib"/>
@@ -724,7 +723,6 @@
 			</Item>
 			<Item Name="调试控件V3.xctl" Type="XControl" URL="../API/共用控件/调试控件V3/调试控件V3.xctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
-			<Item Name="质控24H周期设置.xctl" Type="XControl" URL="../API/质控单元/Control/24H周期设置/质控24H周期设置.xctl"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -746,7 +744,6 @@
 			<Item Name="超标留样运行状态.xctl" Type="XControl" URL="../API/超标留样集成/微站德润DR803M/控件/超标留样运行状态/超标留样运行状态.xctl"/>
 			<Item Name="data insert core.vi" Type="VI" URL="../Subvi/SQL/data insert core.vi"/>
 			<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
-			<Item Name="Log写入.vi" Type="VI" URL="../API/质控单元/Subvi/Log写入.vi"/>
 			<Item Name="CODMn调试控件V3.xctl" Type="XControl" URL="../API/共用控件/CODMn调试控件V3/CODMn调试控件V3.xctl"/>
 			<Item Name="量程选择控件.ctl" Type="VI" URL="../API/斯坦道仪器CODMn/控件/量程选择控件.ctl"/>
 			<Item Name="数据查询大列表框.ctl" Type="VI" URL="../API/斯坦道仪器CODMn/控件/数据查询大列表框.ctl"/>
@@ -777,7 +774,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
@@ -904,7 +901,7 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/质控单元.lvlib</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
