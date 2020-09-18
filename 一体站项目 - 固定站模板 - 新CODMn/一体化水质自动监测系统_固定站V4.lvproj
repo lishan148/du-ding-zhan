@@ -53,6 +53,7 @@
 			<Item Name="总磷总氮XML解析.vi" Type="VI" URL="../Subvi/总磷总氮XML解析.vi"/>
 			<Item Name="Force Quit LabVIEW.vi" Type="VI" URL="../Subvi/Force Quit LabVIEW.vi"/>
 			<Item Name="Removable devices detection v8.5.vi" Type="VI" URL="../Subvi/Removable devices detection v8.5.vi"/>
+			<Item Name="字符串移位显示.vi" Type="VI" URL="../Subvi/字符串移位显示.vi"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="控件" Type="Folder">
@@ -750,7 +751,6 @@
 			<Item Name="量程选择控件.ctl" Type="VI" URL="../API/斯坦道仪器CODMn/控件/量程选择控件.ctl"/>
 			<Item Name="数据查询大列表框.ctl" Type="VI" URL="../API/斯坦道仪器CODMn/控件/数据查询大列表框.ctl"/>
 			<Item Name="Read database.vi" Type="VI" URL="../API/斯坦道仪器CODMn/DataGrid/Read database.vi"/>
-			<Item Name="字符串移位显示.vi" Type="VI" URL="../API/斯坦道仪器CODMn/Subvi/字符串移位显示.vi"/>
 			<Item Name="质控单元V4.lvlib" Type="Library" URL="../API/质控单元V4/质控单元V4.lvlib"/>
 			<Item Name="ZK定时设置.xctl" Type="XControl" URL="../API/质控单元V4/control/定时周期/ZK定时设置.xctl"/>
 			<Item Name="HAL process.vi" Type="VI" URL="../HAL/HAL process.vi"/>
@@ -772,7 +772,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
