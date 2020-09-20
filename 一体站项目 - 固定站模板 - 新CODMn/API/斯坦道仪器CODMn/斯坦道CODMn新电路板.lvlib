@@ -146,4 +146,9 @@
 	<Item Name="读取量程参数.vi" Type="VI" URL="../main/COM/读取量程参数.vi"/>
 	<Item Name="写入量程参数.vi" Type="VI" URL="../main/COM/写入量程参数.vi"/>
 	<Item Name="读取CODMn数据波形新.vi" Type="VI" URL="../DataGrid/读取CODMn数据波形新.vi"/>
+	<Item Name="time生成路径 (子VI).vi" Type="VI" URL="../DataGrid/time生成路径 (子VI).vi"/>
+	<Item Name="波形前面板显示.vi" Type="VI" URL="../DataGrid/波形前面板显示.vi"/>
+	<Item Name="生成校准信息.vi" Type="VI" URL="../Subvi/生成校准信息.vi"/>
+	<Item Name="校准数据选择表.vi" Type="VI" URL="../Subvi/校准数据选择表.vi"/>
+	<Item Name="data insert core.vi" Type="VI" URL="../database/data insert core.vi"/>
 </Library>
