@@ -143,26 +143,6 @@
 		<Item Name="系统日志" Type="Folder">
 			<Item Name="系统日志.vi" Type="VI" URL="../系统/系统日志.vi"/>
 		</Item>
-		<Item Name="流量计" Type="Folder">
-			<Item Name="MGG-KL-QC流量计" Type="Folder">
-				<Item Name="MGG-KL-QC流量计.lvlib" Type="Library" URL="../API/流量计/MGG-KL-QC流量计/MGG-KL-QC流量计.lvlib"/>
-			</Item>
-			<Item Name="变量" Type="Folder">
-				<Item Name="流量计全局变量.vi" Type="VI" URL="../API/流量计/变量/流量计全局变量.vi"/>
-			</Item>
-			<Item Name="控件" Type="Folder">
-				<Item Name="流量计类型.ctl" Type="VI" URL="../API/流量计/控件/流量计类型.ctl"/>
-			</Item>
-			<Item Name="流量计" Type="Folder"/>
-			<Item Name="斯坦道功率测流" Type="Folder">
-				<Item Name="斯坦道功率测流.lvlib" Type="Library" URL="../API/流量计/斯坦道功率测流/斯坦道功率测流.lvlib"/>
-			</Item>
-			<Item Name="LDM51明渠流量计" Type="Folder">
-				<Item Name="LDM51明渠流量计.lvlib" Type="Library" URL="../API/流量计/LDM51明渠流量计/LDM51明渠流量计.lvlib"/>
-			</Item>
-			<Item Name="流量计.lvlib" Type="Library" URL="../API/流量计/流量计/流量计.lvlib"/>
-			<Item Name="流量计UI.vi" Type="VI" URL="../API/流量计/流量计UI.vi"/>
-		</Item>
 		<Item Name="系统设置" Type="Folder">
 			<Item Name="系统设置全局变量.vi" Type="VI" URL="../系统/系统设置全局变量.vi"/>
 			<Item Name="ping全局.vi" Type="VI" URL="../系统/ping全局.vi"/>
@@ -756,6 +736,9 @@
 			<Item Name="ZK HAL.vi" Type="VI" URL="../API/质控单元V4/HAL/ZK HAL.vi"/>
 			<Item Name="多状态显示框.ctl" Type="VI" URL="../API/斯坦道仪器多参数/control/多状态显示框.ctl"/>
 			<Item Name="多参数状态显示.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/control/状态显示/多参数状态显示.xctl"/>
+			<Item Name="流量计集成.lvlib" Type="Library" URL="../API/流量计/流量计集成.lvlib"/>
+			<Item Name="SL1500-3G.lvlib" Type="Library" URL="../API/流量计/SL1500-3G/SL1500-3G.lvlib"/>
+			<Item Name="DR803M4.lvlib" Type="Library" URL="../API/超标留样集成/DR803M4/DR803M4.lvlib"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化水质自动监测系统_V4" Type="EXE">
@@ -880,7 +863,7 @@
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/流量计/流量计.lvlib</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
