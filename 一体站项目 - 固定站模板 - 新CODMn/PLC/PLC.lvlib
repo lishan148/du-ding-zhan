@@ -5,16 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="电源管理" Type="Folder">
-		<Item Name="多参数电源命令.vi" Type="VI" URL="../电源管理/多参数电源命令.vi"/>
-		<Item Name="CODMn电源命令.vi" Type="VI" URL="../电源管理/CODMn电源命令.vi"/>
-		<Item Name="CODCr电源命令.vi" Type="VI" URL="../电源管理/CODCr电源命令.vi"/>
-		<Item Name="氨氮电源命令.vi" Type="VI" URL="../电源管理/氨氮电源命令.vi"/>
-		<Item Name="电源管理UI.vi" Type="VI" URL="../电源管理/电源管理UI.vi"/>
-		<Item Name="总氮电源命令.vi" Type="VI" URL="../电源管理/总氮电源命令.vi"/>
-		<Item Name="LED电源命令.vi" Type="VI" URL="../电源管理/LED电源命令.vi"/>
-		<Item Name="总磷电源命令.vi" Type="VI" URL="../电源管理/总磷电源命令.vi"/>
-	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="采配水通讯指令.vi" Type="VI" URL="../采配水通讯指令.vi"/>
 		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据存储/流程日志字段定义.vi"/>
