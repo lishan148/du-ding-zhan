@@ -17,6 +17,7 @@
 		<Item Name="报警信息.vi" Type="VI" URL="../报警信息.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
+		<Item Name="断电保存变量.vi" Type="VI" URL="../断电保存变量.vi"/>
 		<Item Name="采配水全局变量.vi" Type="VI" URL="../采配水全局变量.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
@@ -30,5 +31,7 @@
 		<Item Name="集成干预测试数据存储.vi" Type="VI" URL="../subvi/集成干预测试数据存储.vi"/>
 		<Item Name="获取最近两组水样测试数据.vi" Type="VI" URL="../subvi/获取最近两组水样测试数据.vi"/>
 		<Item Name="取水点无水样数据存储.vi" Type="VI" URL="../subvi/取水点无水样数据存储.vi"/>
+		<Item Name="线性转换.vi" Type="VI" URL="../subvi/线性转换.vi"/>
+		<Item Name="模拟量设置窗口.vi" Type="VI" URL="../subvi/模拟量设置窗口.vi"/>
 	</Item>
 </Library>
