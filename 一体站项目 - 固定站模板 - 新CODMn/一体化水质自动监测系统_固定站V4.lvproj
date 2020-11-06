@@ -196,6 +196,10 @@
 			<Item Name="HAL process.vi" Type="VI" URL="../HAL/HAL process.vi"/>
 			<Item Name="环境动力接口交互.vi" Type="VI" URL="../HAL/环境动力接口交互.vi"/>
 		</Item>
+		<Item Name="防火墙" Type="Folder">
+			<Item Name="add application firewall rule.vi" Type="VI" URL="../firewall/add application firewall rule.vi"/>
+			<Item Name="add NI PSP Service Locator firewall.vi" Type="VI" URL="../firewall/add NI PSP Service Locator firewall.vi"/>
+		</Item>
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
 		<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
 		<Item Name="其他.lvlib" Type="Library" URL="../API/其他/其他/其他.lvlib"/>
@@ -761,7 +765,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>
