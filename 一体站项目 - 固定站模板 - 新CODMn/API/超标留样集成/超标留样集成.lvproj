@@ -107,6 +107,8 @@
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 			</Item>
 			<Item Name="超标留样运行状态.xctl" Type="XControl" URL="../微站德润DR803M/控件/超标留样运行状态/超标留样运行状态.xctl"/>
+			<Item Name="留样信息存储.vi" Type="VI" URL="../固定站德润DR803L/数据库/留样信息存储.vi"/>
+			<Item Name="超标留样data insert core.vi" Type="VI" URL="../超标留样data insert core.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">

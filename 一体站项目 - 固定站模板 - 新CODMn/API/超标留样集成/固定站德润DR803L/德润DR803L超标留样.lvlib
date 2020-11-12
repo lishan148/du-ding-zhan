@@ -16,6 +16,7 @@
 	<Item Name="参数设置" Type="Folder">
 		<Item Name="超标留样参数设定.vi" Type="VI" URL="../参数设置/超标留样参数设定.vi"/>
 		<Item Name="外控留样模式参数.vi" Type="VI" URL="../参数设置/外控留样模式参数.vi"/>
+		<Item Name="参数设置对画框.vi" Type="VI" URL="../参数设置/参数设置对画框.vi"/>
 	</Item>
 	<Item Name="命令解析互换" Type="Folder">
 		<Item Name="超标留样状态参数解析.vi" Type="VI" URL="../命令解析互换/超标留样状态参数解析.vi"/>
@@ -37,6 +38,7 @@
 		<Item Name="选择留样瓶对话框.vi" Type="VI" URL="../子VI/选择留样瓶对话框.vi"/>
 		<Item Name="选择排空留样瓶对话框.vi" Type="VI" URL="../子VI/选择排空留样瓶对话框.vi"/>
 		<Item Name="超标留样自动校时.vi" Type="VI" URL="../子VI/超标留样自动校时.vi"/>
+		<Item Name="单步控制界面.vi" Type="VI" URL="../子VI/单步控制界面.vi"/>
 	</Item>
 	<Item Name="超标留样运行状态" Type="Folder">
 		<Item Name="超标留样运行状态.xctl" Type="XControl" URL="../控件/超标留样运行状态/超标留样运行状态.xctl"/>
@@ -46,6 +48,7 @@
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>
 		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
+		<Item Name="留样信息存储.vi" Type="VI" URL="../数据库/留样信息存储.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
 		<Item Name="超标留样启动流程.vi" Type="VI" URL="../流程/超标留样启动流程.vi"/>
