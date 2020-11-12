@@ -58,7 +58,11 @@
 		<Item Name="自动重合闸" Type="Folder">
 			<Item Name="自动重合闸库.lvlib" Type="Library" URL="../串口、TCP连接/自动重合闸/自动重合闸库.lvlib"/>
 		</Item>
-		<Item Name="UPS监控.vi" Type="VI" URL="../串口、TCP连接/UPS监控/UPS监控.vi"/>
+		<Item Name="UPS监控" Type="Folder">
+			<Item Name="UPS监控.vi" Type="VI" URL="../串口、TCP连接/UPS监控/UPS监控.vi"/>
+			<Item Name="梦幻城堡C1~3通信.vi" Type="VI" URL="../串口、TCP连接/UPS监控/梦幻城堡C1~3通信.vi"/>
+			<Item Name="梦幻城堡C6~20通信.vi" Type="VI" URL="../串口、TCP连接/UPS监控/梦幻城堡C6~20通信.vi"/>
+		</Item>
 	</Item>
 	<Item Name="电源管理" Type="Folder">
 		<Item Name="电源管理库.lvlib" Type="Library" URL="../电源管理/电源管理库.lvlib"/>
