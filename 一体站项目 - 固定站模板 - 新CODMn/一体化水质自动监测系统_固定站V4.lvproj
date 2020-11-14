@@ -185,7 +185,6 @@
 			<Item Name="德润DR803L超标留样.lvlib" Type="Library" URL="../API/超标留样集成/固定站德润DR803L/德润DR803L超标留样.lvlib"/>
 			<Item Name="德润DR803F超标留样.lvlib" Type="Library" URL="../API/超标留样集成/固定站德润DR803F/德润DR803F超标留样.lvlib"/>
 			<Item Name="科盛超标留样.lvlib" Type="Library" URL="../API/超标留样集成/科盛超标留样/科盛超标留样.lvlib"/>
-			<Item Name="超标留样data insert core.vi" Type="VI" URL="../API/超标留样集成/超标留样data insert core.vi"/>
 			<Item Name="外部交互全局.vi" Type="VI" URL="../API/超标留样集成/外部交互全局.vi"/>
 			<Item Name="断电保存全局.vi" Type="VI" URL="../API/超标留样集成/断电保存全局.vi"/>
 			<Item Name="超标留样型号配置.vi" Type="VI" URL="../API/超标留样集成/超标留样型号配置.vi"/>
@@ -766,7 +765,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>

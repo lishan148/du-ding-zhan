@@ -36,6 +36,7 @@
 			<Item Name="门禁开关监测界面.vi" Type="VI" URL="../IO连接/门禁开关监测/门禁开关监测界面.vi"/>
 		</Item>
 		<Item Name="温度湿度" Type="Folder">
+			<Item Name="温湿度告警字符串组合 (子VI).vi" Type="VI" URL="../IO连接/温度湿度/温湿度告警字符串组合 (子VI).vi"/>
 			<Item Name="温度湿度监测界面.vi" Type="VI" URL="../IO连接/温度湿度/温度湿度监测界面.vi"/>
 		</Item>
 		<Item Name="烟雾监测" Type="Folder">

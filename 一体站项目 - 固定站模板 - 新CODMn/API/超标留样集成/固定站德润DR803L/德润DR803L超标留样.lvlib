@@ -48,6 +48,7 @@
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>
 		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
+		<Item Name="超标留样data insert core.vi" Type="VI" URL="../../超标留样data insert core.vi"/>
 		<Item Name="留样信息存储.vi" Type="VI" URL="../数据库/留样信息存储.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
