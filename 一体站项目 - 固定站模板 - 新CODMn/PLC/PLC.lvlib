@@ -23,6 +23,7 @@
 	<Item Name="流程" Type="Folder">
 		<Item Name="一体站流程自动启动.vi" Type="VI" URL="../一体站流程自动启动.vi"/>
 		<Item Name="采配水流程与超标留样交互.vi" Type="VI" URL="../采配水流程与超标留样交互.vi"/>
+		<Item Name="Monitoring task.vi" Type="VI" URL="../Monitoring task.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="运行间隔计算.vi" Type="VI" URL="../运行间隔计算.vi"/>
