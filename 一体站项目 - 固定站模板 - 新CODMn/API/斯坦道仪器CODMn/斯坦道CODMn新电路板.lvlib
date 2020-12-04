@@ -73,6 +73,7 @@
 		<Item Name="周期设置_CODMn.vi" Type="VI" URL="../main/UI/周期设置_CODMn.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
+		<Item Name="校准数据全局变量.vi" Type="VI" URL="../main/校准数据全局变量.vi"/>
 		<Item Name="CODMn断电保存全局变量.vi" Type="VI" URL="../main/CODMn断电保存全局变量.vi"/>
 		<Item Name="VARCODMn全局变量.vi" Type="VI" URL="../main/VARCODMn全局变量.vi"/>
 	</Item>
@@ -89,6 +90,7 @@
 		<Item Name="CODMn操作日志.vi" Type="VI" URL="../main/CODMn操作日志.vi"/>
 		<Item Name="CODMn测量数据储存.vi" Type="VI" URL="../main/CODMn测量数据储存.vi"/>
 		<Item Name="CODMn校准记录.vi" Type="VI" URL="../main/CODMn校准记录.vi"/>
+		<Item Name="故障告警分析.vi" Type="VI" URL="../Subvi/故障告警分析.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="Modbus Write File Record" Type="Folder">
@@ -120,6 +122,11 @@
 		<Item Name="关键参数区.vi" Type="VI" URL="../main/关键参数区.vi"/>
 		<Item Name="控制命令区.vi" Type="VI" URL="../main/控制命令区.vi"/>
 		<Item Name="状态告警区.vi" Type="VI" URL="../main/状态告警区.vi"/>
+		<Item Name="试剂容量设置.vi" Type="VI" URL="../main/COM/试剂容量设置.vi"/>
+		<Item Name="试剂容量读取.vi" Type="VI" URL="../main/COM/试剂容量读取.vi"/>
+		<Item Name="试剂余量设置.vi" Type="VI" URL="../main/COM/试剂余量设置.vi"/>
+		<Item Name="试剂余量读取.vi" Type="VI" URL="../main/COM/试剂余量读取.vi"/>
+		<Item Name="试剂余量重置.vi" Type="VI" URL="../main/COM/试剂余量重置.vi"/>
 	</Item>
 	<Item Name="参数设置" Type="Folder">
 		<Item Name="缺试剂配置.vi" Type="VI" URL="../main/参数设置/缺试剂配置.vi"/>
@@ -127,10 +134,23 @@
 		<Item Name="仪器参数设置.vi" Type="VI" URL="../main/参数设置/仪器参数设置.vi"/>
 		<Item Name="内置参数设置.vi" Type="VI" URL="../main/参数设置/内置参数设置.vi"/>
 		<Item Name="泵温度校准配置.vi" Type="VI" URL="../main/参数设置/泵温度校准配置.vi"/>
+		<Item Name="读取校准数据配置文件.vi" Type="VI" URL="../参数设置/读取校准数据配置文件.vi"/>
+		<Item Name="校准数据写入配置文件.vi" Type="VI" URL="../参数设置/校准数据写入配置文件.vi"/>
+		<Item Name="校准流程.vi" Type="VI" URL="../参数设置/校准流程.vi"/>
+		<Item Name="参数设置页.vi" Type="VI" URL="../参数设置/参数设置页.vi"/>
+		<Item Name="校准设置页.vi" Type="VI" URL="../参数设置/校准设置页.vi"/>
 	</Item>
 	<Item Name="外部交互" Type="Folder">
 		<Item Name="CODMn启动命令 (子VI).vi" Type="VI" URL="../外部交互/CODMn启动命令 (子VI).vi"/>
 		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../外部交互/CODMn停止命令 (子VI).vi"/>
+	</Item>
+	<Item Name="试剂余量" Type="Folder">
+		<Item Name="阀口名称设置.vi" Type="VI" URL="../试剂余量/阀口名称设置.vi"/>
+		<Item Name="试剂容量设置UI.vi" Type="VI" URL="../试剂余量/试剂容量设置UI.vi"/>
+		<Item Name="试剂余量百分比确认.vi" Type="VI" URL="../试剂余量/试剂余量百分比确认.vi"/>
+		<Item Name="试剂余量后台任务.vi" Type="VI" URL="../试剂余量/试剂余量后台任务.vi"/>
+		<Item Name="试剂余量显示UI.vi" Type="VI" URL="../试剂余量/试剂余量显示UI.vi"/>
+		<Item Name="试剂余量展示.vi" Type="VI" URL="../试剂余量/试剂余量展示.vi"/>
 	</Item>
 	<Item Name="id参数转换.vi" Type="VI" URL="../Subvi/id参数转换.vi"/>
 	<Item Name="告警码字段定义.vi" Type="VI" URL="../Subvi/告警码字段定义.vi"/>
