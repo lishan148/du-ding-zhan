@@ -764,6 +764,7 @@
 			<Item Name="DR803M4.lvlib" Type="Library" URL="../API/超标留样集成/DR803M4/DR803M4.lvlib"/>
 			<Item Name="data insert core.vi" Type="VI" URL="../Subvi/SQL/data insert core.vi"/>
 			<Item Name="斯坦道CODcr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
+			<Item Name="External Interface.vi" Type="VI" URL="../Modbus Slave/External Interface.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化水质自动监测系统_V4" Type="EXE">
@@ -781,7 +782,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体化水质自动监测系统_固定站_V4</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化水质自动监测系统.exe</Property>

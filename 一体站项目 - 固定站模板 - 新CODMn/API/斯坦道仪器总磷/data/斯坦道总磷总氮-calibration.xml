@@ -21,7 +21,7 @@
 </DBL>
 <Boolean>
 <Name>样品1启用</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <DBL>
 <Name>标液浓度2</Name>
@@ -57,7 +57,7 @@
 </DBL>
 <Boolean>
 <Name>样品4启用</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <DBL>
 <Name>标液浓度5</Name>
@@ -83,7 +83,35 @@
 </DBL>
 <Array>
 <Name>XY图</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>X Values</Name>
+<Dimsize>2</Dimsize>
+<DBL>
+<Name>数值</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>数值</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Y Values</Name>
+<Dimsize>2</Dimsize>
+<DBL>
+<Name>数值</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>数值</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+</Cluster>
 <Cluster>
 <Name></Name>
 <NumElts>2</NumElts>
@@ -107,11 +135,11 @@
 </Array>
 <String>
 <Name>拟合公式</Name>
-<Val></Val>
+<Val>y = NaN + NaN*x</Val>
 </String>
 <DBL>
 <Name>r^2</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <Timestamp>
 <Name>标样一校准时间</Name>
@@ -233,11 +261,11 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>c</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <DBL>
 <Name>x</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <DBL>
 <Name>x^2</Name>
@@ -849,7 +877,7 @@
 </DBL>
 <Boolean>
 <Name>样品5启用</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <EL>
 <Name>模型</Name>
@@ -863,7 +891,27 @@
 </DBL>
 <Array>
 <Name>XY图</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>X Values</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>数值</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Y Values</Name>
+<Dimsize>1</Dimsize>
+<DBL>
+<Name>数值</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Array>
+</Cluster>
 <Cluster>
 <Name></Name>
 <NumElts>2</NumElts>
@@ -887,11 +935,11 @@
 </Array>
 <String>
 <Name>拟合公式</Name>
-<Val></Val>
+<Val>y = NaN + NaN*x</Val>
 </String>
 <DBL>
 <Name>r^2</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <Timestamp>
 <Name>标样一校准时间</Name>
@@ -1013,11 +1061,11 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>c</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <DBL>
 <Name>x</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <DBL>
 <Name>x^2</Name>
