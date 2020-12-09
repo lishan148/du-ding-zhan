@@ -50,6 +50,7 @@
 		<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
 		<Item Name="data insert core.vi" Type="VI" URL="../Subvi/data insert core.vi"/>
 		<Item Name="id参数转换.vi" Type="VI" URL="../Subvi/id参数转换.vi"/>
+		<Item Name="Read database.vi" Type="VI" URL="../Subvi/Read database.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="Simple Parse State Queue.vi" Type="VI" URL="../Subvi/Simple Parse State Queue.vi"/>
 		<Item Name="测试流程控件.ctl" Type="VI" URL="../总磷总氮/测试流程控件.ctl"/>
@@ -67,6 +68,7 @@
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
+		<Item Name="校准数据选择表.vi" Type="VI" URL="../Subvi/校准数据选择表.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 		<Item Name="总磷氨氮插入数据.vi" Type="VI" URL="../Subvi/总磷氨氮插入数据.vi"/>
 		<Item Name="总磷单步调试对话框.vi" Type="VI" URL="../Subvi/总磷单步调试对话框.vi"/>
@@ -88,6 +90,7 @@
 	<Item Name="控件" Type="Folder">
 		<Item Name="关键参数.ctl" Type="VI" URL="../控件/关键参数.ctl"/>
 		<Item Name="切换按钮.ctl" Type="VI" URL="../控件/切换按钮.ctl"/>
+		<Item Name="数据查询大列表框.ctl" Type="VI" URL="../控件/数据查询大列表框.ctl"/>
 		<Item Name="锁.ctl" Type="VI" URL="../控件/锁.ctl"/>
 	</Item>
 	<Item Name="流程文件" Type="Folder">
