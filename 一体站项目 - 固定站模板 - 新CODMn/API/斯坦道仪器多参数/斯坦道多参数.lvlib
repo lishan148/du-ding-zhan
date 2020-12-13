@@ -367,9 +367,11 @@
 		<Item Name="程序默认配置.vi" Type="VI" URL="../Subvi/程序默认配置.vi"/>
 		<Item Name="Add State to Queue.vi" Type="VI" URL="../Subvi/Add State to Queue.vi"/>
 		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../Subvi/TimeLmtDialog.vi"/>
+		<Item Name="密码权限设置.vi" Type="VI" URL="../Subvi/密码权限设置.vi"/>
 		<Item Name="滤波参数.vi" Type="VI" URL="../Subvi/滤波参数.vi"/>
 		<Item Name="稳定条件判断.vi" Type="VI" URL="../Subvi/稳定条件判断.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
+		<Item Name="密码键盘.vi" Type="VI" URL="../Subvi/密码键盘.vi"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
 		<Item Name="校准日志.vi" Type="VI" URL="../SQL/校准日志.vi"/>

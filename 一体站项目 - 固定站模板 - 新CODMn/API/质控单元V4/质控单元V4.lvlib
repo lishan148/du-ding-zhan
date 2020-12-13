@@ -71,6 +71,7 @@
 		<Item Name="加标回收率计算.vi" Type="VI" URL="../subvi/加标回收率计算.vi"/>
 		<Item Name="加载流程文件.vi" Type="VI" URL="../subvi/加载流程文件.vi"/>
 		<Item Name="密码键盘.vi" Type="VI" URL="../subvi/密码键盘.vi"/>
+		<Item Name="密码权限设置.vi" Type="VI" URL="../subvi/密码权限设置.vi"/>
 		<Item Name="配置信息读取.vi" Type="VI" URL="../subvi/配置信息读取.vi"/>
 		<Item Name="配置信息写入.vi" Type="VI" URL="../subvi/配置信息写入.vi"/>
 		<Item Name="取中心点.vi" Type="VI" URL="../subvi/取中心点.vi"/>
