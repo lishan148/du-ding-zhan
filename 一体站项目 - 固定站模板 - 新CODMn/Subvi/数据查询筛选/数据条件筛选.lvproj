@@ -19,6 +19,7 @@
 		<Item Name="picktime.vi" Type="VI" URL="../dialog/picktime.vi"/>
 		<Item Name="控件自定义时间.ctl" Type="VI" URL="../控件自定义时间.ctl"/>
 		<Item Name="时间标识输入.ctl" Type="VI" URL="../时间标识输入.ctl"/>
+		<Item Name="remote path.vi" Type="VI" URL="../remote path.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
@@ -57,9 +58,8 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 			</Item>
 			<Item Name="XControl timepicker.xctl" Type="XControl" URL="../控件/XControl timepicker.xctl"/>
-			<Item Name="下拉列表.xctl" Type="XControl" URL="../../../UI/控件/下拉列表/下拉列表.xctl"/>
-			<Item Name="ping全局.vi" Type="VI" URL="../../../系统/ping全局.vi"/>
 			<Item Name="数字键盘.vi" Type="VI" URL="../../数字键盘.vi"/>
+			<Item Name="下拉列表.xctl" Type="XControl" URL="../../../controls/下拉列表/下拉列表.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
