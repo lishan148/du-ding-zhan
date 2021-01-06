@@ -11,7 +11,7 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5X&lt;A91M&lt;/W-,&lt;'&amp;&lt;9+K1,7Q,&lt;)%N&lt;!NMA3X)DW?-RJ(JQ"I\%%Z,(@`BA#==ZB3RN;]28_,V7@P_W`:R`&gt;HV*SU_WE@\N_XF[3:^^TX\+2YP)D7K6;G-RV3P)R`ZS%=_]J'XP/5N&lt;XH,7V\SEJ?]Z#5P?=J4HP+5JTTFWS%0?=B$DD1G(R/.1==!IT.+D)`B':\B'2Z@9XC':XC':XBUC?%:HO%:HO&amp;R7QT0]!T0]!S0I4&lt;*&lt;)?=:XA-(]X40-X40-VDSGC?"GC4N9(&lt;)"D2,L;4ZGG?ZH%;T&gt;-]T&gt;-]T?.S.%`T.%`T.)^&lt;NF8J4@-YZ$S'C?)JHO)JHO)R&gt;"20]220]230[;*YCK=ASI2F=)1I.Z5/Z5PR&amp;)^@54T&amp;5TT&amp;5TQO&lt;5_INJ6Z;"[(H#&gt;ZEC&gt;ZEC&gt;Z$"(*ETT*ETT*9^B)HO2*HO2*(F.&amp;]C20]C2)GN4UE1:,.[:/+5A?0^NOS?UJ^3&lt;*\9B9GT@7JISVW7*NIFC&lt;)^:$D`5Q9TWE7)M@;V&amp;D,6;M29DVR]6#R],%GC47T9_/=@&gt;Z5V&gt;V57&gt;V5E&gt;V5(OV?^T[FTP?\`?YX7ZRP6\D=LH%_8S/U_E5R_-R$I&gt;$\0@\W/VW&lt;[_"&lt;Y[X&amp;],0^^+,]T_J&gt;`J@_B_]'_.T`$KO.@I"O[^NF!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
-	<Property Name="NI.Lib.Version" Type="Str">4.0.29.0</Property>
+	<Property Name="NI.Lib.Version" Type="Str">4.0.32.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
 	<Property Name="OdbcBooleanLoggingTableName" Type="Str">NI_VARIABLE_BOOLEAN</Property>
@@ -32,6 +32,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="control" Type="Folder">
 		<Item Name="固件状态.ctl" Type="VI" URL="../control/固件状态.ctl"/>
+		<Item Name="切换按钮.ctl" Type="VI" URL="../control/切换按钮.ctl"/>
 		<Item Name="锁.ctl" Type="VI" URL="../control/锁.ctl"/>
 		<Item Name="营养盐slave id.ctl" Type="VI" URL="../control/营养盐slave id.ctl"/>
 		<Item Name="质控slave id.ctl" Type="VI" URL="../control/质控slave id.ctl"/>
@@ -41,6 +42,7 @@
 		<Item Name="质控仪器状态.ctl" Type="VI" URL="../control/质控仪器状态.ctl"/>
 		<Item Name="质控仪器状态显示.ctl" Type="VI" URL="../control/质控仪器状态显示.ctl"/>
 		<Item Name="质控注射泵操作.ctl" Type="VI" URL="../control/质控注射泵操作.ctl"/>
+		<Item Name="质控状态.ctl" Type="VI" URL="../control/质控状态.ctl"/>
 		<Item Name="质控组合命令区.ctl" Type="VI" URL="../control/质控组合命令区.ctl"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
@@ -109,6 +111,7 @@
 			<Item Name="总氮启动器.vi" Type="VI" URL="../通讯/Interface/总氮启动器.vi"/>
 			<Item Name="总磷启动器.vi" Type="VI" URL="../通讯/Interface/总磷启动器.vi"/>
 			<Item Name="CODmn启动器.vi" Type="VI" URL="../通讯/Interface/CODmn启动器.vi"/>
+			<Item Name="CODcr启动器.vi" Type="VI" URL="../通讯/Interface/CODcr启动器.vi"/>
 			<Item Name="获取仪器仪表状态.vi" Type="VI" URL="../通讯/Interface/获取仪器仪表状态.vi"/>
 			<Item Name="获取水样测试数据.vi" Type="VI" URL="../通讯/Interface/获取水样测试数据.vi"/>
 			<Item Name="获取加标回收数据.vi" Type="VI" URL="../通讯/Interface/获取加标回收数据.vi"/>
